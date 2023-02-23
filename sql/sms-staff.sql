@@ -1,3 +1,13 @@
+-- Setup
+DROP schema IF EXISTS search CASCADE;
+CREATE schema search;
+
+DROP schema IF EXISTS student CASCADE;
+CREATE schema student;
+
+DROP schema IF EXISTS lecturer CASCADE;
+CREATE schema lecturer;
+
 -- 2.1. Staff (Admin)
 DROP VIEW IF EXISTS full_timetable;
 CREATE VIEW full_timetable AS
