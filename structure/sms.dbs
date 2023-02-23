@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="SMS" id="Project-232e" database="PostgreSQL" >
+	<schema name="public" >
+		<table name="class" generator_rows="0" >
+			<column name="id" type="char" length="6" decimal="0" jt="1" mandatory="y" />
+			<column name="type" type="varchar" length="8" decimal="0" jt="12" />
+			<column name="semester" type="char" length="5" decimal="0" jt="1" />
+			<column name="require_lab" type="char" length="1" decimal="0" jt="1" />
+			<column name="current_cap" type="integer" length="10" decimal="0" jt="4" />
+			<column name="max_cap" type="integer" length="10" decimal="0" jt="4" />
+			<column name="company_id" type="char" length="9" decimal="0" jt="1" />
+			<column name="lecturer_id" type="char" length="12" decimal="0" jt="1" />
+			<column name="subject_id" type="varchar" length="7" decimal="0" jt="12" />
+			<index name="pk_class" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<constraint name="ck_class_current_cap" >
+				<string><![CDATA[((current_cap >= 0) AND (current_cap <= max_cap))]]></string>
+			</constraint>
+			<constraint name="ck_require_lab_same_term" >
+				<string><![CDATA[(require_lab = ANY (ARRAY['Y'::bpchar, 'N'::bpchar]))]]></string>
+			</constraint>
+			<fk name="fk_class_class" to_schema="public" to_table="class" >
+				<fk_column name="company_id" pk="id" />
+			</fk>
+			<fk name="fk_class_lecturer" to_schema="public" to_table="lecturer" >
+				<fk_column name="lecturer_id" pk="id" />
+			</fk>
+			<fk name="fk_class_subject" to_schema="public" to_table="subject" >
+				<fk_column name="subject_id" pk="id" />
+			</fk>
+		</table>
+		<table name="curriculum" generator_rows="0" >
+			<column name="program_id" type="char" length="6" decimal="0" jt="1" mandatory="y" />
+			<column name="subject_id" type="varchar" length="7" decimal="0" jt="12" mandatory="y" />
+			<index name="pk_curriculum" unique="PRIMARY_KEY" >
+				<column name="program_id" />
+				<column name="subject_id" />
+			</index>
+			<fk name="fk_curriculum_program" to_schema="public" to_table="program" >
+				<fk_column name="program_id" pk="id" />
+			</fk>
+			<fk name="fk_curriculum_subject" to_schema="public" to_table="subject" >
+				<fk_column name="subject_id" pk="id" />
+			</fk>
+		</table>
+		<table name="enrollment" generator_rows="0" >
+			<column name="student_id" type="char" length="8" decimal="0" jt="1" mandatory="y" />
+			<column name="class_id" type="char" length="6" decimal="0" jt="1" mandatory="y" />
+			<column name="midterm_score" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="final_score" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="mapping_score" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="absent_count" type="integer" length="10" decimal="0" jt="4" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<index name="pk_enrollment" unique="PRIMARY_KEY" >
+				<column name="student_id" />
+				<column name="class_id" />
+			</index>
+			<constraint name="ck_enrollment_absent_count" >
+				<string><![CDATA[(absent_count >= 0)]]></string>
+			</constraint>
+			<constraint name="ck_enrollment_final_score" >
+				<string><![CDATA[((final_score >= 0) AND (final_score <= 10))]]></string>
+			</constraint>
+			<constraint name="ck_enrollment_midterm_score" >
+				<string><![CDATA[((midterm_score >= 0) AND (midterm_score <= 10))]]></string>
+			</constraint>
+			<fk name="fk_enrollment_class" to_schema="public" to_table="class" >
+				<fk_column name="class_id" pk="id" />
+			</fk>
+			<fk name="fk_enrollment_student" to_schema="public" to_table="student" >
+				<fk_column name="student_id" pk="id" />
+			</fk>
+		</table>
+		<table name="faculty" generator_rows="0" >
+			<column name="id" type="varchar" length="8" decimal="0" jt="12" mandatory="y" />
+			<column name="name" type="varchar" length="100" decimal="0" jt="12" regexp="(Re|Ad|Par|Tru|Thru|In|Bar|Cip|Dop|End|Em|Fro|Gro|Hap|Kli|Lom|Mon|Qwi|Rap|Sup|Sur|Tip|Tup|Un|Up|Var|Win|Zee)(ban|cad|dud|dim|er|frop|glib|hup|jub|kil|mun|nip|peb|pick|quest|rob|sap|sip|tan|tin|tum|ven|wer|werp|zap)(il|ic|im|in|up|ad|ack|am|on|ep|ed|ef|eg|aqu|ef|edg|op|oll|omm|ew|an|ex|pl)?(icator|or|ar|ax|an|ex|istor|entor|antor|in|over|ower|azz)" regexp_nulls="0" />
+			<column name="location" type="varchar" length="35" decimal="0" jt="12" />
+			<index name="pk_faculty" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="lecturer" generator_rows="0" >
+			<column name="id" type="char" length="12" decimal="0" jt="1" mandatory="y" />
+			<column name="first_name" type="varchar" length="35" decimal="0" jt="12" regexp_nulls="0" />
+			<column name="last_name" type="varchar" length="35" decimal="0" jt="12" regexp_nulls="0" />
+			<column name="gender" type="char" length="1" decimal="0" jt="1" regexp="[MF]{1}" regexp_nulls="0" />
+			<column name="birthday" type="date" length="13" decimal="0" jt="91" regexp="date:from=&#039;01.01.1900&#039;;to=&#039;01.01.1950&#039;;" regexp_nulls="0" />
+			<column name="status" type="boolean" length="1" decimal="0" jt="-7" regexp="boolean:percent_true=0.8" regexp_nulls="0" />
+			<column name="join_date" type="date" length="13" decimal="0" jt="91" regexp="date:from=&#039;01.01.1975&#039;;to=&#039;01.01.2000&#039;;" regexp_nulls="0" />
+			<column name="address" type="varchar" length="70" decimal="0" jt="12" regexp_nulls="0" />
+			<column name="email" type="varchar" length="35" decimal="0" jt="12" regexp="[a-z]{4,8}([0-9]{0,3}|.[a-z]{4,10})@example.com" regexp_nulls="0" />
+			<column name="phone" type="varchar" length="25" decimal="0" jt="12" regexp_nulls="0" />
+			<column name="faculty_id" type="varchar" length="8" decimal="0" jt="12" regexp_nulls="0" />
+			<index name="pk_lecturer" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<constraint name="ck_lecturer_gender" >
+				<string><![CDATA[(gender = ANY (ARRAY['F'::bpchar, 'M'::bpchar, '?'::bpchar]))]]></string>
+			</constraint>
+			<fk name="fk_lecturer_faculty" to_schema="public" to_table="faculty" >
+				<fk_column name="faculty_id" pk="id" />
+			</fk>
+		</table>
+		<table name="program" generator_rows="0" >
+			<column name="id" type="char" length="6" decimal="0" jt="1" mandatory="y" />
+			<column name="code" type="varchar" length="8" decimal="0" jt="12" />
+			<column name="name" type="varchar" length="100" decimal="0" jt="12" regexp="(Re|Ad|Par|Tru|Thru|In|Bar|Cip|Dop|End|Em|Fro|Gro|Hap|Kli|Lom|Mon|Qwi|Rap|Sup|Sur|Tip|Tup|Un|Up|Var|Win|Zee)(ban|cad|dud|dim|er|frop|glib|hup|jub|kil|mun|nip|peb|pick|quest|rob|sap|sip|tan|tin|tum|ven|wer|werp|zap)(il|ic|im|in|up|ad|ack|am|on|ep|ed|ef|eg|aqu|ef|edg|op|oll|omm|ew|an|ex|pl)?(icator|or|ar|ax|an|ex|istor|entor|antor|in|over|ower|azz)(([ -]?Pro|Duplex|Multi){0}) (Direct|Standard|Elite|International) (Program)?" regexp_nulls="0" />
+			<column name="credit_price" type="integer" length="10" decimal="0" jt="4" regexp="int:from=150000;to=2500000;format=##########.;" regexp_nulls="0" />
+			<column name="faculty_id" type="varchar" length="8" decimal="0" jt="12" />
+			<index name="pk_program" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<constraint name="ck_program_credit_price" >
+				<string><![CDATA[(credit_price >= 0)]]></string>
+			</constraint>
+			<fk name="fk_program_faculty" to_schema="public" to_table="faculty" >
+				<fk_column name="faculty_id" pk="id" />
+			</fk>
+		</table>
+		<table name="specialization" generator_rows="0" >
+			<column name="lecturer_id" type="char" length="12" decimal="0" jt="1" mandatory="y" />
+			<column name="subject_id" type="varchar" length="7" decimal="0" jt="12" mandatory="y" />
+			<index name="pk_specialization" unique="PRIMARY_KEY" >
+				<column name="lecturer_id" />
+				<column name="subject_id" />
+			</index>
+			<fk name="fk_specialization_lecturer" to_schema="public" to_table="lecturer" >
+				<fk_column name="lecturer_id" pk="id" />
+			</fk>
+			<fk name="fk_specialization_subject" to_schema="public" to_table="subject" >
+				<fk_column name="subject_id" pk="id" />
+			</fk>
+		</table>
+		<table name="student" generator_rows="0" >
+			<column name="id" type="char" length="8" decimal="0" jt="1" mandatory="y" />
+			<column name="first_name" type="varchar" length="35" decimal="0" jt="12" />
+			<column name="last_name" type="varchar" length="35" decimal="0" jt="12" />
+			<column name="gender" type="char" length="1" decimal="0" jt="1" />
+			<column name="birthday" type="date" length="13" decimal="0" jt="91" />
+			<column name="status" type="boolean" length="1" decimal="0" jt="-7" />
+			<column name="join_date" type="date" length="13" decimal="0" jt="91" />
+			<column name="address" type="varchar" length="70" decimal="0" jt="12" />
+			<column name="email" type="varchar" length="35" decimal="0" jt="12" />
+			<column name="phone" type="varchar" length="25" decimal="0" jt="12" />
+			<column name="cpa_total_score_product" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="cpa_total_study_credits" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="gpa_total_score_product" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="gpa_total_study_credits" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="credit_debt" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="tuition_debt" type="numeric" jt="2" >
+				<defo><![CDATA[0]]></defo>
+			</column>
+			<column name="program_id" type="char" length="6" decimal="0" jt="1" />
+			<index name="pk_student" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<constraint name="ck_student_credit_debt" >
+				<string><![CDATA[(credit_debt >= 0)]]></string>
+			</constraint>
+			<constraint name="ck_student_gender" >
+				<string><![CDATA[(gender = ANY (ARRAY['M'::bpchar, 'F'::bpchar]))]]></string>
+			</constraint>
+			<constraint name="ck_student_gpa_total_study_credits" >
+				<string><![CDATA[(gpa_total_study_credits >= (0)::numeric)]]></string>
+			</constraint>
+			<constraint name="ck_student_gpa_total_score_product" >
+				<string><![CDATA[(gpa_total_score_product >= (0)::numeric)]]></string>
+			</constraint>
+			<constraint name="ck_student_cpa_total_study_credits" >
+				<string><![CDATA[(cpa_total_study_credits >= (0)::numeric)]]></string>
+			</constraint>
+			<constraint name="ck_student_cpa_total_score_product" >
+				<string><![CDATA[(cpa_total_score_product >= (0)::numeric)]]></string>
+			</constraint>
+			<fk name="fk_student_program" to_schema="public" to_table="program" >
+				<fk_column name="program_id" pk="id" />
+			</fk>
+		</table>
+		<table name="subject" generator_rows="0" >
+			<column name="id" type="varchar" length="7" decimal="0" jt="12" mandatory="y" />
+			<column name="name" type="varchar" length="100" decimal="0" jt="12" />
+			<column name="study_credits" type="numeric" jt="2" />
+			<column name="tuition_credits" type="numeric" jt="2" />
+			<column name="final_weight" type="numeric" length="3" decimal="2" jt="2" />
+			<column name="prerequisite_id" type="varchar" length="7" decimal="0" jt="12" />
+			<column name="faculty_id" type="varchar" length="8" decimal="0" jt="12" />
+			<index name="pk_subject" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<constraint name="ck_subject_final_weight" >
+				<string><![CDATA[((final_weight >= (0)::numeric) AND (final_weight <= (1)::numeric))]]></string>
+			</constraint>
+			<constraint name="ck_student_study_credits" >
+				<string><![CDATA[(study_credits >= 0)]]></string>
+			</constraint>
+			<constraint name="ck_student_tuition_credits" >
+				<string><![CDATA[(tuition_credits >= 0)]]></string>
+			</constraint>
+			<fk name="fk_subject_faculty" to_schema="public" to_table="faculty" >
+				<fk_column name="faculty_id" pk="id" />
+			</fk>
+			<fk name="fk_subject_subject" to_schema="public" to_table="subject" >
+				<fk_column name="prerequisite_id" pk="id" />
+			</fk>
+		</table>
+		<table name="timetable" >
+			<column name="class_id" type="char" length="6" decimal="0" jt="1" mandatory="y" />
+			<column name="weekday" type="char" length="1" decimal="0" jt="1" mandatory="y" />
+			<column name="start_time" type="char" length="4" decimal="0" jt="1" mandatory="y" />
+			<column name="end_time" type="char" length="4" decimal="0" jt="1" mandatory="y" />
+			<column name="location" type="varchar" length="25" decimal="0" jt="12" mandatory="y" >
+				<defo><![CDATA['?'::character varying]]></defo>
+			</column>
+			<index name="pk_timetable" unique="PRIMARY_KEY" >
+				<column name="class_id" />
+				<column name="weekday" />
+				<column name="start_time" />
+				<column name="end_time" />
+				<column name="location" />
+			</index>
+			<constraint name="ck_timetable_start_time" >
+				<string><![CDATA[(start_time < end_time)]]></string>
+			</constraint>
+			<constraint name="ck_timetable_weekday" >
+				<string><![CDATA[(weekday = ANY (ARRAY['2'::bpchar, '3'::bpchar, '4'::bpchar, '5'::bpchar, '6'::bpchar, '7'::bpchar, '8'::bpchar]))]]></string>
+			</constraint>
+			<fk name="fk_timetable_class" to_schema="public" to_table="class" >
+				<fk_column name="class_id" pk="id" />
+			</fk>
+		</table>
+	</schema>
+	<connector name="PostgreSQL" database="PostgreSQL" driver_class="org.postgresql.Driver" driver_jar="postgresql-42.5.0.jar" driver_desc="Standard" host="localhost" port="5432" instance="sms" user="postgres" passwd="MjcyMjAy" useSystemProxy="false" />
+	<layout name="Default Layout" id="Layout-a90" show_column_type="y" show_relation="columns" >
+		<entity schema="public" name="class" color="BED3F4" x="672" y="80" />
+		<entity schema="public" name="curriculum" color="BED3F4" x="224" y="400" />
+		<entity schema="public" name="enrollment" color="BED3F4" x="1024" y="208" />
+		<entity schema="public" name="faculty" color="BED3F4" x="48" y="512" />
+		<entity schema="public" name="lecturer" color="BED3F4" x="112" y="64" />
+		<entity schema="public" name="program" color="BED3F4" x="528" y="496" />
+		<entity schema="public" name="specialization" color="BED3F4" x="384" y="112" />
+		<entity schema="public" name="student" color="BED3F4" x="768" y="320" />
+		<entity schema="public" name="subject" color="BED3F4" x="448" y="272" />
+		<entity schema="public" name="timetable" color="3986C1" x="928" y="48" />
+	</layout>
+</project>

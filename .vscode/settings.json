@@ -1,0 +1,32 @@
+{
+  "cSpell.enableFiletypes": ["sql"],
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "sms-admin",
+      "database": "sms",
+      "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "sms-student",
+      "database": "sms",
+      "username": "20200164"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "sms-lecturer",
+      "database": "sms",
+      "username": "aaaaaaaaaaaa"
+    }
+  ]
+}

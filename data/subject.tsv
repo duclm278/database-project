@@ -1,0 +1,2361 @@
+AC2010	Kỹ thuật lập trình	2	4	0.7	NULL	TDDT
+AC2020	Đồ họa hình động 2D, 3D	3	6	0.6	NULL	TDDT
+AC2030	Khai thác thông tin đa phương tiện	2	4	0.6	AC2010	VMICA
+AC2040	Cơ sở dữ liệu	2	5	0.5	NULL	TDDT
+AC2050	Cấu trúc dữ liệu và giải thuật	2	3	0.6	AC2020	TDDT
+AC2060	Nhập môn trí tuệ nhân tạo	2	3	0.5	NULL	VMICA
+AC2070	Thiết kế và lập trình web	3	4	0.7	NULL	VMICA
+AC2080	Trò chơi số và tương tác I	2	4	0.7	NULL	VMICA
+AC3010	Phân tích và thiết kế hệ thống	2	5	0.5	NULL	TDDT
+AC3020	Trò chơi số và tương tác II	2	3.5	0.7	NULL	TDDT
+AC3030	Phát triển ứng dụng	2	4.5	0.6	NULL	VMICA
+AC3040	Lập trình di động	2	4.5	0.5	NULL	VMICA
+AC4010	Thực tại ảo	2	4.5	0.7	NULL	TDDT
+AC4020	Thực tại tăng cường	2	4	0.5	AC2060	TDDT
+BF1016	Sinh học đại cương	4	5	0.6	NULL	VCNSHVTP
+BF2020	Technical Writing and Presentation	3	4	0.7	NULL	VCNSHVTP
+BF2511	Nhập môn Công nghệ thực phẩm	2	5	0.5	NULL	VCNSHVTP
+BF2511E	Nhập môn Công nghệ thực phẩm	1	4	0.6	NULL	VCNSHVTP
+BF2571E	Kỹ thuật các quá trình CNTP I	2	5	0.7	NULL	VCNSHVTP
+BF2572E	Kỹ thuật các Quá trình trong CNTP II 	3	4.5	0.6	NULL	VCNSHVTP
+BF2573E	Kỹ thuật các Quá trình trong CNTP III	3	5.5	0.5	NULL	VCNSHVTP
+BF2702	Hóa sinh	4	6	0.5	NULL	VCNSHVTP
+BF2703	Thí nghiệm hóa sinh	2	5	0.7	NULL	VCNSHVTP
+BF3501	Thí nghiệm vi sinh vật thực phẩm	2	3	0.7	NULL	VCNSHVTP
+BF3501E	Thí nghiệm vi sinh vật thực phẩm	2	4	0.7	NULL	VCNSHVTP
+BF3507	Hoá sinh	4	7	0.5	NULL	VCNSHVTP
+BF3507E	Hoá sinh	4	6	0.6	BF1016	VCNSHVTP
+BF3508	Thí nghiệm hóa sinh	2	4	0.7	NULL	VCNSHVTP
+BF3508E	Thí nghiệm hóa sinh	2	4	0.7	NULL	VCNSHVTP
+BF3509	Vi sinh vật thực phẩm	3	5	0.7	NULL	VCNSHVTP
+BF3509E	Vi sinh vật đại cương	3	5	0.5	BF2703	VCNSHVTP
+BF3513	Công nghệ thực phẩm đại cương	3	5.5	0.6	NULL	VCNSHVTP
+BF3513E	Công nghệ thực phẩm đại cương	3	4.5	0.5	NULL	VCNSHVTP
+BF3514	Dinh dưỡng	2	4.5	0.7	NULL	VCNSHVTP
+BF3514E	Dinh dưỡng	2	4.5	0.7	NULL	VCNSHVTP
+BF3515	An toàn thực phẩm	2	4	0.7	NULL	VCNSHVTP
+BF3515E	An toàn thực phẩm	2	3.5	0.5	NULL	VCNSHVTP
+BF3522	Vật lý học Thực phẩm	2	4.5	0.5	BF2511E	VCNSHVTP
+BF3522E	Vật lý học thực phẩm	2	4.5	0.7	NULL	VCNSHVTP
+BF3524	Phương pháp đánh giá chất lượng thực phẩm	4	5	0.6	NULL	VCNSHVTP
+BF3524E	Phương pháp đánh giá chất lượng thực phẩm	4	5	0.7	NULL	VCNSHVTP
+BF3525	Quản lý chất lượng trong công nghiệp thực phẩm	2	5	0.5	NULL	VCNSHVTP
+BF3525E	Quản lý chất lượng trong công nghiệp thực phẩm 	3	5	0.6	NULL	VCNSHVTP
+BF3531	Quá trình và thiết bị CNTP I	2	3.5	0.7	BF2572E	VCNSHVTP
+BF3532	Quá trình và thiết bị CNTP II	3	5	0.5	NULL	VCNSHVTP
+BF3533	Quá trình và thiết bị CNTP III	3	6	0.6	NULL	VCNSHVTP
+BF3534	Kỹ thuật đo lường và lý thuyết điều khiển tự động trong CNTP	3	5.5	0.5	NULL	VCNSHVTP
+BF3534E	Kỹ thuật đo lường và lý thuyết ĐKTĐ trong CNTP	3	6	0.6	NULL	VCNSHVTP
+BF3536	Đồ án I – Quá trình và thiết bị CNTP	1	3.5	0.6	NULL	VCNSHVTP
+BF3701	Vi sinh vật I	3	5	0.5	NULL	VCNSHVTP
+BF3702	Thí nghiệm vi sinh vật	2	3	0.6	NULL	VCNSHVTP
+BF3703	Sinh học tế bào	2	5	0.5	NULL	VCNSHVTP
+BF3704	Miễn dịch học	2	3.5	0.5	NULL	VCNSHVTP
+BF3705	Di truyền học và Sinh học phân tử	3	6	0.6	BF2511E	VCNSHVTP
+BF3706	Kỹ thuật gen	2	3	0.7	NULL	VCNSHVTP
+BF3707	Tin sinh học	2	4	0.5	NULL	VCNSHVTP
+BF3708	Phương pháp phân tích trong CNSH	2	3	0.5	NULL	VCNSHVTP
+BF3711	Quá trình và thiết bị CNSH I	2	3.5	0.5	NULL	VCNSHVTP
+BF3712	Quá trình và thiết bị CNSH II	3	5	0.6	NULL	VCNSHVTP
+BF3713	Quá trình và thiết bị CNSH III	2	4.5	0.6	NULL	VCNSHVTP
+BF3714	Đồ án quá trình và thiết bị CNSH	1	3.5	0.5	NULL	VCNSHVTP
+BF4162	TN Công nghệ lên men	2	3.5	0.5	NULL	VCNSHVTP
+BF4191	Đồ án tốt nghiệp cử nhân	6	9	0.7	NULL	VCNSHVTP
+BF4215	Đồ án chuyên ngành CNTP	2	4	0.7	NULL	VCNSHVTP
+BF4321	Đồ án chuyên ngành QLCL	2	3	0.7	NULL	VCNSHVTP
+BF4506	Quản lý chất thải trong công nghiệp thực phẩm	2	3.5	0.6	NULL	VCNSHVTP
+BF4506E	Quản lý chất thải trong công nghiệp thực phẩm	2	4	0.5	NULL	VCNSHVTP
+BF4511	Enzym trong công nghệ thực phẩm	2	5	0.5	NULL	VCNSHVTP
+BF4511E	Enzym trong công nghệ thực phẩm	2	3.5	0.5	NULL	VCNSHVTP
+BF4512	Bao bì thực phẩm	2	4	0.6	NULL	VCNSHVTP
+BF4512E	Bao bì thực phẩm	2	4	0.6	NULL	VCNSHVTP
+BF4513	Kiểm soát vi sinh vật trong Thực phẩm	2	4	0.7	NULL	VCNSHVTP
+BF4514	Công nghệ lạnh Thực phẩm	2	4	0.5	NULL	VCNSHVTP
+BF4515	Bảo quản sau thu hoạch	2	4.5	0.6	NULL	VCNSHVTP
+BF4518	Đồ án chuyên ngành CNTP	2	4.5	0.5	NULL	VCNSHVTP
+BF4521	Phụ gia Thực phẩm	2	3.5	0.7	NULL	VCNSHVTP
+BF4522	Kỹ thuật phân tích cảm quan thực phẩm	2	3.5	0.5	NULL	VCNSHVTP
+BF4522E	Kỹ thuật phân tích cảm quan thực phẩm	2	5	0.5	BF2571E	VCNSHVTP
+BF4523	Phân tích thành phần lý hóa thực phẩm	2	5	0.7	NULL	VCNSHVTP
+BF4524	Hệ thống quản lý và đảm bảo chất lượng thực phẩm	3	4.5	0.5	NULL	VCNSHVTP
+BF4525	Thống kê ứng dụng trong Công nghệ Thực phẩm	2	4	0.7	NULL	VCNSHVTP
+BF4526	Marketing thực phẩm	2	3.5	0.5	NULL	VCNSHVTP
+BF4527	Đồ án Chuyên ngành Quản lý chất lượng	1	2	0.7	NULL	VCNSHVTP
+BF4531	Máy và thiết bị chế biến thực phẩm	3	4.5	0.6	NULL	VCNSHVTP
+BF4533	Thí nghiệm chuyên ngành QTTB	2	3	0.5	NULL	VCNSHVTP
+BF4535	Đồ án chuyên ngành QTTB	2	4	0.5	NULL	VCNSHVTP
+BF4559E	Vi sinh vật thực phẩm và bảo quản sau thu hoạch	3	4.5	0.6	NULL	VCNSHVTP
+BF4561E	Phân tích nhanh thực phẩm	3	6	0.5	NULL	VCNSHVTP
+BF4562E	Hệ thống quản lý chất lượng TP	2	4	0.7	NULL	VCNSHVTP
+BF4591	Đồ án tốt nghiệp cử nhân	6	8.5	0.6	NULL	VCNSHVTP
+BF4598E	Đồ án CNTP	2	3	0.7	NULL	VCNSHVTP
+BF4701	Kỹ thuật sinh học xử lý chất thải	3	5.5	0.6	NULL	VCNSHVTP
+BF4705	Kỹ thuật lên men	3	4	0.7	NULL	VCNSHVTP
+BF4708	Thí nghiệm kỹ thuật lên men	2	3.5	0.6	NULL	VCNSHVTP
+BF4709	Kỹ thuật thu hồi hoàn thiện sản phẩm	2	4.5	0.5	BF3509E	VCNSHVTP
+BF4711	Vi sinh vật II - công nghiệp	2	4.5	0.7	NULL	VCNSHVTP
+BF4712	Enzyme học	2	3.5	0.7	NULL	VCNSHVTP
+BF4713	Công nghệ tế bào động vật	3	4.5	0.5	NULL	VCNSHVTP
+BF4714	Kỹ thuật phân tích và chẩn đoán phân tử	2	3	0.7	NULL	VCNSHVTP
+BF4715	Kỹ thuật nuôi cấy vi rút	2	5	0.7	NULL	VCNSHVTP
+BF4716	Công nghệ DNA tái tổ hợp	2	3.5	0.7	NULL	VCNSHVTP
+BF4717	TN Kỹ thuật DNA tái tổ hợp	2	5	0.7	NULL	VCNSHVTP
+BF4718	Kỹ thuật thu nhận Hợp chất có hoạt tính sinh học từ thực vật	2	4	0.6	NULL	VCNSHVTP
+BF4725	Kỹ thuật đo lường và điều khiển tự động trong CNSH	2	5	0.5	NULL	VCNSHVTP
+BF4726	Quản lý chất lượng trong CNSH	2	5	0.7	NULL	VCNSHVTP
+BF4727	Đồ án chuyên ngành KTSH	2	4.5	0.7	NULL	VCNSHVTP
+BF4781	Thực tập kỹ thuật KTSH	2	3	0.7	BF4527	VCNSHVTP
+BF4791	Đồ án tốt nghiệp cử nhân	6	8.5	0.5	NULL	VCNSHVTP
+BF4792	Đồ án nghiên cứu Cử nhân (Kỹ thuật sinh học)	8	10	0.6	NULL	VCNSHVTP
+BF4800	Đồ án tốt nghiệp cử nhân	6	8	0.6	BF3705	VCNSHVTP
+BF4980	Thực tập kỹ thuật	2	3	0.6	NULL	VCNSHVTP
+BF4991	Đồ án tốt nghiệp cử nhân	6	8	0.6	BF4523	VCNSHVTP
+BF4992	Đồ án nghiên cứu Cử nhân (Kỹ thuật thực phẩm)	8	9	0.5	BF3509E	VCNSHVTP
+BF4992E	Đồ án nghiên cứu Cử nhân (CTTT Kỹ thuật thực phẩm)	8	10	0.6	NULL	VCNSHVTP
+BF5510	Đồ án chuyên ngành II	2	3	0.7	NULL	VCNSHVTP
+BF5512	Công nghệ sản phẩm lên men và đồ uống	3	6	0.5	NULL	VCNSHVTP
+BF5513	Công nghệ sản phẩm giàu gluxit (Đường/Ngũ cốc/Bánh kẹo/Rau quả)	3	5	0.7	NULL	VCNSHVTP
+BF5514	Công nghệ sản phẩm giàu protein/ lipid (CN Thịt/Thủy sản/Sữa/ dầu béo)	3	5	0.7	NULL	VCNSHVTP
+BF5515	Công nghệ sản phẩm nhiệt đới (chè/caphe cacao/chất thơm/thuốc lá)	3	6	0.5	NULL	VCNSHVTP
+BF5516	Xu hướng  phát triển  thực phẩm	2	4	0.7	NULL	VCNSHVTP
+BF5517	Kỹ thuật điều chỉnh vi khí hậu trong CNTP	2	3	0.6	NULL	VCNSHVTP
+BF5521	Đồ án QLCL	3	4.5	0.7	BF3525E	VCNSHVTP
+BF5523	Thiết kế đảm bảo vệ sinh trong CNTP	2	4	0.5	NULL	VCNSHVTP
+BF5524	Tin học ứng dụng trong QLCL	2	4	0.7	BF4515	VCNSHVTP
+BF5525	Tối ưu hóa quá trình trong CNSH-CNTP	2	4	0.7	BF4718	VCNSHVTP
+BF5526	Quản lý chất lượng toàn diện chuỗi cung ứng TP	3	4	0.6	BF3713	VCNSHVTP
+BF5527	Kiểm định nguồn gốc TP	2	5	0.5	NULL	VCNSHVTP
+BF5531	Đồ án chuyên ngành II	3	5.5	0.7	NULL	VCNSHVTP
+BF5532	 Thiết kế các máy gia công cơ trong sản xuất thực phẩm	3	4	0.5	BF4708	VCNSHVTP
+BF5533	Thiết kế thiết bị truyền nhiệt chuyển khối trong sản xuất thực phẩm	4	6.5	0.6	NULL	VCNSHVTP
+BF5534	Tích hợp hệ thống tự động điều khiển quá trình công nghệ	3	4	0.5	NULL	VCNSHVTP
+BF5535	Trang thiết bị điện cho Máy thực phẩm	2	3	0.5	NULL	VCNSHVTP
+BF5536	Cơ cấu chấp hành tự động thủy – khí	2	3.5	0.5	NULL	VCNSHVTP
+BF5538	Thiết kế hệ thống Bơm quạt máy nén	2	4	0.6	NULL	VCNSHVTP
+BF5539	Thiết kế hệ thống lạnh và điều hòa Không Khí	2	4	0.7	NULL	VCNSHVTP
+BF5542	An toàn lao động và vệ sinh công nghiệp	2	5	0.6	NULL	VCNSHVTP
+BF5543	Ứng dụng tin học trong thiết kế máy và thiết bị thực phẩm	2	4	0.6	NULL	VCNSHVTP
+BF5577	Đồ án chuyên ngành CNTP (Thiết kế)	3	5	0.5	NULL	VCNSHVTP
+BF5581	Thực tập tốt nghiệp	3	6	0.6	NULL	VCNSHVTP
+BF5582	Đồ án Tốt nghiệp	9	10.5	0.5	NULL	VCNSHVTP
+BF5688	Quản lý nguy cơ và an toàn thực phẩm	3	6	0.5	NULL	VCNSHVTP
+BF5701	Cơ sở lập dự án và thiết kế nhà máy 	4	6	0.6	NULL	VCNSHVTP
+BF5711	Công nghệ chế phẩm vi sinh vật	2	3.5	0.5	BF4535	VCNSHVTP
+BF5712	Công nghệ axit amin	2	4.5	0.5	NULL	VCNSHVTP
+BF5713	Công nghệ chế phẩm enzyme	2	5	0.5	BF3525	VCNSHVTP
+BF5714	Thí nghiệm chuyên ngành CNSHCN	2	5	0.6	NULL	VCNSHVTP
+BF5728	Cơ sở lập dự án và thiết kế nhà máy SH-TP	2	5	0.7	NULL	VCNSHVTP
+BF5820	Đồ án tốt nghiệp KTSH	9	11.5	0.7	NULL	VCNSHVTP
+BF5821	Thực tập tốt nghiệp KTSH	3	4	0.7	NULL	VCNSHVTP
+BF5830	Đồ án tốt nghiệp KTTP	9	10	0.6	NULL	VCNSHVTP
+BF5831	Thực tập tốt nghiệp KTTP	3	4	0.7	NULL	VCNSHVTP
+CH1014	Hoá học đại cương	4	5	0.7	NULL	KCNHH
+CH1015	Hoá học II	3	4	0.5	NULL	KCNHH
+CH1015E	Hóa học II	2	4	0.5	NULL	KCNHH
+CH1016	Hoá học đại cương	4	7	0.7	NULL	KCNHH
+CH1017	Hoá học	3	6	0.7	NULL	KCNHH
+CH1019E	Hóa học đại cương	3	4	0.5	NULL	KCNHH
+CH2005	Thực tập Nhập môn Kỹ thuật in và truyền thông	1	2.5	0.6	NULL	KCNHH
+CH2006	Đồ án nhập môn Kỹ thuật in	2	5	0.7	CH1015	KCNHH
+CH2010	Cơ sở hóa học vật liệu	3	6	0.7	NULL	KCNHH
+CH2014	Hóa sinh đại cương	3	5	0.6	CH1015E	KCNHH
+CH2014E	Hoá sinh đại cương	3	4.5	0.5	NULL	KCNHH
+CH2020	Technical Writing and Presentation	3	6	0.7	NULL	KCNHH
+CH2021	Đổi mới sáng tạo và khởi nghiệp	2	3	0.6	NULL	KCNHH
+CH2040E	Đại cương về kỹ thuật quá trình	3	5	0.5	NULL	KCNHH
+CH2041E	Cơ học chất lỏng	2	3.5	0.6	NULL	KCNHH
+CH2043E	Truyền nhiệt và Chuyển khối  	3	4	0.7	NULL	KCNHH
+CH3006E	Hóa lý 	3	4.5	0.7	NULL	KCNHH
+CH3007	Thí nghiệm Hóa lý	1	2	0.7	NULL	KCNHH
+CH3007E	Thí nghiệm Hóa lý	1	3	0.5	NULL	KCNHH
+CH3008	Hoá lý	2	4	0.6	CH2021	KCNHH
+CH3009	Hóa học trong CN in	2	3.5	0.7	NULL	KCNHH
+CH3042	Hóa lý I	3	5	0.7	NULL	KCNHH
+CH3051	Hóa lý 1	2	3	0.7	NULL	KCNHH
+CH3052	TN Hóa lý I	1	2.5	0.6	NULL	KCNHH
+CH3061	Hóa lý II	3	5	0.7	NULL	KCNHH
+CH3062	TN Hóa lý II	1	4	0.7	NULL	KCNHH
+CH3071	Hóa lý	2	3	0.6	NULL	KCNHH
+CH3072	Thí nghiệm Hóa lý	1	3	0.6	NULL	KCNHH
+CH3081	Hoá lý	2	5	0.6	NULL	KCNHH
+CH3081E	Hóa lý	2	3	0.5	NULL	KCNHH
+CH3082	Thí nghiệm Hoá lý	1	2	0.7	NULL	KCNHH
+CH3082E	Thí nghiệm Hóa lý	1	3	0.7	NULL	KCNHH
+CH3120	Hóa vô cơ	3	4.5	0.7	CH2040E	KCNHH
+CH3130	TN Hóa vô cơ	1	3	0.5	NULL	KCNHH
+CH3131	TN Hóa vô cơ	2	3	0.7	NULL	KCNHH
+CH3200E	Hóa hữu cơ I	3	4.5	0.6	NULL	KCNHH
+CH3202	Hóa Hữu cơ I	3	4.5	0.5	NULL	KCNHH
+CH3203	Hóa Hữu cơ II	2	4	0.6	NULL	KCNHH
+CH3208	Cơ sở hóa học hương liệu	2	5	0.7	NULL	KCNHH
+CH3210E	Hóa hữu cơ II	2	3	0.5	NULL	KCNHH
+CH3220	Hóa hữu cơ	4	6.5	0.7	NULL	KCNHH
+CH3223	Hóa hữu cơ	3	5	0.5	NULL	KCNHH
+CH3224	Hóa hữu cơ	2	4	0.6	NULL	KCNHH
+CH3224E	Hóa hữu cơ	2	3.5	0.5	NULL	KCNHH
+CH3225	Hóa hữu cơ	3	4	0.5	NULL	KCNHH
+CH3230	TN Hóa hữu cơ	1	3.5	0.7	NULL	KCNHH
+CH3231	TN Hóa hữu cơ I	1	4	0.5	NULL	KCNHH
+CH3231E	Thí nghiệm hoá hữu cơ I	1	3.5	0.6	NULL	KCNHH
+CH3232	TN Hóa hữu cơ II	1	3	0.6	NULL	KCNHH
+CH3232E	Thí nghiệm hoá hữu cơ II	1	3	0.5	NULL	KCNHH
+CH3316	Hóa phân tích	2	4	0.7	NULL	KCNHH
+CH3316E	Hóa phân tích	2	4	0.7	NULL	KCNHH
+CH3318	TN hóa phân tích	1	2	0.7	NULL	KCNHH
+CH3318E	Thí nghiệm Hóa phân tích	1	3.5	0.5	NULL	KCNHH
+CH3319	TN hóa phân tích	1	4	0.6	NULL	KCNHH
+CH3322	Các phương pháp phân tích bằng công cụ	2	5	0.7	NULL	KCNHH
+CH3323	Phân tích bằng công cụ	2	4	0.7	NULL	KCNHH
+CH3324	Thực hành phân tích công cụ	1	2	0.7	NULL	KCNHH
+CH3330	Hoá phân tích	2	3.5	0.6	NULL	KCNHH
+CH3330E	Hóa phân tích	3	5	0.7	NULL	KCNHH
+CH3331	Cơ sở hóa phân tích	3	4	0.5	NULL	KCNHH
+CH3340	TN Hóa phân tích	2	3	0.7	NULL	KCNHH
+CH3340E	Thí nghiệm Hóa phân tích	2	4	0.7	NULL	KCNHH
+CH3341	TN Phân tích bằng công cụ	1	2	0.7	NULL	KCNHH
+CH3400	Quá trình và thiết bị CNHH I	3	6	0.6	NULL	KCNHH
+CH3403	Quá trình và thiết bị CNHH	4	5.5	0.6	NULL	KCNHH
+CH3412	Quá trình và thiết bị CNHH II	2	3	0.5	NULL	KCNHH
+CH3420	Quá trình và thiết bị CNHH III	3	6	0.5	NULL	KCNHH
+CH3440	Đồ án quá trình và thiết bị	2	3	0.6	NULL	KCNHH
+CH3452	Mô phỏng trong CNHH	3	4.5	0.7	NULL	KCNHH
+CH3452E	Mô phỏng và khái niệm thiết kế        	3	6	0.5	NULL	KCNHH
+CH3454	Phương pháp số trong CNHH	2	4.5	0.6	NULL	KCNHH
+CH3456	Cơ khí ứng dụng	3	5	0.6	NULL	KCNHH
+CH3474	Kỹ thuật hóa học đại cương	2	3.5	0.7	CH3062	KCNHH
+CH3480	TN Quá trình và thiết bị I	1	3.5	0.6	NULL	KCNHH
+CH3480E	Thí nghiệm quá trình thiết bị I	1	3.5	0.7	NULL	KCNHH
+CH3481	Quy hoạch thực nghiệm	2	5	0.6	NULL	KCNHH
+CH3490	TN Quá trình và thiết bị II	1	2	0.6	NULL	KCNHH
+CH3612	Lý thuyết phục chế màu	3	6	0.5	NULL	KCNHH
+CH3631	Vật liệu ngành in	3	4.5	0.7	NULL	KCNHH
+CH3641	Kỹ thuật chế bản điện tử	2	4	0.7	NULL	KCNHH
+CH3642	TN chế bản điện tử	1	4	0.5	NULL	KCNHH
+CH3650	Thiết kế xuất bản phẩm	2	4	0.6	NULL	KCNHH
+CH3651	Thiết kế bao bì	2	5	0.7	CH3224E	KCNHH
+CH3800	Xây dựng công nghiệp	2	3.5	0.5	NULL	KCNHH
+CH3840E	Động học và thiết kế thiết bị phản ứng	3	5	0.5	CH3318	KCNHH
+CH3853E	Nghiên cứu và phát triển thuốc	2	4	0.7	NULL	KCNHH
+CH3900	Thực tập kỹ thuật	2	4.5	0.7	NULL	KCNHH
+CH3901	Đồ án nghiên cứu	3	5	0.7	NULL	KCNHH
+CH3902	Thực tập kỹ thuật	2	4	0.7	NULL	KCNHH
+CH3903	Đồ án nghiên cứu	2	5	0.7	NULL	KCNHH
+CH4008	Công nghệ chế biến khí	3	5	0.7	CH3006E	KCNHH
+CH4014	Thí nghiệm chuyên ngành hóa dầu 1	2	4	0.5	CH3081	KCNHH
+CH4017	Tiếng Anh dành cho sinh viên ngành hóa dầu	2	4	0.6	NULL	KCNHH
+CH4030	Động học xúc tác	2	4.5	0.6	NULL	KCNHH
+CH4032	Hóa học dầu mỏ - khí	2	4	0.7	NULL	KCNHH
+CH4036	Công nghệ chế biến dầu	3	4	0.5	NULL	KCNHH
+CH4040	Công nghệ tổng hợp hữu cơ hóa dầu	2	4	0.5	NULL	KCNHH
+CH4047	Sản phẩm dầu mỏ và phụ gia	2	4	0.5	NULL	KCNHH
+CH4085	Hóa học chất tạo màng và sơn	2	4.5	0.5	NULL	KCNHH
+CH4086	Công nghệ chất dẻo	2	3	0.5	NULL	KCNHH
+CH4088	Thí nghiệm chuyên ngành Polyme-Giấy	2	5	0.5	CH3225	KCNHH
+CH4089	Đồ án chuyên ngành Polyme - Giấy	2	4.5	0.6	NULL	KCNHH
+CH4093	Hóa polyme	3	5	0.6	NULL	KCNHH
+CH4102	Công nghệ cao su và compozit	2	4	0.5	NULL	KCNHH
+CH4131	Công nghệ điện hóa	3	5.5	0.5	NULL	KCNHH
+CH4152	Công nghệ mạ	3	6	0.5	NULL	KCNHH
+CH4155	Ăn mòn và bảo vệ kim loại	3	6	0.6	NULL	KCNHH
+CH4156	Điện phân thoát kim loại	2	3	0.7	NULL	KCNHH
+CH4158	Nguồn điện hoá học	3	5	0.6	CH3340E	KCNHH
+CH4188	Thiết bị nhà máy silicat 1	3	4.5	0.6	NULL	KCNHH
+CH4196	Công nghệ vật liệu kết dính	2	4.5	0.5	NULL	KCNHH
+CH4198	Công nghệ gốm sứ	2	4	0.7	NULL	KCNHH
+CH4199	Tinh thể và khoáng vật học silicat	3	4	0.7	NULL	KCNHH
+CH4200	Công nghệ thuỷ tinh	2	5	0.7	NULL	KCNHH
+CH4209	Hóa lý silicat I	2	4.5	0.5	NULL	KCNHH
+CH4214	Lò công nghiệp silicat	3	4.5	0.5	NULL	KCNHH
+CH4220	Hóa lý silicat II	2	3.5	0.5	NULL	KCNHH
+CH4251	Công nghệ muối khoáng	2	4	0.7	CH3008	KCNHH
+CH4257	Chế biến khoáng sản	2	5	0.7	NULL	KCNHH
+CH4263	Thiết kế nhà máy hóa chất	2	3.5	0.6	NULL	KCNHH
+CH4265	Thí nghiệm chuyên ngành vô cơ-điện hóa	2	5	0.7	NULL	KCNHH
+CH4276	Vật liệu vô cơ	2	4	0.5	NULL	KCNHH
+CH4313	Hóa học vật liệu tiên tiến	2	4	0.6	NULL	KCNHH
+CH4328	Các phương pháp xử lý nước thải	2	4	0.7	NULL	KCNHH
+CH4330	Quá trình điện hóa	2	3	0.6	NULL	KCNHH
+CH4338	Hóa học các chất hoạt động bề mặt	2	3.5	0.6	CH3331	KCNHH
+CH4340	Ứng dụng tin học trong hóa học	2	3	0.5	NULL	KCNHH
+CH4363	Lý thuyết tập hợp hạt	2	4.5	0.7	NULL	KCNHH
+CH4390	Đồ án chuyên ngành	2	5	0.5	NULL	KCNHH
+CH4396	Kỹ thuật phản ứng	3	6	0.5	NULL	KCNHH
+CH4400E	Thiết bị và điều khiển quá trình	2	3.5	0.6	NULL	KCNHH
+CH4421	Hóa học và hóa lý polyme	2	5	0.7	NULL	KCNHH
+CH4433	Ứng dụng CN sinh học trong Công nghiệp Giấy	2	3.5	0.6	NULL	KCNHH
+CH4437	Tính chất của giấy và thử nghiệm	2	3.5	0.5	NULL	KCNHH
+CH4455	Công nghệ sản xuất bột giấy	2	4	0.6	NULL	KCNHH
+CH4457	Công nghệ sản xuất giấy	2	3.5	0.5	NULL	KCNHH
+CH4481E	Phân tích cấu trúc bằng phổ	3	5	0.6	NULL	KCNHH
+CH4484E	Tổng hợp hóa dược nâng cao	3	6	0.7	NULL	KCNHH
+CH4486	Hóa học bảo vệ thực vật	3	4	0.6	NULL	KCNHH
+CH4490	Cơ sở kỹ thuật bào chế	2	5	0.6	NULL	KCNHH
+CH4490E	Cơ sở kỹ thuật bào chế	2	5	0.7	NULL	KCNHH
+CH4492E	Hoá dược I	2	4	0.5	NULL	KCNHH
+CH4496E	Hoá dược II	2	4	0.5	NULL	KCNHH
+CH4497	Các quá trình cơ bản tổng hợp hữu cơ, hóa dược	3	5.5	0.7	NULL	KCNHH
+CH4499	Hóa sinh	2	4.5	0.6	NULL	KCNHH
+CH4500E	Thí nghiệm hóa dược I	2	3	0.6	NULL	KCNHH
+CH4501	Thí nghiệm chuyên ngành hóa dược I	2	5	0.6	NULL	KCNHH
+CH4501E	Thí nghiệm hoá dược II	2	4.5	0.7	NULL	KCNHH
+CH4510	Hóa dược đại cương	2	4.5	0.7	NULL	KCNHH
+CH4510E	Hoá dược đại cương	2	5	0.7	NULL	KCNHH
+CH4512	Phân tích cấu trúc bằng phổ	2	3	0.7	NULL	KCNHH
+CH4516E	Seminar	3	5	0.5	NULL	KCNHH
+CH4517E	Tương quan giữa cấu trúc và hoạt tính	3	4.5	0.7	NULL	KCNHH
+CH4602E	Các nguyên lý về kỹ thuật quá trình	2	3	0.5	NULL	KCNHH
+CH4659	Đồ án chuyên ngành QTTB-Máy hóa chất	2	3.5	0.7	NULL	KCNHH
+CH4671	KT in số	2	4	0.7	NULL	KCNHH
+CH4674	Tổ chức và quản lý sản xuất in	2	3.5	0.5	NULL	KCNHH
+CH4692	Thực tập kỹ thuật	2	4	0.6	NULL	KCNHH
+CH4714	Hệ thống quản lý màu	2	5	0.6	NULL	KCNHH
+CH4720	Kỹ thuật chế khuôn in	2	4.5	0.5	NULL	KCNHH
+CH4721	Thí nghiệm chế khuôn	1	3	0.7	NULL	KCNHH
+CH4722	Thí nghiệm in số	1	3	0.7	NULL	KCNHH
+CH4724	Kỹ thuật gia công bao bì	2	3.5	0.6	NULL	KCNHH
+CH4725	Thí nghiệm gia công	1	2	0.6	NULL	KCNHH
+CH4726	Đồ án tổ chức sản xuất sản phẩm in	3	5	0.7	NULL	KCNHH
+CH4727	Thiết bị và dụng cụ đo	2	4	0.5	NULL	KCNHH
+CH4728	Ảnh kỹ thuật số	2	5	0.5	NULL	KCNHH
+CH4749	Thí nghiệm in offset	1	2.5	0.6	NULL	KCNHH
+CH4751	Kỹ thuật in flexo và in lõm	3	4	0.7	NULL	KCNHH
+CH4780	An toàn trong nhà máy hóa chất	2	3.5	0.5	NULL	KCNHH
+CH4800	Hóa keo	2	3.5	0.7	NULL	KCNHH
+CH4801	Kỹ thuật xúc tác	2	3.5	0.7	NULL	KCNHH
+CH4825	Các phương pháp tổng hợp hữu cơ	3	4	0.5	NULL	KCNHH
+CH4826	Xúc tác hữu cơ	2	5	0.5	NULL	KCNHH
+CH4827	Hóa học các hợp chất thiên nhiên	3	5	0.5	CH4251	KCNHH
+CH4827E	Hóa hợp chất thiên nhiên	3	4.5	0.7	NULL	KCNHH
+CH4829	Phân tích thành phần và cấu trúc các hợp chất hữu cơ	2	4	0.6	NULL	KCNHH
+CH4833	Hương liệu và mỹ phẩm	2	5	0.5	NULL	KCNHH
+CH4834	Tổng hợp các hợp chất có hoạt tính sinh học	2	5	0.6	NULL	KCNHH
+CH4850	Hóa học phức chất	2	4	0.6	NULL	KCNHH
+CH4851	Hóa học và công nghệ các nguyên tố đất hiếm	2	4.5	0.5	CH4047	KCNHH
+CH4852	Hóa học phóng xạ	3	5	0.6	NULL	KCNHH
+CH4853	Hóa sinh vô cơ	3	5.5	0.6	NULL	KCNHH
+CH4855	Hóa học xanh	2	3	0.5	NULL	KCNHH
+CH4859	Vật liệu y sinh	2	4	0.7	NULL	KCNHH
+CH4876	Các phương pháp phân tích quang phổ	2	4	0.5	NULL	KCNHH
+CH4877	Các phương pháp phân tích điện hóa	2	3.5	0.7	NULL	KCNHH
+CH4881	Xử lý số liệu thực nghiệm trong hoá phân tích	2	4.5	0.7	NULL	KCNHH
+CH4882	Các phương pháp tách trong hóa phân tích	2	3	0.6	NULL	KCNHH
+CH4883	Kỹ thuật xử lý mẫu trong Hóa phân tích.	2	5	0.6	NULL	KCNHH
+CH4884	Các phương pháp phân tích hình thái và cấu trúc vật liệu	2	4	0.6	NULL	KCNHH
+CH4900	Đồ án tốt nghiệp cử nhân	6	9	0.5	NULL	KCNHH
+CH4901	Đồ án tốt nghiệp cử nhân	6	9	0.6	NULL	KCNHH
+CH4902	Đồ án tốt nghiệp cử nhân	6	9	0.7	NULL	KCNHH
+CH4903	Đồ án nghiên cứu Cử nhân (Hóa học)	8	9	0.5	NULL	KCNHH
+CH4904	Đồ án nghiên cứu Cử nhân (Kỹ thuật hóa học)	8	10.5	0.7	NULL	KCNHH
+CH4910	Đồ án tốt nghiệp cử nhân	6	7.5	0.6	NULL	KCNHH
+CH5200	Nhiên liệu sạch	2	4.5	0.5	NULL	KCNHH
+CH5201	Công nghệ Tổng hợp hợp chất trung gian	2	4.5	0.6	CH4196	KCNHH
+CH5207	Đường ống bể chứa và thiết bị phụ trợ 	3	4.5	0.6	NULL	KCNHH
+CH5208	Thiết bị nhà máy lọc hóa dầu 	3	5.5	0.6	NULL	KCNHH
+CH5209	An toàn nhà máy lọc hóa dầu 	2	3.5	0.5	CH3612	KCNHH
+CH5210	Mô phỏng nhà máy lọc hóa dầu	2	4	0.5	CH3208	KCNHH
+CH5211	Thí nghiệm chuyên ngành Hóa dầu II	2	4.5	0.6	NULL	KCNHH
+CH5212	Đồ án chuyên ngành Hóa dầu	3	5	0.7	CH3318E	KCNHH
+CH5252	Kỹ thuật vật liệu sơn	2	3	0.5	NULL	KCNHH
+CH5256	Máy và thiết bị gia công polyme	2	4	0.7	NULL	KCNHH
+CH5262	Kỹ thuật vật liệu cao su 	2	4.5	0.6	NULL	KCNHH
+CH5263	Polyme phân huỷ sinh học 	2	3	0.7	NULL	KCNHH
+CH5264	Hoá học polyme y sinh	2	3.5	0.5	NULL	KCNHH
+CH5265	Hoá học silicon	2	3	0.7	NULL	KCNHH
+CH5266	Đồ án chuyên ngành Polyme	3	5.5	0.7	NULL	KCNHH
+CH5267	Công nghệ hoá học polyme blend 	2	4	0.5	NULL	KCNHH
+CH5268	Hoá học polyme 	2	4	0.6	NULL	KCNHH
+CH5269	Hoá lý polyme 	2	3	0.5	NULL	KCNHH
+CH5300	Điện hóa bề mặt	2	4	0.7	NULL	KCNHH
+CH5302	Điện phân không thoát kim loại	2	3.5	0.6	NULL	KCNHH
+CH5305	Đồ án chuyên ngành kỹ sư điện hóa	2	3.5	0.6	NULL	KCNHH
+CH5307	Ăn mòn và bảo vệ vật liệu trong môi trường khí quyển	2	4	0.5	NULL	KCNHH
+CH5310	Điện hóa và xử lí môi trường	2	4	0.5	NULL	KCNHH
+CH5312	Thí nghiệm chuyên ngành điện hóa	2	5	0.6	NULL	KCNHH
+CH5313	Thiết kế thiết bị điện hóa	3	6	0.7	CH3480	KCNHH
+CH5355	Công nghệ vật liệu chịu lửa	3	4.5	0.5	CH5269	KCNHH
+CH5358	Đồ án chuyên ngành	2	3	0.6	CH4340	KCNHH
+CH5363	Vật liệu ceramic tiên tiến	2	4	0.6	NULL	KCNHH
+CH5364	AutoCAD cho thiết kế xây dựng nhà máy silicat	2	4	0.5	CH4900	KCNHH
+CH5365	Thí nghiệm các chất kết dính vô cơ	1	3	0.7	NULL	KCNHH
+CH5366	Thí nghiệm gốm sứ	1	4	0.6	NULL	KCNHH
+CH5367	Thí nghiệm thuỷ tinh	1	3	0.6	NULL	KCNHH
+CH5368	Thí nghiệm vật liệu chịu lửa	1	4	0.7	NULL	KCNHH
+CH5369	Công nghệ các chất kết dính vô cơ II	2	4	0.5	CH4834	KCNHH
+CH5370	Công nghệ thuỷ tinh II	2	4.5	0.7	NULL	KCNHH
+CH5371	Tin học và Tự động hóa trong công nghiệp 	2	4	0.5	CH3412	KCNHH
+CH5372	Các phương pháp phân tích đặc tính vật liệu	2	4	0.5	CH4089	KCNHH
+CH5401	Chất màu vô cơ  công nghiệp	2	5	0.7	NULL	KCNHH
+CH5403	Đồ án chuyên ngành kỹ sư CNVC	2	4	0.5	CH4728	KCNHH
+CH5405	Hóa học và Công nghệ đất hiếm	2	4	0.7	CH4499	KCNHH
+CH5407	Màng phủ vô cơ	2	4	0.6	NULL	KCNHH
+CH5408	Công nghệ phân bón	2	3.5	0.7	NULL	KCNHH
+CH5409	Công nghệ sô đa và các chất kiềm	2	4	0.5	NULL	KCNHH
+CH5411	Xử lí nước	2	4	0.6	NULL	KCNHH
+CH5412	Công nghệ axit	2	4	0.5	NULL	KCNHH
+CH5413	Thí nghiệm chuyên ngành công nghệ vô cơ	3	6	0.5	NULL	KCNHH
+CH5501	Đồ án 3	2	4	0.7	NULL	KCNHH
+CH5503	Kỹ thuật công trình trong CN Hóa học	2	4	0.5	NULL	KCNHH
+CH5504	Kỹ thuật tách hỗn hợp nhiều cấu tử	2	5	0.5	NULL	KCNHH
+CH5505	Kỹ thuật hệ thống	2	5	0.5	NULL	KCNHH
+CH5506	Mô hình điều khiển	2	5	0.7	NULL	KCNHH
+CH5508	Công nghệ màng 	2	5	0.5	NULL	KCNHH
+CH5509	Chuyên đề quá trình thiết bị	2	4.5	0.6	NULL	KCNHH
+CH5510	Thiết kế hệ thống có kết nối nhiệt 	2	3.5	0.7	NULL	KCNHH
+CH5553	Công nghệ sản xuất giấy tissue	2	3.5	0.5	NULL	KCNHH
+CH5556	Kỹ thuật sản xuất cactong và bao bì giấy	2	4	0.6	NULL	KCNHH
+CH5561	Hóa học sinh khối 	2	4.5	0.5	NULL	KCNHH
+CH5562	Công nghệ hóa chất và vật liệu mới từ sinh khối 	2	4.5	0.6	NULL	KCNHH
+CH5563	Công nghệ tái chế giấy 	2	4	0.6	NULL	KCNHH
+CH5565	Kiểm soát chất lượng sản phẩm bột giấy và giấy 	2	5	0.5	NULL	KCNHH
+CH5566	Xử lý và tận dụng chất thải công nghiệp giấy 	2	4	0.6	NULL	KCNHH
+CH5567	Đồ án thiết kế nhà máy sản xuất bột giấy và giấy	3	6	0.6	NULL	KCNHH
+CH5568	Thí nghiệm công nghệ bột giấy và giấy	2	3	0.5	NULL	KCNHH
+CH5569	Thiết bị sản xuất bột giấy và giấy	2	4	0.7	CH4882	KCNHH
+CH5600	Tổng hợp Hóa dược 1	2	5	0.5	NULL	KCNHH
+CH5601	Tổng hợp Hóa dược 2	2	4.5	0.6	NULL	KCNHH
+CH5602	Tổng hợp hóa BVTV	2	5	0.7	NULL	KCNHH
+CH5605	Kiểm nghiệm dược phẩm	2	3.5	0.6	NULL	KCNHH
+CH5606E	Kỹ thuật tách và tinh chế	2	3.5	0.5	NULL	KCNHH
+CH5607	Hương liệu và mỹ phẩm	2	3.5	0.5	NULL	KCNHH
+CH5608	Sản xuất thuốc theo tiêu chuẩn GMP	2	3	0.7	NULL	KCNHH
+CH5609	Hóa học cây thuốc và kỹ thuật chiết xuất	2	4	0.6	NULL	KCNHH
+CH5610	Kỹ thuật tổng hợp các hợp chất có hoạt tính sinh học	2	3	0.5	NULL	KCNHH
+CH5611	Kỹ thuật tách và tinh chế 	2	5	0.5	CH3412	KCNHH
+CH5613	Thí nghiệm chuyên ngành hóa dược II	2	4	0.7	NULL	KCNHH
+CH5614	Đồ án chuyên ngành Hóa dược	3	5	0.7	NULL	KCNHH
+CH5650	Kỹ thuật phân riêng 1	2	3.5	0.7	NULL	KCNHH
+CH5651	Kỹ thuật phân riêng 2	2	4	0.5	NULL	KCNHH
+CH5652	Thiết bị phản ứng	3	4.5	0.7	NULL	KCNHH
+CH5653	Thiết kế thiết bị trao đổi nhiệt	2	4.5	0.6	NULL	KCNHH
+CH5655	Bơm – Quạt – Máy nén	2	4.5	0.7	NULL	KCNHH
+CH5656	Đường ống - Bể chứa	2	5	0.6	CH4158	KCNHH
+CH5657	Thiết kế lắp đặt các công trình hóa chất	2	3.5	0.7	CH4751	KCNHH
+CH5658	Máy gia công vật liệu rắn	2	4	0.6	NULL	KCNHH
+CH5660	Kỹ thuật An toàn và Môi trường	2	4	0.5	CH3130	KCNHH
+CH5662	Cơ sở tính toán máy hóa chất 	3	4	0.7	NULL	KCNHH
+CH5663	Chuyên đề  Máy và thiết bị công nghiệp hóa chất 	2	3.5	0.6	NULL	KCNHH
+CH5664	Đồ án thiết kế máy và thiết bị công nghiệp hóa chất	2	3	0.6	NULL	KCNHH
+CH5665	Cơ sở thiết kế thiết bị hóa chất	2	4	0.6	NULL	KCNHH
+CH5700	Kỹ thuật in offset	3	6	0.6	NULL	KCNHH
+CH5718	Vật liệu bao bì	2	3	0.5	CH3330	KCNHH
+CH5719	Các qui định về bao bì	2	4	0.7	NULL	KCNHH
+CH5720	Bao bì thực phẩm - y tế	2	3.5	0.6	NULL	KCNHH
+CH5721	Kỹ thuật pha màu 	2	4	0.6	NULL	KCNHH
+CH5722	TN pha màu	1	2.5	0.5	NULL	KCNHH
+CH5723	Kiểm soát chất lượng bao bì	2	3	0.6	NULL	KCNHH
+CH5724	TN kiểm soát chất lượng bao bì	1	3	0.6	NULL	KCNHH
+CH5725	Tính bền vững và môi trường trong CN bao bì 	2	4	0.6	NULL	KCNHH
+CH5726	ĐA thiết kế SP và dây chuyền SX bao bì	3	5	0.5	NULL	KCNHH
+CH5728	Chuyên đề 2	1	3	0.7	NULL	KCNHH
+CH5729	Kỹ thuật sản xuất mực in	2	4.5	0.6	CH4720	KCNHH
+CH5730	Vật liệu in bảo mật	2	4	0.5	NULL	KCNHH
+CH5732	Kỹ thuật in trên vật liệu đặc biệt	2	3.5	0.6	NULL	KCNHH
+CH5800	Thực tập cuối khóa	3	4	0.5	NULL	KCNHH
+CH5801	Thực tập cuối khóa	3	5.5	0.6	CH4198	KCNHH
+CH5802	Thực tập cuối khóa	3	5	0.7	NULL	KCNHH
+CH5803	Thực tập cuối khóa	3	5.5	0.7	NULL	KCNHH
+CH5804	Thực tập cuối khoá	3	4	0.7	NULL	KCNHH
+CH5806	Thực tập cuối khóa	3	5	0.7	CH4720	KCNHH
+CH5807	Thực tập cuối khóa	3	5	0.7	CH5700	KCNHH
+CH5808	Thực tập cuối khóa	3	6	0.6	NULL	KCNHH
+CH5809	Thực tập cuối khoá	3	5	0.5	NULL	KCNHH
+CH5810	Thực tập tốt nghiệp	3	4.5	0.5	NULL	KCNHH
+CH5850	Thực tập kỹ sư	3	5	0.6	NULL	KCNHH
+CH5900	Đồ án tốt nghiệp kỹ sư	9	11	0.7	NULL	KCNHH
+CH5901	Đồ án tốt nghiệp kỹ sư	9	12	0.6	NULL	KCNHH
+CH5902	Đồ án tốt nghiệp kỹ sư	9	11	0.7	NULL	KCNHH
+CH5903	Đồ án tốt nghiệp kỹ sư	9	10.5	0.7	NULL	KCNHH
+CH5904	Đồ án tốt nghiệp kỹ sư	9	11.5	0.5	NULL	KCNHH
+CH5906	Đồ án tốt nghiệp kỹ sư	9	11	0.6	CH3480	KCNHH
+CH5907	Đồ án tốt nghiệp kỹ sư	9	11	0.7	CH4032	KCNHH
+CH5908	Đồ án tốt nghiệp kỹ sư	9	11	0.6	NULL	KCNHH
+CH5909	Đồ án tốt nghiệp kỹ sư	9	11	0.7	NULL	KCNHH
+CH5910	Đồ án tốt nghiệp	9	11	0.6	NULL	KCNHH
+CH5950	Đồ án kỹ sư	9	10	0.6	NULL	KCNHH
+CLG400	Tiếng Anh English Discoveries 2	5	8	0.7	NULL	TTNNHT
+CLG500	Tiếng Anh English Discoveries 3	5	6.5	0.6	NULL	TTNNHT
+CLG550	Tiếng Anh English Discoveries 4	5	6	0.6	NULL	TTNNHT
+CLS400	Tiếng Anh định hướng TOEIC 400	4	6	0.6	NULL	TTNNHT
+CLS500	Tiếng Anh định hướng TOEIC 500	4	6.5	0.7	NULL	TTNNHT
+ED2000	Nhập môn ngành Công nghệ Giáo dục	2	4	0.6	NULL	KSPKT
+ED2020	Mỹ thuật căn bản	2	4.5	0.5	NULL	KSPKT
+ED2030	Thiết kế dạy học	3	5	0.7	NULL	KSPKT
+ED3130	Lý luận dạy học	3	6	0.6	NULL	KSPKT
+ED3170	Phương pháp luận nghiên cứu khoa học	2	4	0.5	ED2020	KSPKT
+ED3220	Kỹ năng mềm	2	3.5	0.7	NULL	KSPKT
+ED3280	Tâm lý học ứng dụng	2	4	0.6	NULL	KSPKT
+ED3290	Công nghệ dạy học	3	5	0.5	NULL	KSPKT
+ED3300	Kĩ năng dạy học 	3	5	0.7	NULL	KSPKT
+ED3310	Công cụ và Kĩ thuật đánh giá	2	3	0.6	NULL	KSPKT
+ED3320	Quản trị dự án	3	4	0.6	NULL	KSPKT
+ED3330	Giáo dục người lớn	2	4	0.5	NULL	KSPKT
+ED3340	E-learning	3	5	0.5	NULL	KSPKT
+ED3350	Tiếng Anh chuyên ngành Công nghệ giáo dục	2	4.5	0.6	NULL	KSPKT
+ED3360	Kỹ thuật nhiếp ảnh và Thiết kế thương hiệu	3	4	0.6	NULL	KSPKT
+ED3370	Đồ án Chiến lược dạy học trong kỉ nguyên số	2	5	0.6	NULL	KSPKT
+ED3380	Video số trong giáo dục	2	3.5	0.5	NULL	KSPKT
+ED3410	Lãnh đạo tổ chức đào tạo	2	5	0.7	NULL	KSPKT
+ED3420	Phát triển chương trình đào tạo cho doanh nghiệp	2	4.5	0.5	NULL	KSPKT
+ED4070	Thực tập sư phạm	2	3	0.6	ED3410	KSPKT
+ED4080	Đồ án tốt nghiệp cử nhân	6	9	0.7	NULL	KSPKT
+ED4090	Technical Writing and Presentation	3	6	0.5	NULL	KSPKT
+ED4100	Mô phỏng trong giáo dục	2	4	0.5	NULL	KSPKT
+ED4110	Các công nghệ giáo dục tiên tiến	2	3.5	0.5	NULL	KSPKT
+ED4130	Đồ án Môi trường học tập giàu công nghệ	2	4	0.6	NULL	KSPKT
+ED4140	Đồ án VR/AR	2	3.5	0.5	NULL	KSPKT
+ED4150	Đào tạo tại chỗ	2	3	0.5	NULL	KSPKT
+ED4160	Đồ án Trải nghiệm thực địa	2	5	0.5	ED4100	KSPKT
+EE1010	Nhập môn kỹ thuật ngành điện	3	5	0.7	NULL	TDDT
+EE1024	Nhập môn ngành Điện	2	4	0.6	NULL	TDDT
+EE1024E	Nhập môn kỹ thuật ngành điện	2	4	0.5	NULL	TDDT
+EE2000	Tín hiệu và hệ thống	3	5	0.7	NULL	TDDT
+EE2001E	Tín hiệu và hệ thống	3	5	0.6	EE1010	TDDT
+EE2010	Kỹ thuật điện	3	4.5	0.6	NULL	TDDT
+EE2012	Kỹ thuật điện	2	4	0.7	NULL	TDDT
+EE2016	Kỹ thuật điện, điện tử	3	5	0.6	NULL	TDDT
+EE2017	Kỹ thuật điện-điện tử	3	4.5	0.6	NULL	TDDT
+EE2018	Electrical Engineering	3	5	0.5	NULL	TDDT
+EE2021	Lý thuyết mạch điện I	3	4.5	0.7	NULL	TDDT
+EE2022	Lý thuyết mạch điện II	3	4	0.6	NULL	TDDT
+EE2023	Technical Writing and Presentation	3	5	0.6	NULL	TDDT
+EE2031	Trường điện từ	3	5	0.6	NULL	TDDT
+EE2036	Tương thích điện từ	2	5	0.7	NULL	TDDT
+EE2090	Kỹ thuật Điện và Điều khiển quá trình	2	4	0.7	NULL	TDDT
+EE2110	Điện tử tương tự	3	5	0.6	NULL	TDDT
+EE2110E	Thiết kế điện tử	3	4	0.5	NULL	TDDT
+EE2111	Điện tử tương tự và số	4	6.5	0.7	NULL	TDDT
+EE2130	Thiết kế hệ thống số	3	4	0.7	NULL	TDDT
+EE2130E	Thiết kế hệ thống số	3	6	0.5	NULL	TDDT
+EE3012	Năng lượng tái tạo: Công nghệ, thị trường và chính sách phát triển	3	4	0.6	NULL	TDDT
+EE3020E	Mạch tuyến tính II	3	5	0.7	NULL	TDDT
+EE3030E	Nguyên lý trường điện từ	3	5.5	0.5	NULL	TDDT
+EE3070	Điều khiển máy điện	3	5	0.5	NULL	TDDT
+EE3101	Các nguồn năng lượng tái tạo	2	4.5	0.5	NULL	TDDT
+EE3101E	Các nguồn năng lượng tái tạo	3	6	0.6	NULL	TDDT
+EE3110	Kỹ thuật đo lường	3	5.5	0.5	NULL	TDDT
+EE3110E	Kỹ thuật đo lường	3	5	0.5	NULL	TDDT
+EE3140	Máy điện I	3	5.5	0.7	EE2010	TDDT
+EE3140E	Máy điện	3	4	0.7	NULL	TDDT
+EE3196	Máy điện	3	4.5	0.6	EE3020E	TDDT
+EE3216	Thiết kế và vận hành lưới điện	3	4.5	0.6	NULL	TDDT
+EE3242	Khí cụ điện	2	3.5	0.6	NULL	TDDT
+EE3245	Thiết bị đóng cắt và bảo vệ	3	6	0.5	NULL	TDDT
+EE3280E	Lý thuyết điều khiển tự động I	3	4.5	0.7	NULL	TDDT
+EE3286	Lý thuyết điều khiển	4	7	0.6	NULL	TDDT
+EE3288	Lý thuyết điều khiển tuyến tính	3	4	0.7	NULL	TDDT
+EE3288E	Lý thuyết điều khiển tuyến tính	3	5	0.7	NULL	TDDT
+EE3289	Cơ sở điều khiển tự động	4	7	0.5	NULL	TDDT
+EE3359	Lý thuyết điều khiển tự động	3	5	0.7	NULL	TDDT
+EE3410	Điện tử công suất	3	5	0.7	NULL	TDDT
+EE3410E	Điện tử công suất	3	5	0.6	NULL	TDDT
+EE3423E	Nhập môn hệ thống điện	3	5	0.5	NULL	TDDT
+EE3425	Hệ thống cung cấp điện	3	4	0.7	NULL	TDDT
+EE3426	Hệ thống cung cấp điện (BTL)	3	5	0.6	NULL	TDDT
+EE3427	Hệ thống điện tòa nhà	3	4	0.6	NULL	TDDT
+EE3469	Hệ thống cung cấp điện	2	4.5	0.7	NULL	TDDT
+EE3480	Vi xử lý	3	4.5	0.6	NULL	TDDT
+EE3480E	Vi xử lý và kiến trúc máy tính	3	4.5	0.6	NULL	TDDT
+EE3482	Vật liệu điện	3	4	0.7	EE3288E	TDDT
+EE3490E	Kỹ thuật lập trình	3	5.5	0.7	NULL	TDDT
+EE3491	Kỹ thuật lập trình	2	4	0.7	NULL	TDDT
+EE3510	Truyền động điện	3	4	0.6	NULL	TDDT
+EE3510E	Truyền động điện	3	4.5	0.6	NULL	TDDT
+EE3550	Điều khiển quá trình	3	4	0.5	NULL	TDDT
+EE3550E	Điều khiển quá trình	3	5	0.7	NULL	TDDT
+EE3596	Điện tử tương tự và ứng dụng	4	5.5	0.7	NULL	TDDT
+EE3600	Hệ thống đo và điều khiển công nghiệp	3	5	0.6	NULL	TDDT
+EE3600E	Hệ thống truyền thông công nghiệp	3	4.5	0.7	NULL	TDDT
+EE3616	Biến đổi tín hiệu số và ứng dụng	4	6.5	0.5	NULL	TDDT
+EE3617	Mạch và năng lượng điện	3	6	0.5	NULL	TDDT
+EE3626	Cảm biến và thiết bị đo	2	4.5	0.5	NULL	TDDT
+EE3649	Cơ sở điện tử công suất	3	5.5	0.5	NULL	TDDT
+EE3656	Điện tử số 	3	5	0.6	NULL	TDDT
+EE3676	Thiết bị đo điện tử	3	4.5	0.5	NULL	TDDT
+EE3706	Mạch tuyến tính 1	3	4.5	0.5	EE2036	TDDT
+EE3716	TN Mạch tuyến tính 1	1	2	0.6	NULL	TDDT
+EE3726	Mạch tuyến tính 2	4	6	0.6	NULL	TDDT
+EE3736	Điện tử 1	4	6.5	0.5	NULL	TDDT
+EE3746	Điện tử 2	4	5	0.6	EE2111	TDDT
+EE3756	Thiết kế hệ thống số	4	6	0.7	NULL	TDDT
+EE3766	Mạch giao diện máy tính	4	6	0.6	NULL	TDDT
+EE3810	Đồ án I	2	3.5	0.7	NULL	TDDT
+EE3810E	Đồ án I	2	4	0.5	EE3020E	TDDT
+EE3820	Đồ án II	2	5	0.5	EE3280E	TDDT
+EE3821E	Đồ án II	2	4	0.6	NULL	TDDT
+EE3910	Thực tập kỹ thuật	2	4	0.5	NULL	TDDT
+EE3910E	Thực tập kỹ thuật	2	4	0.5	EE2021	TDDT
+EE4010	Lưới điện	3	4.5	0.6	NULL	TDDT
+EE4010E	Phân tích Hệ thống điện	3	5	0.5	NULL	TDDT
+EE4018	Tự động hoá HTĐ	3	6	0.6	NULL	TDDT
+EE4020	Ngắn mạch trong hệ thống điện	3	5.5	0.5	NULL	TDDT
+EE4020E	Ngắn mạch trong hệ thống điện	3	4.5	0.5	NULL	TDDT
+EE4021	Ngắn mạch trong lưới điện công nghiệp	2	5	0.5	NULL	TDDT
+EE4023	Kỹ thuật nối đất và chống sét cho lưới điện công nghiệp	3	6	0.7	NULL	TDDT
+EE4032	Nhà máy điện và trạm biến áp	3	4.5	0.6	NULL	TDDT
+EE4040E	Bảo vệ và điều khiển hệ thống điện	3	4.5	0.7	NULL	TDDT
+EE4041	TN Hệ thống điện II (BV&ĐK, NMĐ&TBA)	1	3	0.5	NULL	TDDT
+EE4042	Rơle bảo vệ trong hệ thống điện	3	5.5	0.6	NULL	TDDT
+EE4052	Kỹ thuật điện cao áp	3	5.5	0.5	NULL	TDDT
+EE4052E	Kỹ thuật điện cao áp	3	4	0.7	NULL	TDDT
+EE4060	Đồ án III (HTĐ)	2	4	0.7	NULL	TDDT
+EE4062	Rơle bảo vệ trong lưới điện công nghiệp	2	4.5	0.6	NULL	TDDT
+EE4064	Đồ án thiết kế	3	6	0.7	NULL	TDDT
+EE4082	Kỹ thuật chiếu sáng	3	5.5	0.5	EE4023	TDDT
+EE4083	Chiếu sáng công nghiệp và dân dụng	2	4	0.6	NULL	TDDT
+EE4105	Cơ khí đường dây	2	4	0.7	NULL	TDDT
+EE4111	Công nghệ phát điện	2	4	0.5	NULL	TDDT
+EE4112	Nhà máy thuỷ điện	2	4.5	0.5	NULL	TDDT
+EE4115	Ổn định của hệ thống điện	2	4.5	0.7	NULL	TDDT
+EE4116E	Tự động hóa hệ thống điện	3	4	0.7	NULL	TDDT
+EE4117E	Vận hành và quy hoạch hệ thống điện	3	5	0.5	NULL	TDDT
+EE4128	Tối ưu hoá chế độ hệ thống điện	2	3	0.7	NULL	TDDT
+EE4160	Tối ưu hóa và ứng dụng trong điều khiển	2	4	0.6	EE2111	TDDT
+EE4161	Điều khiển hệ cơ điện tử	2	4.5	0.7	NULL	TDDT
+EE4163	Điều khiển phi tuyến	3	5	0.6	NULL	TDDT
+EE4165	Hệ thống điều khiển năng lượng tái tạo	2	4	0.5	NULL	TDDT
+EE4205	Máy điện trong thiết bị tự động và điều khiển	2	4	0.5	EE3746	TDDT
+EE4220	Điều khiển logic và PLC	3	4	0.6	NULL	TDDT
+EE4221E	Điều khiển logic và PLC	3	5	0.5	NULL	TDDT
+EE4224	Hệ thống truyền động thuỷ lực và khí nén	2	3.5	0.6	NULL	TDDT
+EE4226	Điều khiển logic và PLC	3	4.5	0.7	NULL	TDDT
+EE4231	Bảo dưỡng công nghiệp	2	3	0.7	NULL	TDDT
+EE4232	Tương thích điện từ (EMC)	2	3	0.5	NULL	TDDT
+EE4251	Thiết kế hệ thống nhúng	3	5.5	0.5	NULL	TDDT
+EE4252	Thiết kế thiết bị đo	3	4.5	0.6	EE3626	TDDT
+EE4256	Tự động hóa và điều khiển trong kỹ thuật môi trường	2	3	0.6	NULL	TDDT
+EE4259	Học sâu	2	4	0.7	NULL	TDDT
+EE4261	Đồ án thiết kế máy điện	2	4	0.7	NULL	TDDT
+EE4262	Đồ án thiết bị điều khiển	2	3.5	0.7	NULL	TDDT
+EE4263	Đồ án khí cụ điện	2	3	0.5	NULL	TDDT
+EE4265	Đo lường y sinh	2	5	0.5	EE3030E	TDDT
+EE4266	Mạng và các giao thức trong IoT	2	4.5	0.6	NULL	TDDT
+EE4268	FPGA và ứng dụng	2	3.5	0.5	NULL	TDDT
+EE4269	Hệ thống quản lý tòa nhà thông minh	2	3	0.7	NULL	TDDT
+EE4271	Công nghệ xử lý nước thải	2	4	0.5	NULL	TDDT
+EE4272	Công nghệ xử lý xử lý rác thải	2	4	0.6	NULL	TDDT
+EE4274	Kỹ thuật điều khiển xe điện	2	3.5	0.6	NULL	TDDT
+EE4275	Đo và giám sát môi trường	2	3.5	0.5	NULL	TDDT
+EE4276	Tự động hóa nhà máy xi măng	2	3	0.6	NULL	TDDT
+EE4277	SCADA cho trạm biến áp	2	3.5	0.7	NULL	TDDT
+EE4278	Hệ thống đo lường điều khiển nhà máy điện	2	4	0.5	NULL	TDDT
+EE4281	Hệ thống giám sát khí thải nhà máy nhiệt điện	2	3.5	0.6	NULL	TDDT
+EE4314	Quy hoạch phát triển hệ thống điện	2	3.5	0.5	NULL	TDDT
+EE4331	Điều khiển Điện tử công suất	3	6	0.6	NULL	TDDT
+EE4332	Thiết kế truyền động điện	3	4	0.7	NULL	TDDT
+EE4334	Hệ thống sản xuất tích hợp máy tính (CIM)	2	4	0.7	NULL	TDDT
+EE4340	Đồ án chuyên ngành	2	5	0.7	NULL	TDDT
+EE4341	Kỹ thuật Robot	3	4	0.7	NULL	TDDT
+EE4342	Hệ thống điều khiển thông minh	3	5.5	0.6	NULL	TDDT
+EE4344	Kỹ thuật Robot	2	3.5	0.6	NULL	TDDT
+EE4346	Thị giác máy tính	2	5	0.6	NULL	TDDT
+EE4348	Kiến trúc và giao thức truyền thông trong IoT	3	4	0.7	NULL	TDDT
+EE4361	PLC trong điều khiển chuyển động	2	3.5	0.5	NULL	TDDT
+EE4362	Hệ thống điều khiển máy CNC	2	3	0.7	NULL	TDDT
+EE4364	DCS & SCADA	2	5	0.6	NULL	TDDT
+EE4401	Thiết kế hệ điều khiển nhúng	3	5.5	0.5	NULL	TDDT
+EE4401E	Thiết kế hệ điều khiển nhúng (BTL)	3	5	0.6	NULL	TDDT
+EE4421	Trang bị điện-điện tử các máy công nghiệp	2	4	0.5	NULL	TDDT
+EE4422	Vi điều khiển và ứng dụng	3	5	0.7	NULL	TDDT
+EE4430	Mô hình hóa và mô phỏng hệ thống điều khiển	2	3	0.7	NULL	TDDT
+EE4431	Cơ sở của hệ mờ và mạng nơ ron	2	3	0.6	NULL	TDDT
+EE4435	Hệ thống điều khiển số	3	6	0.7	NULL	TDDT
+EE4435E	Hệ thống điều khiển số	3	4.5	0.7	NULL	TDDT
+EE4451	Điều khiển học lặp	2	4.5	0.7	NULL	TDDT
+EE4460	Thị trường điện	2	5	0.7	NULL	TDDT
+EE4461	Tích hợp các nguồn năng lượng mới	2	3	0.6	NULL	TDDT
+EE4462	Nhà máy điện gió và mặt trời	2	4	0.7	NULL	TDDT
+EE4463	Phân tích các dự án năng lượng	2	3.5	0.5	NULL	TDDT
+EE4464	Quản lý phụ tải (DSM)	2	4	0.5	EE2022	TDDT
+EE4465	Các hệ thống cung cấp điện CN và dân dụng	3	6	0.5	NULL	TDDT
+EE4466	Lưới điện thông minh	2	3.5	0.6	NULL	TDDT
+EE4467	Phân tích độ tin cậy	2	4	0.7	NULL	TDDT
+EE4502	Kỹ thuật cảm biến	3	5	0.6	NULL	TDDT
+EE4524	Đo và kiểm tra không phá hủy	2	3	0.6	NULL	TDDT
+EE4552	Mạng cảm biến không dây	2	5	0.6	NULL	TDDT
+EE4560	Công nghệ chế tạo thiết bị điện công nghiệp	2	3.5	0.6	NULL	TDDT
+EE4561	Thiết kế máy điện công nghiệp	2	4.5	0.7	NULL	TDDT
+EE4562	Thiết kế thiết bị đóng cắt và bảo vệ	2	5	0.5	NULL	TDDT
+EE4563	Thiết kế thiết bị điều khiển máy điện	2	4	0.7	EE3550E	TDDT
+EE4564	Máy điện nâng cao	2	4.5	0.6	NULL	TDDT
+EE4565	Thiết bị đóng cắt hiện đại	2	5	0.6	NULL	TDDT
+EE4566	Tối ưu hóa máy điện	2	4	0.5	NULL	TDDT
+EE4567	Kỹ thuật tích trữ năng lượng	2	3.5	0.7	NULL	TDDT
+EE4568	Máy điện trong năng lượng tái tạo	2	4	0.6	NULL	TDDT
+EE4571	Giám sát, chuẩn đoán sự cố trong TBĐ	2	3.5	0.6	NULL	TDDT
+EE4572	Bảo trì dự báo	2	3	0.6	NULL	TDDT
+EE4573	Đánh giá tuổi thọ và độ tin cậy của TBĐ	2	4.5	0.5	NULL	TDDT
+EE4602	Vi xử lý	3	4.5	0.7	NULL	TDDT
+EE4604	Các hệ thống thời gian thực	2	4.5	0.6	EE1024	TDDT
+EE4605	Mô hình hoá các hệ thống rời rạc	2	5	0.6	EE3427	TDDT
+EE4607	Robot công nghiệp	3	5	0.7	NULL	TDDT
+EE4608	Đo và điều khiển công nghiệp	3	5.5	0.7	NULL	TDDT
+EE4609	Hệ thống điều khiển và giám sát	3	4	0.5	NULL	TDDT
+EE4611	An ninh và quản trị mạng	3	5	0.7	EE4451	TDDT
+EE4612	Mạng cục bộ công nghiệp	3	5	0.7	NULL	TDDT
+EE4616	Cảm biến và đo lường thông minh	3	5	0.5	NULL	TDDT
+EE4672	Kiểm toán năng lượng	2	4	0.6	NULL	TDDT
+EE4829	Điều khiển nối mạng	2	4	0.7	NULL	TDDT
+EE4900	Đồ án tốt nghiệp cử nhân	6	9	0.7	NULL	TDDT
+EE4900E	Đồ án tốt nghiệp cử nhân	6	8	0.5	EE4616	TDDT
+EE4910	Đồ án tốt nghiệp cử nhân	6	7	0.7	NULL	TDDT
+EE4920	Đồ án nghiên cứu Cử nhân (Kỹ thuật điện)	8	10.5	0.5	EE4263	TDDT
+EE4921	Đồ án nghiên cứu Cử nhân (Kỹ thuật Điều khiển và Tự động hóa)	8	9	0.7	NULL	TDDT
+EE4922	Đồ án nghiên cứu Cử nhân (CTTN ĐKTĐ)	8	9.5	0.6	NULL	TDDT
+EE4922E	Đồ án nghiên cứu Cử nhân (CTTT ĐKTĐH)	8	10.5	0.5	NULL	TDDT
+EE5001	Thực tập tốt nghiệp	3	5	0.6	NULL	TDDT
+EE5002	Đồ án tốt nghiệp	9	12	0.6	NULL	TDDT
+EE5010	Đồ án tốt nghiệp kỹ sư KTĐ	9	10.5	0.7	NULL	TDDT
+EE5020	Đồ án tốt nghiệp kỹ sư (ĐK&TDH)	9	12	0.5	NULL	TDDT
+EE5021	Thực tập tốt nghiệp	3	4	0.7	NULL	TDDT
+EE5060	Sử dụng máy tính trong phân tích HTĐ	3	5.5	0.6	NULL	TDDT
+EE5100	Thực tập tốt nghiệp (KTĐ)	3	5.5	0.5	EE4064	TDDT
+EE5160	Vận hành nhà máy điện	2	5	0.7	NULL	TDDT
+EE5200	Thực tập tốt nghiệp (ĐK&TĐH)	3	5.5	0.5	NULL	TDDT
+EE5201	Đồ án tốt nghiệp kỹ sư	9	11	0.5	NULL	TDDT
+EE5232	SCADA trong hệ thống điện	2	3	0.7	NULL	TDDT
+EE5601	Thực tập tốt nghiệp 	4	5	0.5	NULL	TDDT
+EM1010	Quản trị học đại cương	2	4.5	0.7	NULL	KKTVQL
+EM1014	Quản trị học	2	4.5	0.7	NULL	KKTVQL
+EM1100	Kinh tế vi mô đại cương	3	4.5	0.7	NULL	KKTVQL
+EM1170	Pháp luật đại cương	2	3	0.6	NULL	KKTVQL
+EM1180	Văn hóa kinh doanh và tinh thần khởi nghiệp	2	3	0.6	NULL	KKTVQL
+EM1322	Academic Writing and Presentation	3	4.5	0.6	NULL	KKTVQL
+EM1422	Academic Writing and Presentation	3	4	0.7	EM1014	KKTVQL
+EM1522	Academic Writing and Presentation	3	4.5	0.6	NULL	KKTVQL
+EM1622	Academic Writing and Presentation	3	5.5	0.7	NULL	KKTVQL
+EM1722	Academic Writing and Presentation	3	5	0.5	NULL	KKTVQL
+EM2104	Quản trị doanh nghiệp	2	4	0.7	NULL	KKTVQL
+EM2105	Kỹ thuật nghiệp vụ ngoại thương	2	4.5	0.6	NULL	KKTVQL
+EM2105E	Kỹ thuật nghiệp vụ ngoại thương	2	4	0.6	NULL	KKTVQL
+EM2120	Kinh tế và quản lý công nghiệp	2	3.5	0.7	EM1100	KKTVQL
+EM2131	Toán ứng dụng trong kinh doanh và thương mại	3	5.5	0.7	NULL	KKTVQL
+EM2132	Toán kinh tế II	2	4.5	0.6	NULL	KKTVQL
+EM2300	Tin học kinh tế cơ sở	2	4	0.6	NULL	KKTVQL
+EM2301E	Tin học kinh tế đại cương	3	4.5	0.6	NULL	KKTVQL
+EM2420	Kỹ thuật hệ thống công nghiệp	3	5.5	0.7	NULL	KKTVQL
+EM2713	Kế toán tài chính 1 (BTL)	3	5	0.7	NULL	KKTVQL
+EM2730	Báo cáo tài chính	2	5	0.7	NULL	KKTVQL
+EM2800E	Quản trị quy trình kinh doanh	3	6	0.5	NULL	KKTVQL
+EM3016	Kinh tế công nghiệp	3	6	0.7	NULL	KKTVQL
+EM3101	Kinh tế đại cương	2	5	0.6	NULL	KKTVQL
+EM3102	Kinh tế đại cương	3	5.5	0.7	EM1170	KKTVQL
+EM3130	Kinh tế lượng	3	5.5	0.5	NULL	KKTVQL
+EM3140	Kinh tế quốc tế	2	5	0.7	NULL	KKTVQL
+EM3190	Hành vi của tổ chức	2	5	0.5	NULL	KKTVQL
+EM3190E	Hành vi tổ chức	2	4.5	0.5	EM1014	KKTVQL
+EM3199	Đồ án ứng dụng Quản trị học vào kinh doanh	1	2	0.6	NULL	KKTVQL
+EM3211	Nguyên lý marketing	3	4.5	0.6	EM2800E	KKTVQL
+EM3211E	Nguyên lý marketing	3	4	0.6	NULL	KKTVQL
+EM3222	Luật kinh doanh	2	3	0.7	NULL	KKTVQL
+EM3230	Thống kê ứng dụng	3	4.5	0.6	EM3199	KKTVQL
+EM3230E	Thống kê ứng dụng	3	6	0.5	EM1422	KKTVQL
+EM3231E	Thống kê ứng dụng và thiết kế lấy mẫu	3	5	0.6	NULL	KKTVQL
+EM3300	Quản trị quy trình kinh doanh	2	4.5	0.5	NULL	KKTVQL
+EM3301	Đạo đức kinh doanh	2	5	0.7	NULL	KKTVQL
+EM3301E	Đạo đức kinh doanh	2	4.5	0.5	EM3211	KKTVQL
+EM3310	Mô phỏng hoạt động kinh doanh	2	5	0.7	NULL	KKTVQL
+EM3414	Tổ chức lao động 	2	5	0.5	NULL	KKTVQL
+EM3417	Quản trị sản xuất (BTL)	3	5	0.6	NULL	KKTVQL
+EM3417E	Quản trị sản xuất (BTL)	3	4	0.6	NULL	KKTVQL
+EM3419	Hệ thống sản xuất tích hợp máy	3	6	0.7	NULL	KKTVQL
+EM3432	Quản trị chuỗi cung ứng	3	5	0.6	NULL	KKTVQL
+EM3500	Nguyên lý kế toán	3	5	0.7	NULL	KKTVQL
+EM3500E	Nguyên lý kế toán	3	6	0.7	NULL	KKTVQL
+EM3511	Lý thuyết tài chính tiền tệ	2	3.5	0.6	NULL	KKTVQL
+EM3512	Thị trường và các thể chế tài chính	3	4	0.6	NULL	KKTVQL
+EM3519	Tài chính doanh nghiệp	3	6	0.6	NULL	KKTVQL
+EM3519E	Tài chính doanh nghiệp	3	4.5	0.5	NULL	KKTVQL
+EM3526	Anh văn chuyên ngành Kế toán	2	3	0.7	EM1014	KKTVQL
+EM3527	Anh văn chuyên ngành TCNH	2	5	0.7	NULL	KKTVQL
+EM3535E	Phân tích tài chính	3	5.5	0.5	NULL	KKTVQL
+EM3661	Kinh tế năng lượng	2	5	0.7	EM1722	KKTVQL
+EM3810E	Quản trị kết quả hoạt động doang nghiệp (BTL)	3	5.5	0.6	NULL	KKTVQL
+EM3820E	Phân tích định hướng	3	5.5	0.6	NULL	KKTVQL
+EM4014	Tổ chức lao động II	3	4	0.5	NULL	KKTVQL
+EM4017	Marketing dịch vụ tài chính	2	5	0.7	NULL	KKTVQL
+EM4020	Tín dụng NHTM ứng dụng	2	4	0.5	NULL	KKTVQL
+EM4027	Kiểm toán hoạt động ứng dụng	2	4.5	0.5	EM2105	KKTVQL
+EM4028	Thị trường năng lượng II	3	5	0.6	EM2120	KKTVQL
+EM4030	Kế toán thuế II	2	3	0.7	NULL	KKTVQL
+EM4033	Quản trị rủi ro tài chính	2	4.5	0.5	NULL	KKTVQL
+EM4037	Định mức lao động II	2	4	0.5	NULL	KKTVQL
+EM4043	Quản lý sử dụng năng lượng	3	4	0.6	NULL	KKTVQL
+EM4046	Cải tiến năng suất II	3	5	0.5	NULL	KKTVQL
+EM4060	Tâm lý học quản lý ứng dụng	2	3.5	0.5	NULL	KKTVQL
+EM4071	Quan hệ lao động II	2	3	0.5	NULL	KKTVQL
+EM4210	Khởi sự kinh doanh	3	5.5	0.7	NULL	KKTVQL
+EM4212	Phân tích kinh doanh	3	5	0.5	NULL	KKTVQL
+EM4216	Phương pháp nghiên cứu trong KD	2	5	0.6	NULL	KKTVQL
+EM4218	Hệ thống thông tin quản lý	3	4	0.7	NULL	KKTVQL
+EM4218E	Hệ thống thông tin quản lý	3	5	0.6	NULL	KKTVQL
+EM4313	Quản trị Marketing	3	4.5	0.5	NULL	KKTVQL
+EM4314	Hành vi người tiêu dùng	2	4	0.6	EM3130	KKTVQL
+EM4315E	Nghiên cứu marketing	3	5.5	0.6	EM3310	KKTVQL
+EM4317	Marketing dịch vụ	2	4	0.6	NULL	KKTVQL
+EM4323	Quản trị thương hiệu	2	4.5	0.5	NULL	KKTVQL
+EM4331	Marketing kỹ thuật số	2	3.5	0.6	NULL	KKTVQL
+EM4334E	Phân tích marketing (BTL)	3	5	0.5	NULL	KKTVQL
+EM4335	Nghiên cứu marketing	2	3.5	0.6	EM1170	KKTVQL
+EM4336	Thương mại điện tử	2	3	0.7	EM4216	KKTVQL
+EM4340	Chuyên đề (BTL)	3	4.5	0.5	EM3190E	KKTVQL
+EM4350	Thực tập tốt nghiệp	2	4	0.6	NULL	KKTVQL
+EM4351	Khóa luận tốt nghiệp	6	8	0.7	NULL	KKTVQL
+EM4351E	Khóa luận tốt nghiệp	6	8	0.5	NULL	KKTVQL
+EM4352E	Khóa luận nghiên cứu	8	10.5	0.7	NULL	KKTVQL
+EM4353	Đồ án nghiên cứu Cử nhân (Quản trị kinh doanh KH)	8	10.5	0.5	NULL	KKTVQL
+EM4410E	Sản xuất tinh gọn	2	4	0.7	EM2104	KKTVQL
+EM4411	Anh văn chuyên ngành QLCN	2	4	0.6	NULL	KKTVQL
+EM4412	Quản trị chất lượng	2	4	0.7	NULL	KKTVQL
+EM4412E	Quản trị chất lượng	2	4.5	0.7	NULL	KKTVQL
+EM4413	Quản trị nhân lực	3	5	0.7	NULL	KKTVQL
+EM4413E	Quản trị nhân lực	3	5	0.5	NULL	KKTVQL
+EM4416	Quản trị chiến lược	3	5	0.7	NULL	KKTVQL
+EM4416E	Quản trị chiến lược (BTL)	3	6	0.5	NULL	KKTVQL
+EM4420	Quản lý bảo trì công nghiệp	2	3	0.5	NULL	KKTVQL
+EM4421	Mô phỏng hệ thống	2	4	0.7	NULL	KKTVQL
+EM4423	Thiết kế hệ thống sản xuất	2	4	0.7	NULL	KKTVQL
+EM4424E	Mô phỏng hệ thống sản xuất, dịch vụ	3	4	0.7	EM3500E	KKTVQL
+EM4425	Mô hình tối ưu	2	3.5	0.5	NULL	KKTVQL
+EM4429	Quản trị mua sắm	2	3	0.5	NULL	KKTVQL
+EM4429E	Quản trị mua sắm	2	5	0.7	NULL	KKTVQL
+EM4430	Quản trị đổi mới	2	4	0.7	NULL	KKTVQL
+EM4430E	Quản trị đổi mới	3	5	0.6	NULL	KKTVQL
+EM4431E	Quản trị Logistics	3	5	0.5	NULL	KKTVQL
+EM4432E	Quản trị chuỗi cung ứng	3	5.5	0.7	NULL	KKTVQL
+EM4435	Quản trị dự án	3	4	0.6	NULL	KKTVQL
+EM4440	Chuyên đề (BTL)	3	5.5	0.5	NULL	KKTVQL
+EM4443	Quản lý dự trữ và kho hàng (BTL)	3	4	0.7	NULL	KKTVQL
+EM4444E	Mô hình tối ưu	3	5	0.6	NULL	KKTVQL
+EM4445	Quản lý vận tải	2	3.5	0.5	NULL	KKTVQL
+EM4445E	Quản lý vận tải	2	4	0.7	NULL	KKTVQL
+EM4446	Cải tiến năng suất (BTL)	3	6	0.7	NULL	KKTVQL
+EM4446E	Cải tiến năng suất (BTL)	3	4.5	0.6	NULL	KKTVQL
+EM4448	Kiểm soát chất lượng	2	3	0.5	NULL	KKTVQL
+EM4450	Thực tập tốt nghiệp	2	3.5	0.6	NULL	KKTVQL
+EM4451	Khóa luận tốt nghiệp	6	7.5	0.7	NULL	KKTVQL
+EM4457	Lập kế hoạch và điều độ sản xuất (BTL)	3	4.5	0.6	NULL	KKTVQL
+EM4522	Quản trị tài chính (BTL)	3	5.5	0.5	NULL	KKTVQL
+EM4526	Đầu tư tài chính	3	5	0.6	NULL	KKTVQL
+EM4526E	Đầu tư tài chính	3	6	0.5	NULL	KKTVQL
+EM4527	Kế toán doanh nghiệp	3	4.5	0.6	NULL	KKTVQL
+EM4528	Bảo hiểm	2	5	0.5	NULL	KKTVQL
+EM4531	Thị trường chứng khoán	2	4	0.7	NULL	KKTVQL
+EM4533	Quản trị rủi ro	2	4	0.6	NULL	KKTVQL
+EM4534E	Quản trị rủi ro	3	5	0.5	NULL	KKTVQL
+EM4535	Phân tích tài chính	2	3	0.6	NULL	KKTVQL
+EM4536	Kiểm toán cơ bản	3	5.5	0.7	NULL	KKTVQL
+EM4540	Chuyên đề (BTL)	3	5.5	0.7	NULL	KKTVQL
+EM4541	Nghiệp vụ ngân hàng	2	4	0.5	NULL	KKTVQL
+EM4542	Thuế và hệ thống thuế	2	3.5	0.5	NULL	KKTVQL
+EM4550	Thực tập tốt nghiệp	2	3	0.5	NULL	KKTVQL
+EM4551	Khóa luận tốt nghiệp	6	9	0.7	NULL	KKTVQL
+EM4611	Anh văn chuyên ngành KTNL	2	3	0.5	NULL	KKTVQL
+EM4615	Lý thuyết giá năng lượng	3	4	0.7	EM4536	KKTVQL
+EM4617	Kinh tế vận hành hệ thống điện	3	6	0.6	NULL	KKTVQL
+EM4624	Kinh tế dầu khí	3	4	0.6	NULL	KKTVQL
+EM4625	Kinh tế tài nguyên & môi trường	2	3.5	0.5	NULL	KKTVQL
+EM4628	Thị trường năng lượng	3	4	0.7	NULL	KKTVQL
+EM4629	Quy hoạch phát triển năng lượng	3	5	0.7	NULL	KKTVQL
+EM4632	Chính sách năng lượng	3	5	0.7	NULL	KKTVQL
+EM4633	Phân tích và dự báo nhu cầu năng lượng (BTL)	3	5.5	0.6	EM2300	KKTVQL
+EM4640	Chuyên đề (BTL)	3	6	0.7	NULL	KKTVQL
+EM4641	Mô hình tài chính cho các dự án năng lượng	3	5	0.6	NULL	KKTVQL
+EM4643	Quản lý sử dụng năng lượng trong doanh nghiệp	3	4.5	0.6	NULL	KKTVQL
+EM4650	Thực tập tốt nghiệp	2	4	0.7	NULL	KKTVQL
+EM4651	Khóa luận tốt nghiệp	6	8.5	0.7	NULL	KKTVQL
+EM4652	Đồ án nghiên cứu Cử nhân (Quản lý công nghiệp)	8	10.5	0.7	NULL	KKTVQL
+EM4710	Kế toán máy	2	3	0.6	EM3810E	KKTVQL
+EM4716	Kế toán quản trị	3	4.5	0.5	EM3820E	KKTVQL
+EM4716E	Kế toán quản trị	3	5	0.7	NULL	KKTVQL
+EM4718	Kế toán các doanh nghiệp đặc thù	2	4	0.5	NULL	KKTVQL
+EM4719	Kế toán hành chính sự nghiệp	2	3.5	0.5	NULL	KKTVQL
+EM4724	Kế toán tài chính 2	2	4	0.6	EM3419	KKTVQL
+EM4727	Kiểm toán hoạt động	2	4	0.7	NULL	KKTVQL
+EM4728	Kiểm soát nội bộ	2	3.5	0.7	NULL	KKTVQL
+EM4729	Kiểm toán tài chính	3	4	0.7	NULL	KKTVQL
+EM4730	Kế toán thuế	2	3.5	0.6	EM4430E	KKTVQL
+EM4735	Tổ chức công tác kế toán (BTL)	3	5	0.5	NULL	KKTVQL
+EM4736	Kế toán quản trị	3	5	0.7	NULL	KKTVQL
+EM4740	Chuyên đề (BTL)	3	6	0.5	EM4526E	KKTVQL
+EM4750	Thực tập tốt nghiệp	2	3.5	0.5	NULL	KKTVQL
+EM4751	Khóa luận tốt nghiệp	6	8	0.6	NULL	KKTVQL
+EM4810E	Dự báo kinh doanh	3	5.5	0.5	NULL	KKTVQL
+ET2000E	Nhập môn kỹ thuật điện-điện tử	3	5	0.6	NULL	TDDT
+ET2010	Kỹ thuật điện tử	3	4	0.5	NULL	TDDT
+ET2012	Kỹ thuật điện tử	2	3.5	0.7	NULL	TDDT
+ET2014	Kỹ thuật điện tử	2	3	0.7	NULL	TDDT
+ET2021	Thực tập cơ bản	2	4	0.5	NULL	TDDT
+ET2022	Technical Writing and Presentation	3	4	0.5	NULL	TDDT
+ET2030	Ngôn ngữ lập trình	3	6	0.7	NULL	TDDT
+ET2030E	Ngôn ngữ lập trình	3	6	0.6	NULL	TDDT
+ET2031	Kỹ thuật lập trình C/C++	2	5	0.6	NULL	TDDT
+ET2031E	Kỹ thuật lập trình C/C++	2	4	0.7	ET2000E	TDDT
+ET2040	Cấu kiện điện tử	3	4	0.5	NULL	TDDT
+ET2040E	Linh kiện điện tử bán dẫn	3	5	0.5	ET2010	TDDT
+ET2041E	Cấu kiện điện tử	3	6	0.5	NULL	TDDT
+ET2042	Linh kiện điện tử	2	3.5	0.7	NULL	TDDT
+ET2050	Lý thuyết mạch	3	5.5	0.5	NULL	TDDT
+ET2050E	Lý thuyết mạch	3	5.5	0.7	NULL	TDDT
+ET2060	Tín hiệu và hệ thống	3	6	0.7	NULL	TDDT
+ET2060E	Tín hiệu và hệ thống	3	5	0.6	NULL	TDDT
+ET2070	Cơ sở truyền tin	2	4	0.6	NULL	TDDT
+ET2072	Lý thuyết thông tin	2	4	0.6	NULL	TDDT
+ET2072E	Lý thuyết thông tin	2	3	0.6	ET2050E	TDDT
+ET2080	Cơ sở kỹ thuật đo lường	2	5	0.6	NULL	TDDT
+ET2080E	Cơ sở kỹ thuật đo lường	2	4	0.5	NULL	TDDT
+ET2082	Đo lường điện tử	3	6	0.5	NULL	TDDT
+ET2100	Cấu trúc dữ liệu và giải thuật	2	5	0.6	NULL	TDDT
+ET2101E	Cấu trúc dữ liệu và giải thuật	2	5	0.6	NULL	TDDT
+ET2105E	Data Structures and Algorithms	2	4.5	0.6	NULL	TDDT
+ET3016	Tín hiệu và hệ thống	3	4.5	0.7	NULL	TDDT
+ET3046	Cơ sinh	3	6	0.7	NULL	TDDT
+ET3046E	Cơ sinh	3	5	0.6	NULL	TDDT
+ET3096	Mạch điện tử I	3	5.5	0.7	NULL	TDDT
+ET3116	Kỹ thuật vi xử lý	4	6.5	0.5	NULL	TDDT
+ET3176	Thiết kế kỹ thuật y sinh I	1	4	0.6	NULL	TDDT
+ET3176E	Thiết kế kỹ thuật y sinh I	1	2.5	0.7	NULL	TDDT
+ET3178	Thiết kế kỹ thuật y sinh II	1	3.5	0.6	NULL	TDDT
+ET3178E	Thiết kế kỹ thuật y sinh II	1	3	0.7	NULL	TDDT
+ET3180	Thông tin vô tuyến	3	4.5	0.7	NULL	TDDT
+ET3210	Trường điện từ	3	5	0.7	NULL	TDDT
+ET3210E	Trường điện từ	3	5	0.6	NULL	TDDT
+ET3220	Điện tử số	3	4	0.5	NULL	TDDT
+ET3220E	Thiết kế hệ thống số I	4	7	0.6	ET2012	TDDT
+ET3221E	Điện tử số	3	4.5	0.7	NULL	TDDT
+ET3230	Điện tử tương tự I	3	4	0.7	NULL	TDDT
+ET3230E	Điện tử tương tự I	4	6	0.5	NULL	TDDT
+ET3231	Điện tử tương tự	3	6	0.6	NULL	TDDT
+ET3231E	Điện tử tương tự	3	5.5	0.6	NULL	TDDT
+ET3240	Điện tử tương tự II	3	5	0.7	NULL	TDDT
+ET3240E	Thiết kế mạch tương tự II	4	6	0.7	NULL	TDDT
+ET3241	Điện tử tương tự II	2	5	0.5	NULL	TDDT
+ET3250	Thông tin số	3	5.5	0.7	NULL	TDDT
+ET3250E	Cơ sở hệ thống truyền thông	3	6	0.7	NULL	TDDT
+ET3260	Kỹ thuật phần mềm ứng dụng	2	3	0.6	NULL	TDDT
+ET3260E	Kỹ thuật phần mềm ứng dụng	2	5	0.5	NULL	TDDT
+ET3262	Tư duy công nghệ và thiết kế kỹ thuật	2	4	0.6	ET2080	TDDT
+ET3270	Thực tập kỹ thuật	2	4.5	0.6	NULL	TDDT
+ET3270E	Thực tập kỹ thuật	2	4.5	0.7	ET2022	TDDT
+ET3280	Anten và truyền sóng	2	4.5	0.6	NULL	TDDT
+ET3280E	Anten - truyền sóng	3	6	0.5	NULL	TDDT
+ET3290	Đồ án thiết kế I	2	5	0.5	NULL	TDDT
+ET3291	Đồ án thiết kế phần mềm nhúng	2	4	0.5	NULL	TDDT
+ET3291E	Đồ án thiết kế I	2	5	0.6	NULL	TDDT
+ET3300	Kỹ thuật vi xử lý	3	4	0.5	NULL	TDDT
+ET3300E	Thiết kế hệ thống số 2	4	6.5	0.7	NULL	TDDT
+ET3302E	Kỹ thuật vi xử lý	3	6	0.7	NULL	TDDT
+ET3310	Lý thuyết mật mã	3	5.5	0.7	NULL	TDDT
+ET3310E	Lý thuyết mật mã	3	5	0.7	NULL	TDDT
+ET3311	An toàn thông tin	3	6	0.7	NULL	TDDT
+ET3901	Thông tin vô tuyến	3	5.5	0.7	NULL	TDDT
+ET4010	Đồ án thiết kế II	2	5	0.5	NULL	TDDT
+ET4011E	Đồ án thiết kế II	2	5	0.5	NULL	TDDT
+ET4012	Đồ án thiết kế thiết bị nhúng	2	3.5	0.7	NULL	TDDT
+ET4020	Xử lý tín hiệu số	3	4.5	0.7	NULL	TDDT
+ET4020E	Xử lý số tín hiệu	3	5	0.7	NULL	TDDT
+ET4031	Thiết kế, tổng hợp hệ thống số	2	4.5	0.5	NULL	TDDT
+ET4032	Thiết kế IC tương tự	2	3	0.6	NULL	TDDT
+ET4041	Kiến trúc máy tính	2	3.5	0.6	NULL	TDDT
+ET4060	Phân tích và thiết kế hướng đối tượng	3	5	0.6	NULL	TDDT
+ET4070	Cơ sở truyền số liệu	3	6	0.7	NULL	TDDT
+ET4080E	Cơ sở kỹ thuật mạng	3	4	0.7	NULL	TDDT
+ET4081	Mạng thông tin	2	4	0.6	NULL	TDDT
+ET4091	Kỹ thuật siêu cao tần	3	6	0.7	ET4011E	TDDT
+ET4092	Kỹ thuật siêu cao tần	2	4	0.6	NULL	TDDT
+ET4100	Cơ sở điện sinh học	2	4	0.6	NULL	TDDT
+ET4100E	Cơ sở điện sinh học	2	4	0.6	NULL	TDDT
+ET4110	Cảm biến và KT đo lường y sinh	3	5	0.7	ET2014	TDDT
+ET4120	Thiết bị điện tử y sinh I	2	4.5	0.6	NULL	TDDT
+ET4140	Định vị và dẫn đường điện tử	3	5	0.6	NULL	TDDT
+ET4151	Mạng thông tin hàng không	2	4	0.6	NULL	TDDT
+ET4216	Thiết kế Kỹ thuật y sinh III	1	2	0.7	NULL	TDDT
+ET4230	Mạng máy tính	3	4.5	0.5	NULL	TDDT
+ET4231	Mạng máy tính và IoT	3	5	0.5	NULL	TDDT
+ET4240E	Truyền thông vô tuyến	3	4.5	0.7	NULL	TDDT
+ET4245	Trí tuệ nhân tạo và ứng dụng	3	5	0.6	NULL	TDDT
+ET4250	Hệ thống viễn thông	3	4	0.6	ET3240	TDDT
+ET4260	Đa phương tiện	2	5	0.6	NULL	TDDT
+ET4290	Hệ điều hành	2	3	0.6	NULL	TDDT
+ET4291	Hệ điều hành	3	5	0.6	NULL	TDDT
+ET4292	Hệ điều hành nhúng	3	4.5	0.6	ET3221E	TDDT
+ET4311	Thông tin quang sợi	2	3	0.5	NULL	TDDT
+ET4321	Nguyên lý siêu cao tần	3	5	0.5	NULL	TDDT
+ET4330	Thông tin di động	2	5	0.6	NULL	TDDT
+ET4340	Thiết kế VLSI	3	4.5	0.7	NULL	TDDT
+ET4361	Hệ thống nhúng và thiết kế giao tiếp nhúng	3	4.5	0.5	NULL	TDDT
+ET4370	Kỹ thuật truyền hình	2	3	0.5	ET2082	TDDT
+ET4380	Thông tin vệ tinh	2	3	0.7	NULL	TDDT
+ET4411	Quy hoạch và quản lý mạng viễn thông	2	5	0.7	NULL	TDDT
+ET4430	Lập trình nâng cao	2	3.5	0.6	NULL	TDDT
+ET4435	Lập trình song song	2	4.5	0.7	NULL	TDDT
+ET4450	Giải phẫu và sinh lý học	2	4.5	0.6	NULL	TDDT
+ET4456	Giải phẫu và sinh lý	5	6.5	0.6	NULL	TDDT
+ET4456E	Giải phẫu và sinh lý	3	5.5	0.5	NULL	TDDT
+ET4471	Mạch xử lý tín hiệu y sinh	3	6	0.6	NULL	TDDT
+ET4480	Công nghệ chẩn đoán hình ảnh I	3	5	0.6	NULL	TDDT
+ET4486	Kỹ thuật chẩn đoán hình ảnh	3	5.5	0.5	NULL	TDDT
+ET4516	Cơ sở thiết bị y sinh	3	4.5	0.5	NULL	TDDT
+ET4526	Thiết bị điện tử y tế	3	5	0.5	NULL	TDDT
+ET4550	An toàn bức xạ và an toàn điện trong y tế	2	4	0.6	NULL	TDDT
+ET4571	Xử lý tín hiệu y sinh số	2	4	0.7	NULL	TDDT
+ET4591	Xử lý ảnh số	2	4.5	0.6	NULL	TDDT
+ET4611	Điện tử công suất	2	4	0.6	ET4060	TDDT
+ET4710	Lập trình ứng dụng di động	2	3	0.7	NULL	TDDT
+ET4750	Kỹ thuật lập trình nội dung số	2	4	0.7	NULL	TDDT
+ET4900	Đồ án tốt nghiệp cử nhân	6	7	0.6	NULL	TDDT
+ET4900E	Đồ án tốt nghiệp cử nhân	6	7.5	0.7	NULL	TDDT
+ET4920	Đồ án nghiên cứu Cử nhân (KT Điện tử - Viễn thông)	8	11	0.5	NULL	TDDT
+ET4920E	Đồ án nghiên cứu Cử nhân (CTTT Kỹ thuật y sinh)	8	9	0.5	NULL	TDDT
+ET4921E	Đồ án nghiên cứu Cử nhân (CTTT ĐTVT)	8	11	0.5	NULL	TDDT
+ET4922	Đồ án nghiên cứu Cử nhân (CTTN Điện tử truyền thông)	8	10	0.5	NULL	TDDT
+ET5011	Thực tập cuối khóa	3	5	0.5	NULL	TDDT
+ET5020	Đồ án thiết kế III	3	5	0.5	ET4450	TDDT
+ET5026	Thực tập tốt nghiệp	4	6	0.7	NULL	TDDT
+ET5080E	Thiết kế số sử dụng VHDL	3	4	0.6	NULL	TDDT
+ET5100E	Thực tập tốt nghiệp	3	4.5	0.7	NULL	TDDT
+ET5111	Đồ án tốt nghiệp kỹ sư	9	11	0.6	NULL	TDDT
+ET5126	Thiết kế tốt nghiệp	1	2	0.7	NULL	TDDT
+ET5260	Định vị sử dụng vệ tinh	3	5	0.5	NULL	TDDT
+ET5270	Viễn thám và GIS	3	4.5	0.5	NULL	TDDT
+EV2020	Technical Writing and Presentation	3	4	0.6	NULL	VKHVCNMT
+EV2101	Thủy lực trong công nghệ môi trường	3	4	0.7	NULL	VKHVCNMT
+EV2102	Truyền nhiệt trong công nghệ môi trường	2	3.5	0.5	NULL	VKHVCNMT
+EV2212	Các quá trình sản xuất cơ bản	2	4.5	0.5	NULL	VKHVCNMT
+EV2225	Sinh thái học môi trường	2	4.5	0.7	NULL	VKHVCNMT
+EV2251	Các quá trình cơ bản trong CNMT I	2	3	0.5	NULL	VKHVCNMT
+EV3006	Con người và môi trường	1	2.5	0.5	NULL	VKHVCNMT
+EV3103	Chuyển khối trong công nghệ môi trường	3	5	0.7	NULL	VKHVCNMT
+EV3104	Kỹ thuật phản ứng	2	3.5	0.5	NULL	VKHVCNMT
+EV3105	Hóa sinh môi trường	3	6	0.6	NULL	VKHVCNMT
+EV3106	Hóa học môi trường	3	6	0.5	NULL	VKHVCNMT
+EV3107	Vi sinh môi trường	3	6	0.7	NULL	VKHVCNMT
+EV3108	Đồ án I	2	5	0.6	NULL	VKHVCNMT
+EV3109	Kỹ thuật kiểm soát ô nhiễm không khí	3	6	0.5	NULL	VKHVCNMT
+EV3118	Kỹ thuật xử lý nước thải	3	5.5	0.6	NULL	VKHVCNMT
+EV3121	Độc học môi trường	2	4	0.6	NULL	VKHVCNMT
+EV3224	Phân tích chất lượng môi trường	3	5	0.6	NULL	VKHVCNMT
+EV3225	Quản lý chất thải nguy hại	2	3	0.7	NULL	VKHVCNMT
+EV3226	Quản lý chất thải rắn	3	5	0.7	EV3121	VKHVCNMT
+EV3227	Mô hình hóa môi trường	2	3.5	0.6	NULL	VKHVCNMT
+EV3301	Kỹ thuật bảo vệ môi trường công nghiệp	2	3.5	0.5	NULL	VKHVCNMT
+EV4113	Phục hồi ô nhiễm đất	2	4.5	0.5	EV2101	VKHVCNMT
+EV4114	Ô nhiễm không khí trong nhà	2	4	0.7	NULL	VKHVCNMT
+EV4115	Xử lý nước thải bằng các quá trình tự nhiên	2	4	0.6	NULL	VKHVCNMT
+EV4118	Quản lý và vận hành hệ thống xử lý chất thải	2	3.5	0.5	NULL	VKHVCNMT
+EV4119	Kỹ thuật xử lý nước cấp	2	3.5	0.7	NULL	VKHVCNMT
+EV4132	Chuyên đề công nghệ môi trường I	2	4.5	0.6	NULL	VKHVCNMT
+EV4222	Quan trắc môi trường	3	6	0.6	NULL	VKHVCNMT
+EV4223	Đánh giá tác động môi trường	2	3.5	0.7	EV3108	VKHVCNMT
+EV4224	An toàn sức khỏe nghề nghiệp	2	4	0.6	NULL	VKHVCNMT
+EV4225	Nguyên lý sản xuất sạch hơn	2	4	0.6	NULL	VKHVCNMT
+EV4229	Luật và chính sách môi trường	2	5	0.6	NULL	VKHVCNMT
+EV4311	Đồ án II	2	5	0.7	NULL	VKHVCNMT
+EV4321	Đồ án tốt nghiệp cử nhân	6	8.5	0.6	NULL	VKHVCNMT
+EV4901	Đồ án tốt nghiệp cử nhân	6	8.5	0.6	NULL	VKHVCNMT
+EV4902	Đồ án nghiên cứu Cử nhân (Kỹ thuật môi trường)	8	9	0.6	EV3109	VKHVCNMT
+EV5101	Thực tập tốt nghiệp (CNMT)	3	4.5	0.5	NULL	VKHVCNMT
+EV5102	Đồ án tốt nghiệp kỹ sư (CNMT)	9	11	0.6	NULL	VKHVCNMT
+EV5114	Đồ án III	2	3	0.6	NULL	VKHVCNMT
+EV5121	Ứng dụng kỹ thuật màng trong xử lý nước và nước thải	2	3.5	0.5	NULL	VKHVCNMT
+EV5125	Các quá trình xử lý nitơ và phốt pho trong nước thải	2	4.5	0.7	NULL	VKHVCNMT
+EV5130	Thí nghiệm xử lý nước và nước thải	3	4.5	0.6	NULL	VKHVCNMT
+EV5131	Thiết kế hệ thống xử lý chất thải	2	4	0.5	NULL	VKHVCNMT
+EV5132	Xử lý chất thải hữu cơ bằng kỹ thuật nhiệt	2	5	0.7	NULL	VKHVCNMT
+EV5133	Kỹ thuật công trình xử lý chất thải	2	4	0.7	NULL	VKHVCNMT
+EV5190	Đồ án thiết kế - CNMT	3	6	0.5	NULL	VKHVCNMT
+EV5201	Thực tập tốt nghiệp (QLMT)	3	5	0.5	NULL	VKHVCNMT
+EV5202	Đồ án tốt nghiệp kỹ sư (QLMT)	9	10	0.6	NULL	VKHVCNMT
+EV5211	Quy hoạch môi trường	2	3.5	0.5	NULL	VKHVCNMT
+EV5212	Hệ thống quản lý môi trường EMS	2	4	0.7	NULL	VKHVCNMT
+EV5226	Chuyên đề quản lý môi trường	2	5	0.5	NULL	VKHVCNMT
+EV5230	Quản lý chất lượng nước	2	4.5	0.5	NULL	VKHVCNMT
+EV5231	Quản lý chất lượng đất	2	4.5	0.7	NULL	VKHVCNMT
+EV5234	Thẩm định và đánh giá công nghệ Môi trường	2	3	0.5	NULL	VKHVCNMT
+EV5290	Đồ án thiết kế - QLMT	3	4	0.7	NULL	VKHVCNMT
+EV5901	Thực tập kỹ sư	3	5	0.5	NULL	VKHVCNMT
+EV5902	Đồ án kỹ sư	9	12	0.5	NULL	VKHVCNMT
+FL1124	IELTS Listening 2	2	3.5	0.5	NULL	KNN
+FL1125	IELTS Speaking 2	1	3	0.6	NULL	KNN
+FL1126	IELTS Reading 2	1	2.5	0.5	NULL	KNN
+FL1127	IELTS Writing 2	2	4	0.7	NULL	KNN
+FL1330	Tiếng Việt thực hành	2	3.5	0.5	FL1124	KNN
+FL1404	Tiếng Pháp KSCLC 4	3	5	0.5	NULL	KNN
+FL1405	Tiếng Pháp KSCLC 5	3	6	0.6	FL1404	KNN
+FL1406	Tiếng Pháp KSCLC 6	3	5.5	0.7	NULL	KNN
+FL1407	Tiếng Pháp KSCLC 7	2	3.5	0.7	NULL	KNN
+FL1408	Tiếng Pháp KSCLC 8	2	5	0.5	NULL	KNN
+FL1421	Tiếng Pháp I	3	4	0.7	NULL	KNN
+FL1422	Tiếng Pháp II	3	5	0.5	NULL	KNN
+FL1423	Tiếng Pháp III	2	3	0.7	NULL	KNN
+FL1424	Tiếng Pháp IV	2	3.5	0.6	NULL	KNN
+FL1431	Tiếng Nhật I	3	6	0.6	NULL	KNN
+FL1432	Tiếng Nhật II	3	4.5	0.7	NULL	KNN
+FL1433	Tiếng Nhật III	2	5	0.6	NULL	KNN
+FL1434	Tiếng Nhật IV	2	3.5	0.7	NULL	KNN
+FL1441	Tiếng Trung Quốc I	3	5.5	0.5	NULL	KNN
+FL1442	Tiếng Trung Quốc II	3	6	0.6	FL1423	KNN
+FL1443	Tiếng Trung Quốc III	2	3.5	0.5	NULL	KNN
+FL1444	Tiếng Trung Quốc IV	2	4	0.5	NULL	KNN
+FL1501	Tiếng Pháp KSCLC 3A	3	5.5	0.5	NULL	KNN
+FL1502	Tiếng Pháp KSCLC 3B	3	5	0.7	FL1444	KNN
+FL1604	Tiếng Pháp VP 4	4	5	0.5	NULL	KNN
+FL1605	Tiếng Pháp VP 5	4	7	0.6	NULL	KNN
+FL1606	Tiếng Pháp VP 6	3	5	0.5	FL1124	KNN
+FL1607	Tiếng Pháp VP 7	1	2.5	0.5	NULL	KNN
+FL3006	Kỹ năng giao tiếp nhóm	3	4.5	0.7	NULL	KNN
+FL3013	Kỹ năng nói tiếng Anh III	3	5	0.6	NULL	KNN
+FL3023	Kỹ năng nghe tiếng Anh III	3	6	0.7	FL1502	KNN
+FL3033	Kỹ năng đọc tiếng Anh III	3	5	0.7	NULL	KNN
+FL3043	Kỹ năng viết tiếng Anh III	3	4.5	0.7	NULL	KNN
+FL3080	Phương pháp nghiên cứu khoa học	3	4.5	0.5	NULL	KNN
+FL3151	Tiếng Anh  Kỹ thuật Điện - Điện tử 	2	4.5	0.7	NULL	KNN
+FL3152	Tiếng Anh Công nghệ Thông tin và Truyền thông	3	4	0.6	FL1424	KNN
+FL3153	Tiếng Anh Cơ khí và Khoa học Vật liệu	3	4.5	0.6	NULL	KNN
+FL3154	Tiếng Anh Hoá - Môi trường	2	3.5	0.6	NULL	KNN
+FL3155	Tiếng Anh Kinh tế và Kinh doanh	2	3	0.7	NULL	KNN
+FL3156	Lý thuyết biên - phiên dịch 	2	4.5	0.6	FL1442	KNN
+FL3157	Phiên dịch	3	4.5	0.7	NULL	KNN
+FL3158	Biên dịch	3	4.5	0.6	NULL	KNN
+FL3210	Ngữ âm và âm vị học	2	4	0.5	NULL	KNN
+FL3220	Từ vựng học	2	3.5	0.5	NULL	KNN
+FL3221	Cú pháp học	2	4	0.5	NULL	KNN
+FL3250	Văn hóa xã hội Anh	2	4	0.7	NULL	KNN
+FL3260	Văn hoá xã hội Mỹ	2	4	0.6	NULL	KNN
+FL3283	Văn học Anh - Mỹ	2	3.5	0.5	NULL	KNN
+FL3340	Đối chiếu ngôn ngữ	2	4	0.6	NULL	KNN
+FL3570	Kỹ năng giao tiếp cơ bản 	2	5	0.6	FL1431	KNN
+FL4080	Phương pháp giảng dạy tiếng Anh	4	5.5	0.5	NULL	KNN
+FL4115	Biên dịch KHCN	3	5	0.7	NULL	KNN
+FL4116	Phiên dịch KHCN	3	5.5	0.7	NULL	KNN
+FL4117	Biên dịch KHCN nâng cao (BTL)	3	6	0.7	NULL	KNN
+FL4118	Phiên dịch KHCN nâng cao	3	4	0.6	NULL	KNN
+FL4119	Biên - Phiên dịch KHCN	3	4	0.7	NULL	KNN
+FL4225	Ngữ nghĩa học	3	4.5	0.5	NULL	KNN
+FL4226	Tiếng Anh trên thế giới	2	4.5	0.5	NULL	KNN
+FL4227	Phân tích ngôn ngữ	3	5	0.6	FL1406	KNN
+FL4900	Thực tập tốt nghiệp	3	4.5	0.7	NULL	KNN
+FL4901	Khóa luận tốt nghiệp	6	7.5	0.6	NULL	KNN
+FL4902	Tiếng Anh chuyên ngành theo dự án (BTL)	3	5.5	0.5	NULL	KNN
+FL4903	Nghiên cứu ngôn ngữ theo dự án (BTL)	3	6	0.6	NULL	KNN
+FL5081	Khóa luận tốt nghiệp	6	8	0.6	NULL	KNN
+FLE2108	Language Communication Skills 3	4	6	0.6	NULL	KNN
+FLE2109	Dealing with Texts 3	3	4	0.7	NULL	KNN
+FLE2110	Professional skills 2	4	6	0.5	NULL	KNN
+FLE2111	International Studies 1	3	6	0.5	NULL	KNN
+FLE2212	English for Professional Purposes 1	4	5.5	0.7	FL1125	KNN
+FLE2213	Theory of translation and interpretation	2	5	0.6	NULL	KNN
+FLE2214	Professional skills 3 (BTL)	4	6	0.5	NULL	KNN
+FLE2215	International studies 2	3	4	0.6	NULL	KNN
+FLE3101	English for Professional Purposes 2	4	7	0.6	NULL	KNN
+FLE3102	Translation and interpretation practice 1	4	7	0.6	NULL	KNN
+FLE3103	Language awareness	4	5	0.6	NULL	KNN
+FLE3204	Research methodology (BTL)	4	6	0.7	NULL	KNN
+FLE3205	English for Professional Purposes 3	3	6	0.5	FL1404	KNN
+FLE3206	Translation and interpretation practice 2	4	6	0.7	NULL	KNN
+FLE3207	Phonetics and phonology	3	4	0.7	NULL	KNN
+FLE4101	English for Professional Purposes 4 (BTL)	4	6	0.6	NULL	KNN
+FLE4102	Translation and interpretation practice 3	4	6	0.6	NULL	KNN
+FLE4103	English literature	4	7	0.7	FLE3102	KNN
+FLE4104	Introduction to English language teaching (BTL)	4	5	0.7	NULL	KNN
+FLE4205	Work placement	4	7	0.7	NULL	KNN
+FLE4206	Graduation paper in English	8	10	0.6	NULL	KNN
+HE2012	Kỹ thuật nhiệt	2	5	0.5	NULL	TCK
+HE2020	Technical Writing and Presentation	3	6	0.7	NULL	TCK
+HE3011	Cơ học chất lưu	3	5.5	0.7	HE2012	TCK
+HE3013	Nhiệt động kỹ thuật	3	4	0.7	NULL	TCK
+HE3017	Hệ thống cung cấp nhiệt	3	4.5	0.6	NULL	TCK
+HE3022	Đo lường nhiệt	2	4.5	0.5	HE2012	TCK
+HE3023	Truyền nhiệt	3	4.5	0.6	NULL	TCK
+HE3031	Kỹ thuật an toàn nhiệt - lạnh	2	3.5	0.7	NULL	TCK
+HE3032	Cơ sở lý thuyết điều chỉnh quá trình nhiệt	3	5	0.6	NULL	TCK
+HE3033	Thiết bị trao đổi nhiệt	3	4	0.6	NULL	TCK
+HE4000	Thực tập kỹ thuật	2	4	0.7	NULL	TCK
+HE4001	Đồ án thiết kế nhà máy nhiệt điện	2	4	0.7	NULL	TCK
+HE4002	Đồ án thiết kế hệ thống sấy	2	4	0.6	NULL	TCK
+HE4003	Đồ án thiết kế hệ thống lạnh	2	4.5	0.7	NULL	TCK
+HE4012	Nhà máy nhiệt điện	3	5.5	0.5	NULL	TCK
+HE4021	Lò hơi	3	5	0.7	NULL	TCK
+HE4025	Kỹ thuật cháy	2	4	0.6	NULL	TCK
+HE4031	Tua bin	3	4.5	0.7	NULL	TCK
+HE4033	Truyền chất và cơ sở kỹ thuật sấy	3	5	0.7	NULL	TCK
+HE4034	Hệ thống điều khiển tự động nhà máy nhiệt điện	3	5	0.6	HE4021	TCK
+HE4035	Hệ thống điều khiển quá trình nhiệt - lạnh	2	4.5	0.7	NULL	TCK
+HE4044	Tự động hoá kỹ thuật lạnh & ĐHKK	3	5	0.6	NULL	TCK
+HE4053	Lò công nghiệp	3	4.5	0.5	NULL	TCK
+HE4061	Sử dụng năng lượng tiết kiệm hiệu quả	2	4	0.6	NULL	TCK
+HE4073	Lò điện	2	3.5	0.7	HE4021	TCK
+HE4081	Bơm, quạt, máy nén	2	3	0.5	NULL	TCK
+HE4134	Cơ sở kỹ thuật lạnh	3	5.5	0.6	NULL	TCK
+HE4171	Cơ sở nguồn và công nghệ năng lượng	2	3.5	0.7	HE4003	TCK
+HE4201	Chế độ làm việc thay đổi của tổ hợp lò hơi – tua bin	3	5	0.5	NULL	TCK
+HE4208	Kỹ thuật điều hòa không khí	3	4	0.6	NULL	TCK
+HE4212	Máy và thiết bị lạnh	3	4.5	0.6	NULL	TCK
+HE4301	Đồ án thiết kế Kỹ thuật năng lượng	2	4	0.5	NULL	TCK
+HE4304	Đồ án thiết kế HT và TB nhiệt	3	5	0.7	HE4033	TCK
+HE4306	Đồ án thiết kế HT lạnh/ĐHKK	3	5.5	0.5	NULL	TCK
+HE4405	Kỹ thuật lạnh ứng dụng	3	4.5	0.5	NULL	TCK
+HE4410	Hệ thống vận chuyển không khí và chất tải lạnh	3	4	0.7	NULL	TCK
+HE4412	Bơm nhiệt và ứng dụng của bơm nhiệt	3	6	0.7	NULL	TCK
+HE4413	Hệ thống điện công trình	3	4	0.5	NULL	TCK
+HE4414	Kỹ thuật xử lý phát thải	3	5.5	0.7	NULL	TCK
+HE4900	Đồ án tốt nghiệp cử nhân	6	8	0.5	NULL	TCK
+HE5000	Thực tập kỹ sư	3	6	0.6	HE3022	TCK
+HE5061	Công nghệ hiệu quả năng lượng	3	5	0.6	NULL	TCK
+HE5068	Nồi hơi công nghiệp	2	3.5	0.5	NULL	TCK
+HE5092	Phân tích và tổng hợp hệ thống điều khiển quá trình nhiệt	2	4	0.5	NULL	TCK
+HE5110	Quá trình và thiết bị cơ – nhiệt	3	5.5	0.7	NULL	TCK
+HE5130	Đánh giá hệ thống lạnh và điều hòa không khí theo quan điểm chu trình vòng đời	2	5	0.5	NULL	TCK
+HE5140	Thiết kế ý tưởng hệ thống ĐHKK	2	3.5	0.7	NULL	TCK
+HE5142	Nhà máy nhiệt điện tubin khí và chu trình kết hợp	2	4.5	0.6	NULL	TCK
+HE5160	Công nghệ xử lý phát thải khói	3	5.5	0.6	NULL	TCK
+HE5172	Sử dụng tiết kiệm và hiệu quả năng lượng trong hệ thống lạnh và ĐHKK	2	4.5	0.6	NULL	TCK
+HE5190	Phát triển công nghệ năng lượng sạch theo quan điểm đánh giá vòng đời 	2	5	0.7	NULL	TCK
+HE5301	Thiết kế và đánh giá dự án năng lượng	2	5	0.5	NULL	TCK
+HE5402	Tăng cường truyền nhiệt trong các thiết bị nhiệt – lạnh	2	4	0.6	NULL	TCK
+HE5415	Kỹ thuật xử lý nhiệt ẩm chính xác	3	4	0.5	NULL	TCK
+HE5902	Đồ án tốt nghiệp kỹ sư Kỹ thuật năng lượng	12	13	0.5	NULL	TCK
+HE5904	Đồ án tốt nghiệp kỹ sư Máy & Thiết bị nhiệt lạnh	12	14.5	0.6	NULL	TCK
+HE5990	Đồ án kỹ sư	9	11.5	0.7	NULL	TCK
+IT1014	Tin học đại cương	3	4.5	0.7	NULL	TCNTT
+IT1016	Tin học đại cương	3	5	0.6	NULL	TCNTT
+IT1110	Tin học đại cương	4	5.5	0.7	IT1014	TCNTT
+IT1110E	Nhập môn lập trình	4	6	0.6	NULL	TCNTT
+IT1130	Tin học đại cương	2	3	0.5	NULL	TCNTT
+IT1140	Tin học đại cương	4	6	0.6	NULL	TCNTT
+IT2000	Nhập môn CNTT và TT	3	4	0.6	NULL	TCNTT
+IT2022E	Thống kê ứng dụng và phân tích thực nghiệm	3	6	0.5	NULL	TCNTT
+IT2030	Technical Writing and Presentation	3	5	0.5	NULL	TCNTT
+IT2140	Điện tử cho CNTT lab	2	5	0.5	NULL	TCNTT
+IT2140E	Electronics for Information Technology lab	2	4	0.6	NULL	TCNTT
+IT3010E	Cấu trúc dữ liệu và giải thuật	3	5	0.7	IT1110E	TCNTT
+IT3011	Cấu trúc dữ liệu và thuật toán	2	3.5	0.6	NULL	TCNTT
+IT3014	Cấu trúc dữ liệu và GT	2	5	0.6	NULL	TCNTT
+IT3020	Toán rời rạc	3	4.5	0.7	NULL	TCNTT
+IT3020E	Toán rời rạc	3	5	0.5	NULL	TCNTT
+IT3030	Kiến trúc máy tính	3	4.5	0.6	NULL	TCNTT
+IT3030E	Kiến trúc máy tính	3	5.5	0.6	NULL	TCNTT
+IT3034	Kiến trúc máy tính	3	4.5	0.7	NULL	TCNTT
+IT3036	Kiến trúc bộ xử lý và hợp ngữ	3	4	0.6	NULL	TCNTT
+IT3040	Kỹ thuật lập trình	2	4	0.6	NULL	TCNTT
+IT3052E	Tối ưu hóa	3	5.5	0.7	NULL	TCNTT
+IT3070	Nguyên lý hệ điều hành	3	5	0.7	NULL	TCNTT
+IT3070E	Nguyên lý hệ điều hành	3	6	0.5	NULL	TCNTT
+IT3072E	Operating Systems	2	4	0.7	NULL	TCNTT
+IT3074	Hệ điều hành	2	4.5	0.5	NULL	KCNHH
+IT3080	Mạng máy tính	3	4.5	0.5	NULL	TCNTT
+IT3080E	Mạng máy tính	3	5	0.7	NULL	TCNTT
+IT3082E	Computer Network	2	4	0.7	NULL	TCNTT
+IT3083	Mạng máy tính	2	4.5	0.6	NULL	TCNTT
+IT3084	Mạng máy tính	2	4	0.6	IT3082E	TCNTT
+IT3087	Máy tính và mạng máy tính	3	5	0.5	NULL	TCNTT
+IT3090	Cơ sở dữ liệu	3	6	0.6	NULL	TCNTT
+IT3090E	Cơ sở dữ liệu	3	5.5	0.7	NULL	TCNTT
+IT3094	Cơ sở dữ liệu	3	6	0.6	NULL	TCNTT
+IT3100	Lập trình hướng đối tượng	2	3	0.5	NULL	TCNTT
+IT3100E	Lập trình hướng đối tượng	3	5.5	0.6	NULL	TCNTT
+IT3102	Lý thuyết và ngôn ngữ hướng đối tượng	3	6	0.5	NULL	TCNTT
+IT3102E	Object-Oriented Language and Theory (Java)	3	5	0.7	NULL	TCNTT
+IT3103	Lập trình hướng đối tượng	3	4.5	0.6	NULL	TCNTT
+IT3104	Kỹ thuật lập trình	3	6	0.5	NULL	TCNTT
+IT3120	Phân tích và thiết kế hệ thống	2	4.5	0.5	NULL	TCNTT
+IT3120E	Phân tích thiết kế hệ thống	2	4	0.7	NULL	TCNTT
+IT3136	Cơ sở thiết kế logic	3	5	0.6	IT3036	TCNTT
+IT3150	Project I	2	3	0.5	NULL	TCNTT
+IT3160	Nhập môn Trí tuệ nhân tạo	3	4	0.6	NULL	TCNTT
+IT3160E	Introduction to Artificial Intelligence	3	5.5	0.6	NULL	TCNTT
+IT3170	Thuật toán ứng dụng	2	3	0.5	NULL	TCNTT
+IT3170E	Applied Algorithms	2	4	0.7	IT3082E	TCNTT
+IT3180	Nhập môn công nghệ phần mềm	3	5	0.5	IT3014	TCNTT
+IT3180E	Nhập môn Công nghệ phần mềm	3	4	0.7	NULL	TCNTT
+IT3190	Nhập môn Học máy và khai phá dữ liệu	3	4.5	0.7	NULL	TCNTT
+IT3190E	Học máy	3	5	0.6	NULL	TCNTT
+IT3210	C Programming Language	2	4.5	0.5	NULL	TCNTT
+IT3220	C Programming (Introduction)	2	3	0.5	NULL	TCNTT
+IT3230	Lập trình C cơ bản	2	3.5	0.6	IT3160	TCNTT
+IT3230E	Data Structures and Algorithms Basic Lab	2	5	0.5	IT1140	TCNTT
+IT3280	Thực hành kiến trúc máy tính	2	4	0.6	NULL	TCNTT
+IT3280E	Assembly Language and Computer Architecture Lab	2	4	0.5	NULL	TCNTT
+IT3282	Kiến trúc máy tính	2	4	0.6	NULL	TCNTT
+IT3282E	Computer Architecture	2	3.5	0.6	NULL	TCNTT
+IT3283	Kiến trúc máy tính	2	5	0.7	NULL	TCNTT
+IT3283E	Computer Architecture	2	4.5	0.7	NULL	TCNTT
+IT3290	Thực hành cơ sở dữ liệu	2	3	0.7	NULL	TCNTT
+IT3290E	Database Lab	2	3.5	0.7	NULL	TCNTT
+IT3292	Cơ sở dữ liệu	2	4	0.5	NULL	TCNTT
+IT3292E	Database	2	3.5	0.5	NULL	TCNTT
+IT3312E	Data Structures & Algorithms	2	3.5	0.7	NULL	TCNTT
+IT3320E	Introduction to Deep Learning	2	4	0.7	NULL	TCNTT
+IT3322	Xây dựng chương trình dịch	2	3	0.6	NULL	TCNTT
+IT3322E	Compiler Construction	2	4	0.6	NULL	TCNTT
+IT3362	Kỹ năng ITSS học bằng tiếng Nhật 1	2	4.5	0.7	NULL	TCNTT
+IT3382	Kỹ năng ITSS học bằng tiếng Nhật 2	2	4	0.6	NULL	TCNTT
+IT3402	Hệ thống thông tin trên Web	2	5	0.5	NULL	TCNTT
+IT3402E	Web Information System	2	3	0.5	NULL	TCNTT
+IT3420	Điện tử cho CNTT	2	4	0.6	NULL	TCNTT
+IT3420E	Electronics for Information Technology	2	3	0.6	NULL	TCNTT
+IT3680	Thuật toán ứng dụng	3	5	0.6	IT3040	TCNTT
+IT3804	Thực tập doanh nghiệp	2	3	0.6	NULL	TCNTT
+IT3910	Project I	3	4	0.6	NULL	TCNTT
+IT3910E	Project I	2	4	0.6	NULL	TCNTT
+IT3914	Đồ án lập trình 	2	4	0.5	NULL	TCNTT
+IT3920	Project II	3	6	0.7	NULL	TCNTT
+IT3930	Project II	2	5	0.5	IT3020	TCNTT
+IT3931	Project II	2	4.5	0.5	NULL	TCNTT
+IT3940	Project III	3	6	0.6	NULL	TCNTT
+IT3940E	Project III	3	6	0.5	NULL	TCNTT
+IT3941	Đồ án 3: Định hướng công nghệ	3	5.5	0.5	NULL	TCNTT
+IT3943	Project III	3	5	0.5	NULL	TCNTT
+IT4010E	Nhập môn an toàn thông tin	3	5.5	0.5	NULL	TCNTT
+IT4012	Bảo mật thông tin	2	4	0.5	NULL	TCNTT
+IT4012E	Information Security	2	4	0.5	NULL	TCNTT
+IT4015	Nhập môn an toàn thông tin	3	4.5	0.5	NULL	TCNTT
+IT4023E	Data Visualization	2	3.5	0.6	NULL	TCNTT
+IT4024	Mô hình hóa bằng automat	2	4	0.5	NULL	TCNTT
+IT4025	Mật mã ứng dụng	3	5	0.7	NULL	TCNTT
+IT4042	Trí tuệ nhân tạo	2	4	0.7	IT3930	TCNTT
+IT4042E	Artificial Intelligence	2	3.5	0.5	NULL	TCNTT
+IT4043E	Big Data Storage and Processing	3	5	0.5	NULL	TCNTT
+IT4044	Trí tuệ nhân tạo	3	5.5	0.6	NULL	TCNTT
+IT4060	Lập trình mạng	2	4.5	0.5	NULL	TCNTT
+IT4062	Thực hành Lập trình mạng	2	4	0.6	NULL	TCNTT
+IT4062E	Network Programming	2	3	0.5	IT3920	TCNTT
+IT4063E	Introduction to Business Analytics	2	3.5	0.6	NULL	TCNTT
+IT4079	Ngôn ngữ và phương pháp dịch	2	5	0.7	NULL	TCNTT
+IT4082E	Software Engineering	2	4	0.7	NULL	TCNTT
+IT4094	Xử lý ảnh	2	4	0.6	NULL	TCNTT
+IT4110	Tính toán khoa học	3	4.5	0.7	NULL	TCNTT
+IT4110E	Scientific computing	3	4	0.5	NULL	TCNTT
+IT4130E	Parallel and Distributed Programming	3	6	0.5	NULL	TCNTT
+IT4132	Lập trình hệ thống	2	4.5	0.7	NULL	TCNTT
+IT4132E	System Program	2	3	0.7	NULL	TCNTT
+IT4142E	Introduction to Data Science	2	3	0.6	NULL	TCNTT
+IT4152	Kiến trúc phần mềm mạng	2	3	0.6	NULL	TCNTT
+IT4152E	Network Software Architecture	2	4.5	0.7	IT3040	TCNTT
+IT4162	Vi xử lý	2	3.5	0.6	NULL	TCNTT
+IT4172	Xử lý tín hiệu	2	4	0.5	NULL	TCNTT
+IT4172E	Signal processing	2	4	0.6	NULL	TCNTT
+IT4174	Xử lý tín hiệu	3	5.5	0.6	NULL	TCNTT
+IT4182	Thực hành xây dựng chương trình dịch	2	3	0.6	NULL	TCNTT
+IT4182E	Compiler Construction Lab	2	3.5	0.7	NULL	TCNTT
+IT4210	Hệ nhúng	3	4.5	0.7	NULL	TCNTT
+IT4212	Hệ thống thời gian thực	2	4	0.5	NULL	TCNTT
+IT4212E	Realtime System	2	4	0.7	NULL	TCNTT
+IT4240	Quản trị dự án công nghệ thông tin	2	3.5	0.5	NULL	TCNTT
+IT4242E	Machine Learning and Data Mining	2	4	0.6	NULL	TCNTT
+IT4244	Quản trị dự án CNTT	2	4	0.5	NULL	TCNTT
+IT4262	Bảo mật mạng máy tính	2	3.5	0.5	NULL	TCNTT
+IT4262E	Network Security	2	4.5	0.7	NULL	TCNTT
+IT4263	An ninh mạng	3	4	0.6	IT3090	TCNTT
+IT4272	Hệ thống máy tính	2	5	0.5	NULL	TCNTT
+IT4272E	Computer Systems	2	5	0.7	NULL	TCNTT
+IT4304	An toàn thông tin	2	3	0.7	NULL	TCNTT
+IT4312	Mô hình hóa dữ liệu	2	4	0.5	NULL	TCNTT
+IT4324	An toàn trong giao dịch điện tử	2	4	0.6	NULL	TCNTT
+IT4341	Hệ trợ giúp quyết định	2	4	0.5	NULL	TCNTT
+IT4342E	Computer Vision	2	3	0.7	NULL	TCNTT
+IT4343E	Computer Vision	3	5	0.6	NULL	TCNTT
+IT4350	Kiến trúc các hệ thống thông tin và ứng dụng	3	5.5	0.7	NULL	TCNTT
+IT4362	Kỹ nghệ tri thức	2	5	0.7	NULL	TCNTT
+IT4364	Phân tích thiết kế hệ thống	3	5.5	0.7	NULL	TCNTT
+IT4384	Phân tích và thiết kế hệ thống	2	4.5	0.7	NULL	TCNTT
+IT4409	Công nghệ Web và dịch vụ trực tuyến	3	5.5	0.7	NULL	TCNTT
+IT4421	Đồ án các công nghệ xây dựng HTTT	3	5	0.7	NULL	TCNTT
+IT4422	Phát triển Hệ thống phần mềm doanh nghiệp	3	5	0.7	NULL	TCNTT
+IT4423	Các kỹ thuật định vị và ứng dụng	2	5	0.6	NULL	TCNTT
+IT4425	Phát triển phần mềm nhúng thông minh	2	5	0.5	NULL	TCNTT
+IT4429	Công nghệ nhận dạng và tổng hợp tiếng nói	2	5	0.6	NULL	TCNTT
+IT4431	Tin sinh học	2	4	0.7	NULL	TCNTT
+IT4434	Đồ án các công nghệ xây dựng hệ thống thông tin	3	4.5	0.6	NULL	TCNTT
+IT4435	Chuyên đề	2	4.5	0.7	NULL	TCNTT
+IT4441	Giao diện và trải nghiệm người dùng	3	6	0.6	NULL	TCNTT
+IT4442	Giao diện người dùng	2	4.5	0.7	NULL	TCNTT
+IT4470	Đồ họa và hiện thực ảo	3	5	0.7	NULL	TCNTT
+IT4480	Làm việc nhóm và kỹ năng giao tiếp	2	4	0.5	IT3283	TCNTT
+IT4490	Thiết kế và xây dựng phần mềm	3	4.5	0.7	NULL	TCNTT
+IT4492	Lập trình cấu trúc	2	3.5	0.5	NULL	TCNTT
+IT4492E	Structured Programming	2	3	0.6	NULL	TCNTT
+IT4501	Đảm bảo chất lượng Phần mềm	2	4	0.6	NULL	TCNTT
+IT4527	Blockchain và ứng dụng	2	3	0.7	NULL	TCNTT
+IT4536	Mẫu thiết kế phần mềm	2	4.5	0.7	NULL	TCNTT
+IT4542	Quản trị phát triển phần mềm	2	4	0.6	NULL	TCNTT
+IT4542E	Management of Software Development	2	3.5	0.7	NULL	TCNTT
+IT4552	Thực hành Lập trình Web	2	4	0.6	NULL	TCNTT
+IT4552E	Web Programming	2	3.5	0.7	NULL	TCNTT
+IT4592E	Information Theory	2	4	0.5	NULL	TCNTT
+IT4593	Nhập môn kỹ thuật truyền thông	2	5	0.6	NULL	TCNTT
+IT4593E	Introduction to Communication Enginieering	2	4.5	0.7	NULL	TCNTT
+IT4594	Lý thuyết thông tin và truyền thông số	3	5	0.5	NULL	TCNTT
+IT4611	Các hệ thống phân tán và ứng dụng	2	3.5	0.5	NULL	TCNTT
+IT4612	Hệ phân tán	2	5	0.7	NULL	TCNTT
+IT4612E	Distributed System	2	4	0.5	NULL	TCNTT
+IT4613	Hệ gợi ý	3	5.5	0.7	NULL	TCNTT
+IT4614	Các hệ phân tán	2	5	0.7	NULL	TCNTT
+IT4622	Mã hóa dữ liệu đa phương tiện	2	4.5	0.5	NULL	TCNTT
+IT4651	Thiết kế và triển khai mạng IP	3	5	0.5	NULL	TCNTT
+IT4652	Mạng Internet	2	3	0.6	NULL	TCNTT
+IT4652E	Internetworking	2	5	0.6	IT3292	TCNTT
+IT4653	Học sâu và ứng dụng	2	3	0.5	NULL	TCNTT
+IT4663	Tối ưu lập kế hoạch	3	5	0.5	NULL	TCNTT
+IT4670	Đánh giá hiệu năng mạng	2	4.5	0.7	NULL	TCNTT
+IT4681	Truyền thông đa phương tiện	3	5	0.6	NULL	TCNTT
+IT4682	Truyền thông đa phương tiện	2	4	0.5	NULL	TCNTT
+IT4682E	Multimedia Communication	2	4	0.5	NULL	TCNTT
+IT4694	Mạng số và truyền dữ liệu	3	5.5	0.7	IT4062	TCNTT
+IT4711	Đồ án môn học chuyên ngành TTM	2	4	0.7	NULL	TCNTT
+IT4735	IoT và ứng dụng	2	3.5	0.6	NULL	TCNTT
+IT4772	Xử lý ngôn ngữ tự nhiên	3	4.5	0.5	NULL	TCNTT
+IT4772E	Natural Language Processing	3	4.5	0.5	NULL	TCNTT
+IT4785	Phát triển ứng dụng cho thiết bị di động	2	3.5	0.5	NULL	TCNTT
+IT4788	Phát triển ứng dụng đa nền tảng	3	6	0.5	IT4785	TCNTT
+IT4797	Đồ án hệ nhúng	3	6	0.7	NULL	TCNTT
+IT4815	Quản trị mạng	2	4	0.6	NULL	TCNTT
+IT4818	Phân tích nghiệp vụ thông minh	2	3.5	0.6	NULL	TCNTT
+IT4830	Phòng chống tấn công mạng	3	5.5	0.7	NULL	TCNTT
+IT4831	Phòng chống tấn công mạng	2	3.5	0.5	NULL	TCNTT
+IT4863	Tìm kiếm thông tin	3	5	0.5	NULL	TCNTT
+IT4868	Khai phá Web	3	6	0.5	IT4785	TCNTT
+IT4868E	Web Mining	3	6	0.7	NULL	TCNTT
+IT4885	Mô hình và thuật toán Internet phổ biến	3	5	0.6	NULL	TCNTT
+IT4898	Multimedia, trò chơi và các hệ thống giải trí	2	4.5	0.6	NULL	TCNTT
+IT4906	Tính toán tiến hóa	3	5	0.5	NULL	TCNTT
+IT4911	Đồ án môn học (Thiết kế hệ thống ATTT)	3	6	0.7	NULL	TCNTT
+IT4922	Mạng thế hệ sau	2	4	0.6	NULL	TCNTT
+IT4930	Nhập môn Khoa học dữ liệu	2	5	0.6	NULL	TCNTT
+IT4931	Lưu trữ và xử lý dữ liệu lớn	3	5	0.5	NULL	TCNTT
+IT4935	Tương thích điện từ	1	2.5	0.7	NULL	TCNTT
+IT4940	Project 3	3	4.5	0.7	NULL	TCNTT
+IT4944	Hệ điều hành và quản trị mạng Linux theo chuẩn kỹ năng ITSS	2	3.5	0.5	NULL	TCNTT
+IT4944E	ITSS Linux System and Network Management	2	4	0.6	IT4711	TCNTT
+IT4945	Phát triển phần mềm theo chuẩn kỹ năng ITSS	2	3	0.5	NULL	TCNTT
+IT4945E	ITSS Software Development	2	3.5	0.6	NULL	TCNTT
+IT4946	Linux hệ nhúng theo chuẩn kỹ năng ITSS	2	3.5	0.5	NULL	TCNTT
+IT4946E	ITSS Embedded Linux	2	4	0.7	NULL	TCNTT
+IT4947	Quản trị dự án hệ nhúng theo chuẩn kỹ năng ITSS	2	4.5	0.5	NULL	TCNTT
+IT4947E	ITSS Project Management for Embedded System	2	4	0.7	NULL	TCNTT
+IT4948	Thực tập công nghiệp	2	4	0.5	NULL	TCNTT
+IT4991	Thực tập kỹ thuật	2	5	0.6	NULL	TCNTT
+IT4991E	Internship	2	4	0.6	NULL	TCNTT
+IT4993	Đồ án nghiên cứu Cử nhân (CTTN CNTT)	8	11	0.5	IT4182	TCNTT
+IT4995	Đồ án tốt nghiệp cử nhân	6	8.5	0.7	NULL	TCNTT
+IT4997	Đồ án tốt nghiệp cử nhân	6	7.5	0.6	NULL	TCNTT
+IT4998	Đồ án nghiên cứu Cử nhân (Khoa học máy tính)	8	9	0.6	NULL	TCNTT
+IT4999	Đồ án nghiên cứu Cử nhân (Kỹ thuật máy tính)	8	10	0.6	NULL	TCNTT
+IT5001	Thực tập kỹ sư	3	5	0.6	NULL	TCNTT
+IT5005	Đồ án thiết kế Hệ thống thông tin	3	5	0.6	NULL	TCNTT
+IT5006	Đồ án thiết kế Công nghệ phần mềm	3	4.5	0.5	NULL	TCNTT
+IT5007	Đồ án thiết kế Kỹ thuật máy tính	3	5.5	0.5	IT2000	TCNTT
+IT5021	Nghiên cứu tốt nghiệp 1	2	4	0.6	NULL	TCNTT
+IT5021E	Graduation Research 1	3	5	0.7	NULL	TCNTT
+IT5022	Nghiên cứu tốt nghiệp 2	2	4.5	0.5	IT4492	TCNTT
+IT5022E	Graduation Research 2	3	5.5	0.5	NULL	TCNTT
+IT5023E	Graduation Research 1	2	4	0.5	NULL	TCNTT
+IT5030	Nghiên cứu tốt nghiệp 3	2	4	0.7	NULL	TCNTT
+IT5030E	Graduation research 3	3	5	0.6	NULL	TCNTT
+IT5120	Đồ án tốt nghiệp	9	12	0.5	NULL	TCNTT
+IT5120E	Thesis	9	11.5	0.6	NULL	TCNTT
+IT5130	Đồ án tốt nghiệp Kỹ sư	1	2.5	0.5	NULL	TCNTT
+IT5140	Đồ án kỹ sư	9	11	0.7	NULL	TCNTT
+IT5150	Đồ án kỹ sư	9	11	0.7	NULL	TCNTT
+IT5210	Đồ án tốt nghiệp kỹ sư (KHMT)	1	2.5	0.6	NULL	TCNTT
+IT5220	Đồ án tốt nghiệp kỹ sư (KTMT)	1	3	0.5	IT4362	TCNTT
+IT5230	Đồ án tốt nghiệp kỹ sư (HTTT)	1	3.5	0.7	NULL	TCNTT
+IT5240	Đồ án tốt nghiệp kỹ sư (KTPM)	1	2.5	0.5	NULL	TCNTT
+IT5250	Đồ án tốt nghiệp kỹ sư (TTM)	1	2	0.5	NULL	TCNTT
+IT5260	Đồ án tốt nghiệp kỹ sư (ATTT)	1	3	0.7	NULL	TCNTT
+IT5310	Các công nghệ truyền thông cho IoT	3	4.5	0.6	NULL	TCNTT
+IT5334	Hệ thống thông tin địa lý	3	4	0.5	NULL	TCNTT
+IT5384	Lưu trữ và phân tích dữ liệu lớn	3	5	0.6	NULL	TCNTT
+IT5390	Web ngữ nghĩa	3	6	0.7	NULL	TCNTT
+IT5409	Thị giác máy tính	3	5	0.6	NULL	TCNTT
+IT5419	Tích hợp Hệ thống thông tin	3	5	0.6	NULL	TCNTT
+IT5420	Tích hợp dữ liệu	3	5	0.6	NULL	TCNTT
+IT5425	Quản trị dữ liệu và trực quan hóa	2	4.5	0.6	NULL	TCNTT
+IT5904	Đồ án tốt nghiệp	1	2	0.7	NULL	TCNTT
+JP1132	Tiếng Nhật 3	3	6	0.6	NULL	TCNTT
+JP1134	Tiếng Nhật 3	4	6	0.5	NULL	TDDT
+JP2111	Tiếng Nhật 4	3	6	0.6	NULL	TCNTT
+JP2112	Tiếng Nhật 4	3	6	0.6	NULL	TDDT
+JP2113	Tiếng Nhật 4	4	6	0.6	NULL	TDDT
+JP2123	Tiếng Nhật 5	4	5.5	0.5	NULL	TDDT
+JP2124	Tiếng Nhật 6	4	6.5	0.7	NULL	TDDT
+JP2125	Tiếng Nhật 7	3	5.5	0.7	NULL	TDDT
+JP2126	Tiếng Nhật 5	2	3	0.7	NULL	TCNTT
+JP2131	Tiếng Nhật 6	4	5.5	0.5	NULL	TCNTT
+JP2210	Tiếng Nhật 7	2	4	0.5	NULL	TCNTT
+JP2220	Tiếng Nhật 8	1	2	0.7	NULL	TCNTT
+JP3110	Tiếng Nhật chuyên ngành 1	2	4.5	0.6	JP2124	TCNTT
+JP3120	Tiếng Nhật chuyên ngành 2	2	3	0.7	NULL	TCNTT
+JP3130	Tiếng Nhật chuyên ngành 3	2	3	0.5	JP2131	TCNTT
+ME2000	Nhập môn kỹ thuật cơ khí	3	6	0.5	NULL	TCK
+ME2002	Nhập môn cơ điện tử	3	5	0.5	NULL	TCK
+ME2011	Đồ họa kỹ thuật I	3	4	0.6	NULL	TCK
+ME2015	Đồ họa kỹ thuật cơ bản	3	5.5	0.5	NULL	TCK
+ME2016	Vẽ kỹ thuật 1	2	3	0.6	NULL	TCK
+ME2020	Vẽ kỹ thuật	2	4	0.6	NULL	TCK
+ME2021	Technical Writing and Presentation	3	4.5	0.7	NULL	TCK
+ME2026	Vẽ kỹ thuật 	2	4	0.5	NULL	TCK
+ME2030	Cơ khí đại cương	2	5	0.6	NULL	TCK
+ME2031	Cơ học đại cương và cơ học các MTLT	3	5	0.5	NULL	TCK
+ME2040	Cơ học kỹ thuật	3	5.5	0.7	NULL	TCK
+ME2100	Nhập môn cơ điện tử	3	5	0.5	ME2002	TCK
+ME2101	Sức bền vật liệu I	2	3	0.7	NULL	TCK
+ME2102	Sức bền vật liệu	2	4	0.6	NULL	TCK
+ME2112	Cơ học kỹ thuật 1	2	3	0.7	NULL	TCK
+ME2115	Vẽ kỹ thuật trên máy tính	2	5	0.5	NULL	TCK
+ME2201	Đồ họa kỹ thuật II	2	4.5	0.5	NULL	TCK
+ME2202	Sức bền vật liệu II	2	4	0.7	NULL	TCK
+ME2203	Nguyên lý máy	2	5	0.7	ME2202	TCK
+ME2211	Cơ học kỹ thuật II	3	5	0.5	NULL	TCK
+ME3026	Động học	3	5.5	0.7	NULL	TCK
+ME3031	Công nghệ chế tạo máy	3	5.5	0.7	NULL	TCK
+ME3036	Thực tập xưởng	2	5	0.5	NULL	TCK
+ME3040	Sức bền vật liệu I	2	5	0.7	NULL	TCK
+ME3041	Sức bền vật liệu	3	4.5	0.5	NULL	TCK
+ME3046	Sức bền vật liệu	4	5	0.6	ME2112	TCK
+ME3056	Đo lường và dụng cụ đo	3	4.5	0.7	NULL	TCK
+ME3060	Nguyên lý máy	3	5.5	0.5	NULL	TCK
+ME3066	Đồ án thiết kế I	3	4	0.6	NULL	TCK
+ME3072	Kỹ thuật đo	2	3.5	0.6	NULL	TCK
+ME3076	Thiết kế cơ khí	3	4	0.5	NULL	TCK
+ME3086	Công nghệ chế tạo máy	4	5	0.5	NULL	TCK
+ME3096	CAD/CAM và CNC	2	3.5	0.6	NULL	TCK
+ME3101	Chi tiết máy	2	4	0.5	NULL	TCK
+ME3102	Nguyên lý gia công vật liệu	2	4	0.6	NULL	TCK
+ME3103	Dung sai lắp ghép và Kỹ thuật đo	3	6	0.5	NULL	TCK
+ME3104	Chế tạo phôi	2	4	0.7	ME2112	TCK
+ME3123	Thiết kế mỹ thuật công nghiệp	2	5	0.7	NULL	TCK
+ME3124	Thiết kế quảng bá sản phẩm	2	3.5	0.6	NULL	TCK
+ME3150	Thực tập cơ khí	2	4	0.7	NULL	TCK
+ME3171	Công nghệ chế tạo máy	3	5.5	0.6	NULL	TCK
+ME3178	Công nghệ chế tạo máy	2	3	0.5	ME3072	TCK
+ME3180	Đồ án công nghệ chế tạo máy	2	3.5	0.5	NULL	TCK
+ME3190	Sức bền vật liệu	2	4	0.5	NULL	TCK
+ME3201	Cơ sở Máy công cụ	2	3.5	0.7	ME2040	TCK
+ME3202	Kỹ thuật điều khiển tự động	2	5	0.6	NULL	TCK
+ME3203	Công nghệ gia công áp lực	2	4.5	0.6	ME2011	TCK
+ME3205	Công nghệ chế tạo máy	3	5.5	0.5	NULL	TCK
+ME3209	Robotics	3	5	0.6	NULL	TCK
+ME3210	Nguyên lý máy	2	4	0.5	NULL	TCK
+ME3211	Nguyên lý máy	2	3	0.6	NULL	TCK
+ME3212	Chi tiết máy	2	3.5	0.6	NULL	TCK
+ME3213	Kỹ thuật lập trình trong CĐT	3	5	0.6	NULL	TCK
+ME3215	Cơ sở máy CNC	3	4.5	0.6	NULL	TCK
+ME3215Q	Cơ sở máy CNC	3	5	0.7	NULL	TCK
+ME3230	Dung sai và kỹ thuật đo	2	3	0.6	NULL	TCK
+ME3232	Đồ án chi tiết máy	2	4	0.6	NULL	TCK
+ME3260	Thiết kế dụng cụ cắt	3	5	0.5	NULL	TCK
+ME3266	Thiết bị gia công áp lực	3	4.5	0.6	NULL	TCK
+ME3267	Các quá trình hàn	2	3	0.7	NULL	TCK
+ME3300	Kỹ thuật lập trình trong cơ điện tử	3	5	0.7	NULL	TCK
+ME4006	Thiết kế hệ thống điều khiển	4	5	0.7	NULL	TCK
+ME4013	Chi tiết cơ cấu chính xác	2	4	0.5	NULL	TCK
+ME4025	Lý thuyết dập tạo hình	2	3.5	0.5	NULL	TCK
+ME4031E	Cơ sở dao động trên ô tô	2	5	0.6	NULL	TCK
+ME4055	Công nghệ tạo hình tấm	2	4	0.7	NULL	TCK
+ME4063	Kỹ thuật vi cơ	2	4.5	0.7	ME2026	TCK
+ME4064	Bảo đảm chất lượng hàn	2	4	0.5	NULL	TCK
+ME4065	Công nghệ tạo hình khối	2	5	0.7	NULL	TCK
+ME4075	Ma sát trong GCAL	2	3	0.7	NULL	TCK
+ME4082	Công nghệ CNC	2	4	0.7	NULL	TCK
+ME4083	Công nghệ máy chính xác	2	3.5	0.6	NULL	TCK
+ME4085	Đồ án thiết bị dập tạo hình	1	2	0.6	NULL	TCK
+ME4112	Tự động hóa sản xuất	2	4.5	0.7	NULL	TCK
+ME4117	Đồ án Máy chính xác	2	4	0.6	NULL	TCK
+ME4128	Tính toán & thiết kế kết cấu hàn	3	5	0.5	ME2000	TCK
+ME4129	Thiết bị hàn	2	4	0.7	ME2203	TCK
+ME4138	Công nghệ hàn vật liệu kim loại	3	4.5	0.6	NULL	TCK
+ME4146	Đồ án khuôn chất dẻo	2	3	0.6	ME4117	TCK
+ME4148	Máy CNC và Rôbốt công nghiệp	3	5	0.7	ME4082	TCK
+ME4149	Đảm bảo chất lượng sản phẩm	2	3.5	0.5	NULL	TCK
+ME4159	Đồ gá	2	3	0.6	NULL	TCK
+ME4168	Thiết kế máy công cụ	3	5	0.7	NULL	TCK
+ME4175	Phương pháp số trong tính toán cấu trúc	3	5	0.6	NULL	TCK
+ME4176	Chuyển động và tự động hóa máy	4	7	0.6	NULL	TCK
+ME4178	Hệ thống đo lường Quang điện tử	2	4	0.7	NULL	TCK
+ME4179	Xử lý tín hiệu đo lường cơ khí	2	4	0.6	NULL	TCK
+ME4181	Phương pháp phần tử hữu hạn	2	5	0.7	NULL	TCK
+ME4182	TĐH thủy khí trong máy	2	4	0.5	NULL	TCK
+ME4186	Đồ án thiết kế II	3	5.5	0.6	NULL	TCK
+ME4187	Công nghệ CNC	3	4.5	0.6	NULL	TCK
+ME4188	Công nghệ tạo hình tiên tiến	3	4	0.7	ME4146	TCK
+ME4193	Phương pháp thực nghiệm trong cơ học	2	5	0.6	NULL	TCK
+ME4196	Công nghệ vật liệu composite và mô hình hóa	3	5	0.5	NULL	TCK
+ME4216	Robot công nghiệp	2	4.5	0.5	NULL	TCK
+ME4217	Mô hình hóa quá trình hàn	2	4	0.5	NULL	TCK
+ME4218	Thiết kế và chế tạo bình bồn áp lực	2	3	0.6	ME4159	TCK
+ME4219	Tự động hóa quá trình hàn	3	6	0.7	NULL	TCK
+ME4225	Công nghệ hàn điện tiếp xúc	2	4.5	0.7	NULL	TCK
+ME4226	Đạo đức người kỹ sư và bảo vệ môi trường	3	6	0.7	NULL	TCK
+ME4232	Đồ án thiết kế dụng cụ cắt	2	3	0.6	NULL	TCK
+ME4263	Thiết kế chế tạo bằng máy tính	3	4.5	0.6	NULL	TCK
+ME4274	Robot hàn	2	3	0.6	ME4216	TCK
+ME4285	Đồ án gia công áp lực	2	4	0.5	ME4013	TCK
+ME4294	Ứng suất & biến dạng hàn	2	3.5	0.6	NULL	TCK
+ME4323E	Gia công vật liệu	3	4	0.5	NULL	TCK
+ME4358	Đồ án tốt nghiệp cử nhân	6	8	0.7	NULL	TCK
+ME4366	Đồ án tốt nghiệp Kỹ sư	9	10	0.5	ME4294	TCK
+ME4374	Vật liệu hàn	2	4.5	0.5	NULL	TCK
+ME4382	Kỹ thuật lập trình robot CN	2	4	0.7	NULL	TCK
+ME4433	Dụng cụ gia công CNC	2	4.5	0.5	ME3215Q	TCK
+ME4441	Đồ án tốt nghiệp cử nhân	6	9	0.7	NULL	TCK
+ME4501	PLC và mạng công nghiệp	2	3	0.6	NULL	TCK
+ME4503	ĐA TKHT Cơ khí-SXTĐ	3	4	0.7	ME3190	TCK
+ME4504	ĐA TKHT Cơ khí-TBTĐ	3	5.5	0.7	NULL	TCK
+ME4505	ĐA TKHTCK-Robot	3	5	0.6	NULL	TCK
+ME4506	ĐA TKHTCK-CĐTTM	3	5	0.7	NULL	TCK
+ME4507	Robot công nghiệp	2	3.5	0.7	NULL	TCK
+ME4508	Giao diện người máy	2	5	0.7	NULL	TCK
+ME4509	Xử lý ảnh	2	5	0.7	NULL	TCK
+ME4510	Dao động tàu thuỷ	2	4.5	0.7	NULL	TCK
+ME4511	Cảm biến & xử lý tín hiệu	2	4.5	0.6	NULL	TCK
+ME4512	Robot tự hành	2	4	0.6	NULL	TCK
+ME4531	Kỹ thuật cơ học	2	5	0.6	NULL	TCK
+ME4601	Thực tập xưởng Hệ thống SXTĐ	2	5	0.5	NULL	TCK
+ME4602	Thực tập xưởng TBTĐ	2	3	0.6	NULL	TCK
+ME4603	Thực tập xưởng Robot	2	3.5	0.7	NULL	TCK
+ME4604	Thực tập xưởng HTCĐT TM	2	3.5	0.7	NULL	TCK
+ME4913	Đồ án tốt nghiệp cử nhân	6	9	0.6	NULL	TCK
+ME4955	Đồ án tốt nghiệp cử nhân	6	8.5	0.5	NULL	TCK
+ME4972	Công nghệ bôi trơn	2	4	0.6	NULL	TCK
+ME4992	Đồ án tốt nghiệp cử nhân	6	8.5	0.5	NULL	TCK
+ME4993	Đồ án tốt nghiệp cử nhân	6	9	0.5	NULL	TCK
+ME4994	Đồ án nghiên cứu Cử nhân (Kỹ thuật Cơ khí)	8	9.5	0.6	NULL	TCK
+ME4995	Đồ án nghiên cứu Cử nhân (Kỹ thuật Cơ điện tử)	8	9.5	0.6	NULL	TCK
+ME4995E	Đồ án nghiên cứu Cử nhân (CTTT Cơ điện tử)	8	9	0.7	NULL	TCK
+ME4996	Đồ án nghiên cứu Cử nhân (CTTN Cơ điện tử)	8	9	0.7	ME2030	TCK
+ME5011	Thực tập tốt nghiệp	3	5	0.5	NULL	TCK
+ME5015	Thực tập tốt nghiệp	3	6	0.7	NULL	TCK
+ME5016	Thực tập tốt nghiệp	4	5.5	0.6	NULL	TCK
+ME5092	Trang bị điện cho máy	2	4	0.6	NULL	TCK
+ME5093	Kỹ thuật Laser	2	4.5	0.6	NULL	TCK
+ME5110	Đồ án tốt nghiệp	10	12	0.6	NULL	TCK
+ME5111	Đồ án tốt nghiệp kỹ sư	9	11.5	0.7	NULL	TCK
+ME5115	Đồ án tốt nghiệp kỹ sư Cơ điện tử	9	11	0.6	NULL	TCK
+ME5116	Đồ án tốt nghiệp	10	12	0.6	ME3209	TCK
+ME5132	Tổ chức sản xuất cơ khí	2	3	0.6	NULL	TCK
+ME5181	Đồ án công nghệ chế tạo máy	3	6	0.6	NULL	TCK
+ME5213	Các phương pháp gia công phi truyền thống	2	3	0.7	NULL	TCK
+ME5242	Công nghệ tạo hình dụng cụ	2	4	0.6	NULL	TCK
+ME5243	Kỹ thuật laser	2	4	0.5	ME4995E	TCK
+ME5260	Đồ án thiết kế hệ thống đo lường cơ khí	3	6	0.5	NULL	TCK
+ME5270	Kỹ thuật an toàn và môi trường	2	5	0.5	NULL	TCK
+ME5271	Hệ thống dụng cụ cắt trong công nghiệp 4.0	2	4	0.7	NULL	TCK
+ME5272	Bảo trì thiết bị công nghiệp	2	3	0.5	NULL	TCK
+ME5273	Kỹ thuật đo lường 3D	2	4	0.5	NULL	TCK
+ME5278	Công nghệ sản xuất tiên tiến	2	3.5	0.5	NULL	TCK
+ME5311	TĐH quá trình dập tạo hình	2	4	0.5	NULL	TCK
+ME5312	Máy dập CNC, PLC	2	4	0.6	NULL	TCK
+ME5313	Thiết kế và chế tạo khuôn	3	6	0.6	NULL	TCK
+ME5314	Kỹ thuật CAD/CAM/CAE	2	3	0.7	NULL	TCK
+ME5316	ĐA Thiết kế công nghệ và chế tạo khuôn dập tạo hình	3	4.5	0.7	NULL	TCK
+ME5318	Quy hoạch và xử lý số liệu thực nghiệm	2	5	0.7	NULL	TCK
+ME5352	Nghiên cứu ứng dụng bộ điều khiển CNC	2	4.5	0.7	ME4995E	TCK
+ME5368	Thiết bị và dụng cụ đo cơ khí	2	4	0.5	NULL	TCK
+ME5381	Công nghệ uốn lốc profil	3	4.5	0.7	NULL	TCK
+ME5383	Công nghệ dập Micro	2	5	0.7	NULL	TCK
+ME5413	Mô hình hóa VL composite	3	5.5	0.5	NULL	TCK
+ME5497	Công nghệ cán kéo	2	3	0.5	NULL	TCK
+ME5503	Công nghệ chế tạo máy II	3	5	0.6	NULL	TCK
+ME5510	Tự động hóa thủy khí	3	5	0.6	ME4148	TCK
+ME5511	Thiết kế hệ thống CĐT	3	6	0.5	NULL	TCK
+ME5512	ĐA Thiết kế hệ thống CĐT	3	5	0.7	NULL	TCK
+ME5552	Kỹ thuật ma sát	2	5	0.6	NULL	TCK
+ME5562	Đồ án thiết kế máy	2	4.5	0.6	NULL	TCK
+ME5565	Đồ án thiết kế máy	3	4	0.6	NULL	TCK
+ME5601	Quản lý sản xuất có trợ giúp máy tính	2	3.5	0.7	NULL	TCK
+ME5602	Hệ thống CĐT trong máy công cụ	2	4	0.6	NULL	TCK
+ME5606	FPGAs	2	5	0.7	NULL	TCK
+ME5607	Hệ thống CĐT trong thiết bị	2	4	0.7	NULL	TCK
+ME5608	FMS&CIM	2	3	0.7	NULL	TCK
+ME5609	Micro Robot	2	3	0.5	NULL	TCK
+ME5610	Thiết kế Robot 	2	5	0.6	ME5311	TCK
+ME5612	Cảm biến Nano đo các đại lượng khác điện	2	3.5	0.7	NULL	TCK
+ME5614	Độ tin cậy và tuổi thọ của thiết bị	2	3	0.7	NULL	TCK
+ME5615	Hệ thống CĐT thông minh	2	4	0.7	NULL	TCK
+ME5616	Mô hình hóa các hệ cơ điện tử	2	4	0.6	NULL	TCK
+ME5617	Nhận dạng và Điều khiển các hệ động lực	2	4.5	0.7	ME3104	TCK
+ME5620	Robot dạng người	2	4.5	0.6	NULL	TCK
+ME5621	Điều khiển Robot tự hành	2	4	0.7	NULL	TCK
+ME5667	Trí tuệ nhân tạo trong Robot	2	3.5	0.6	NULL	TCK
+ME5711	CN dập bằng chất lỏng cao áp	2	4.5	0.5	NULL	TCK
+ME5712	Máy và công nghệ dập tự động	2	3.5	0.6	NULL	TCK
+ME5813	Cơ học kết cấu	3	4.5	0.7	NULL	TCK
+ME5911	Phun phủ và hàn đắp	2	3	0.5	NULL	TCK
+ME5912	Công nghệ & thiết bị hàn vảy	3	5	0.6	NULL	TCK
+ME5913	Đồ án công nghệ hàn	3	5	0.5	NULL	TCK
+ME5914	Các quá trình hàn tiên tiến	2	4.5	0.6	NULL	TCK
+ME5915	Mô phỏng số quá trình hàn	2	4	0.5	ME4972	TCK
+MI1034	Toán III	5	7	0.7	NULL	KTTD
+MI1046	Phương trình vi phân và chuỗi	3	5	0.7	NULL	KTTD
+MI1131	Giải tích III	3	5	0.6	NULL	KTTD
+MI1131E	Giải tích III	3	5	0.6	NULL	KTTD
+MI1134	Phương trình vi phân và Chuỗi	3	5	0.7	NULL	KTTD
+MI2010	Phương pháp tính	2	4	0.5	NULL	KTTD
+MI2020	Xác suất thống kê	3	5	0.6	NULL	KTTD
+MI2020E	Xác suất thống kê	2	5	0.7	NULL	KTTD
+MI2021	Xác suất thống kê	2	5	0.7	NULL	KTTD
+MI2026	Xác xuất thống kê	4	5.5	0.5	NULL	KTTD
+MI2030	Technical Writing and Presentation	3	6	0.6	NULL	KTTD
+MI2044	Phương pháp tính	2	3	0.6	NULL	KTTD
+MI2054	Hàm biến phức và đại số ma trận	2	3	0.7	NULL	KTTD
+MI2060	Cơ sở giải tích hàm	3	6	0.6	NULL	KTTD
+MI2110	Phương pháp tính và MATLAB	3	4	0.6	NULL	KTTD
+MI2150	Đại số đại cương	2	5	0.5	MI2010	KTTD
+MI3010	Toán rời rạc	3	5	0.6	NULL	KTTD
+MI3014	Tối ưu hoá	2	5	0.7	NULL	KTTD
+MI3030	Xác suất thống kê	4	6	0.7	NULL	KTTD
+MI3031	Suy luận thống kê	3	5	0.7	NULL	KTTD
+MI3041	Giải tích số	2	3	0.5	NULL	KTTD
+MI3042	Phương pháp số	2	5	0.6	NULL	KTTD
+MI3050	Các phương pháp tối ưu	4	6	0.6	NULL	KTTD
+MI3052	Nhập môn các phương pháp tối ưu	2	3.5	0.7	NULL	KTTD
+MI3060	Cấu trúc dữ liệu và giải thuật	3	5	0.6	MI2110	KTTD
+MI3070	Phương trình đạo hàm riêng	3	5	0.7	NULL	KTTD
+MI3073	Phương trình đạo hàm riêng	4	5	0.7	NULL	KTTD
+MI3080	Giải tích phức và ứng dụng	3	6	0.6	NULL	KTTD
+MI3090	Cơ sở dữ liệu 	3	4.5	0.5	NULL	KTTD
+MI3093E	Cơ sở dữ liệu	3	5	0.6	NULL	KTTD
+MI3120	Phân tích và thiết kế hệ thống	3	4	0.5	NULL	KTTD
+MI3130	Toán kinh tế	3	4	0.6	NULL	KTTD
+MI3131	Toán kinh tế	2	4	0.7	NULL	KTTD
+MI3180	Xác suất thống kê và QHTN	3	4	0.5	NULL	KTTD
+MI3310	Kỹ thuật lập trình	2	4	0.7	NULL	KTTD
+MI3323	Lập trình hướng đối tượng	3	5.5	0.6	NULL	KTTD
+MI3350	Lý thuyết xác suất	3	5.5	0.7	NULL	KTTD
+MI3360	Thống kê toán học	2	3	0.5	NULL	KTTD
+MI3370	Hệ điều hành	2	5	0.5	MI2021	KTTD
+MI3380	Đồ án I	3	5	0.7	NULL	KTTD
+MI3390	Đồ án II	3	6	0.6	NULL	KTTD
+MI3600	Phân tích dữ liệu và Tri thức kinh doanh	3	5.5	0.5	NULL	KTTD
+MI3600E	Phân tích dữ liệu lớn và tri thức kinh doanh	3	6	0.6	NULL	KTTD
+MI4020	Phân tích số liệu	3	6	0.5	NULL	KTTD
+MI4024	Phân tích số liệu	2	4.5	0.5	NULL	KTTD
+MI4050	Chuỗi thời gian	3	5.5	0.5	NULL	KTTD
+MI4060	Hệ thống và mạng máy tính	3	5	0.7	MI3360	KTTD
+MI4062E	Khoa học dữ liệu ứng dụng trong kinh doanh	3	6	0.5	MI3180	KTTD
+MI4074E	Toán học ứng dụng trong phân tích kinh doanh	3	4.5	0.7	NULL	KTTD
+MI4090	Lập trình hướng đối tượng	3	5	0.6	NULL	KTTD
+MI4100	Mật mã và độ phức tạp thuật toán	3	5	0.5	NULL	KTTD
+MI4160	Lập trình tính toán	3	6	0.6	NULL	KTTD
+MI4210	Hệ hỗ trợ quyết định	3	5	0.7	NULL	KTTD
+MI4214	Kho dữ liệu và kinh doanh thông minh	2	5	0.5	NULL	KTTD
+MI4216	Hệ hỗ trợ quyết định	2	5	0.7	NULL	KTTD
+MI4260	An toàn HTTT	3	5	0.5	NULL	KTTD
+MI4304	Hệ thống phân tán	2	5	0.5	NULL	KTTD
+MI4311	Tối ưu tổ hợp I	3	5	0.7	NULL	KTTD
+MI4314	Tối ưu tổ hợp	2	5	0.7	NULL	KTTD
+MI4332	Lập trình 3D	3	5.5	0.5	NULL	KTTD
+MI4341	Một số phương pháp toán học trong tài chính	3	5	0.7	NULL	KTTD
+MI4342	Kiến trúc máy tính	3	4.5	0.5	NULL	KTTD
+MI4344	Kiến trúc máy tính	2	4	0.5	NULL	KTTD
+MI4364	Tính toán song song	2	4	0.5	NULL	KTTD
+MI4374	Thiết kế, cài đặt và quản trị mạng	2	4.5	0.6	MI2044	KTTD
+MI4382	Đồ họa máy tính	3	4	0.6	NULL	KTTD
+MI4392	Công nghệ web và kinh doanh điện tử	3	5.5	0.7	MI2026	KTTD
+MI4414	Quản trị dự án CNTT	2	4	0.6	NULL	KTTD
+MI4800	Thực tập kỹ thuật	2	3.5	0.6	NULL	KTTD
+MI4900	Đồ án tốt nghiệp cử nhân	6	8.5	0.5	NULL	KTTD
+MI4901	Đồ án nghiên cứu Cử nhân (Toán Tin)	8	11	0.7	MI4024	KTTD
+MI4902	Đồ án nghiên cứu Cử nhân (CTTN Toán Tin)	8	10	0.7	NULL	KTTD
+MI5012	Thực tập kỹ sư	3	4.5	0.6	NULL	KTTD
+MI5040	Các mô hình ngẫu nhiên và ứng dụng	3	6	0.6	NULL	KTTD
+MI5050	Đồ án III	3	5	0.5	NULL	KTTD
+MI5054	Đồ án thiết kế	3	6	0.6	MI3052	KTTD
+MI5062	Trí tuệ nhân tạo 	2	3.5	0.7	NULL	KTTD
+MI5140	Khai phá dữ liệu	3	4.5	0.6	NULL	KTTD
+MI5142	Cơ sở dữ liệu nâng cao 	2	3.5	0.5	NULL	KTTD
+MI5900	Đồ án tốt nghiệp kỹ sư	1	3	0.5	NULL	KTTD
+MI5910	Đồ án kỹ sư	9	12	0.5	NULL	KTTD
+MIL1110	Đường lối quân sự	0	1	0.5	NULL	KGDQP
+MIL1120	Công tác quốc phòng-An ninh	0	3	0.5	NULL	KGDQP
+MIL1130	QS chung và KCT bắn súng AK	0	1.5	0.7	NULL	KGDQP
+MSE1012	Nhập môn kỹ thuật	2	4	0.5	NULL	KKHVCNVL
+MSE2013	Khoa học vật liệu đại cương	2	4.5	0.7	NULL	KKHVCNVL
+MSE2020	Nhiệt động học vật liệu	3	4.5	0.7	NULL	KKHVCNVL
+MSE2023	Sự hình thành tổ chức tế vi vật liệu	3	5.5	0.7	NULL	KKHVCNVL
+MSE2024	Technical Writing and Presentation	3	6	0.5	NULL	KKHVCNVL
+MSE2025	Phương pháp tính toán vật liệu	2	3	0.7	NULL	KKHVCNVL
+MSE2040	Hóa học chất rắn	3	5	0.6	NULL	KKHVCNVL
+MSE2060	Thí nghiệm 1	2	3	0.7	NULL	KKHVCNVL
+MSE2228	Vật liệu học	2	4	0.7	MSE1012	KKHVCNVL
+MSE2468	Vật liệu kim loại và phi kim	3	5	0.6	NULL	KKHVCNVL
+MSE3019	Thí nghiệm II	2	3	0.6	NULL	KKHVCNVL
+MSE3025	Tính chất quang, điện, từ của vật liệu	3	6	0.5	NULL	KKHVCNVL
+MSE3027	Công nghệ tạo hình vật liệu	2	3.5	0.6	NULL	KKHVCNVL
+MSE3028	Luyện kim vật lý	2	4	0.6	NULL	KKHVCNVL
+MSE3030	Các phương pháp kiểm tra và đánh giá vật liệu	3	5.5	0.5	NULL	KKHVCNVL
+MSE3031	Các quá trình trong kỹ thuật vật liệu	3	4.5	0.7	NULL	KKHVCNVL
+MSE3061	Kỹ thuật môi trường trong công nghiệp	2	4	0.7	NULL	KKHVCNVL
+MSE3071	Vật liệu kỹ thuật	2	3	0.5	NULL	KKHVCNVL
+MSE3082	Thiết kế chi tiết máy	2	5	0.6	NULL	KKHVCNVL
+MSE3091	Công nghệ tạo hình vật liệu	3	6	0.6	NULL	KKHVCNVL
+MSE3101	Luyện kim vật lý	3	5	0.6	NULL	KKHVCNVL
+MSE3113	Đồ án: Lựa chọn vật liệu	2	5	0.7	NULL	KKHVCNVL
+MSE3122	Vật liệu nano	3	4.5	0.5	NULL	KKHVCNVL
+MSE3126	Cơ học vật liệu	3	5	0.7	NULL	KKHVCNVL
+MSE3131	Công nghệ vật liệu cấu trúc nano	3	5	0.7	NULL	KKHVCNVL
+MSE3141	Mô hình hóa và mô phỏng vật liệu	2	3.5	0.5	NULL	KKHVCNVL
+MSE3151	Công nghệ vật liệu tiên tiến	2	4	0.6	NULL	KKHVCNVL
+MSE3161	Tính năng vật liệu trong các môi trường đặc biệt	2	4	0.6	NULL	KKHVCNVL
+MSE3206	Pha và quan hệ pha	3	5.5	0.6	NULL	KKHVCNVL
+MSE3207	Công nghệ vật liệu	3	5	0.7	NULL	KKHVCNVL
+MSE3306	Các tính chất điện tử của vật liệu	3	6	0.7	MSE3091	KKHVCNVL
+MSE3326	Thí nghiệm vật liệu 2	3	5	0.7	NULL	KKHVCNVL
+MSE3401	Hành vi cơ nhiệt của vật liệu	3	4	0.6	NULL	KKHVCNVL
+MSE3406	Nhiệt động học vật liệu	4	7	0.5	NULL	KKHVCNVL
+MSE3407	Nhiệt động học vật liệu	3	5	0.6	NULL	KKHVCNVL
+MSE3416	Các quá trình động học trong vật liệu	3	4	0.5	NULL	KKHVCNVL
+MSE3417	Hóa học vật liệu	2	4	0.7	NULL	KKHVCNVL
+MSE3426	Tổng hợp vật liệu	3	4.5	0.6	NULL	KKHVCNVL
+MSE3427	Tổng hợp vật liệu	2	3	0.5	NULL	KKHVCNVL
+MSE3436	Xác định cấu trúc vi mô	3	5.5	0.6	NULL	KKHVCNVL
+MSE3446	Hành vi cơ nhiệt của vật liệu	3	6	0.5	NULL	KKHVCNVL
+MSE3447	Tính chất điện tử, quang và từ của vật liệu	3	5.5	0.7	MSE3122	KKHVCNVL
+MSE3456	Xử lý số liệu	3	5.5	0.5	NULL	KKHVCNVL
+MSE3466	Thí nghiệm vật liệu 3	3	5	0.7	NULL	KKHVCNVL
+MSE4001	Vật liệu kỹ thuật	2	4	0.5	NULL	KKHVCNVL
+MSE4004	Các phương pháp chế tạo và gia công vật liệu	2	4.5	0.7	NULL	KKHVCNVL
+MSE4099	Đồ án tốt nghiệp cử nhân	6	7	0.7	NULL	KKHVCNVL
+MSE4101	Luyện thép	3	5	0.7	NULL	KKHVCNVL
+MSE4106	Các tính chất cơ học tiên tiến của chất rắn	3	4.5	0.5	NULL	KKHVCNVL
+MSE4111	Luyện gang lò cao	3	5	0.7	NULL	KKHVCNVL
+MSE4116	Gia công kim loại 	3	4	0.5	MSE3436	KKHVCNVL
+MSE4122	Tinh luyện và đúc phôi thép	3	5.5	0.5	NULL	KKHVCNVL
+MSE4132	Luyện kim phi cốc	3	4	0.5	NULL	KKHVCNVL
+MSE4136	Thiết kế hợp kim kỹ thuật	3	4.5	0.6	NULL	KKHVCNVL
+MSE4141	Xử lý & tái chế chất thải trong luyện kim	2	3	0.5	NULL	KKHVCNVL
+MSE4146	Luyện kim và hàn	3	5	0.7	NULL	KKHVCNVL
+MSE4152	Đồ án CN&TB luyện gang thép	2	4.5	0.5	NULL	KKHVCNVL
+MSE4156	Ăn mòn kim loại 	3	5	0.6	NULL	KKHVCNVL
+MSE4176	Quá trình đông đặc	3	5.5	0.6	NULL	KKHVCNVL
+MSE4199	Lý thuyết biến dạng tạo hình	3	5	0.5	NULL	KKHVCNVL
+MSE4219	Thiết bị gia công tạo hình vật liệu	3	5	0.7	NULL	KKHVCNVL
+MSE4229	Đồ án CN&TB	2	3.5	0.5	MSE3436	KKHVCNVL
+MSE4239	Tự động hóa quá trình sản xuất	2	5	0.7	NULL	KKHVCNVL
+MSE4259	Công nghệ tạo hình tấm	3	5.5	0.7	NULL	KKHVCNVL
+MSE4269	Công nghệ tạo hình khối	3	6	0.7	NULL	KKHVCNVL
+MSE4302	Chuyên đề nghiên cứu	2	4.5	0.5	NULL	KKHVCNVL
+MSE4312	Hợp kim và công nghệ nấu luyện	3	5.5	0.5	NULL	KKHVCNVL
+MSE4322	Các phương pháp làm khuôn	2	3	0.7	NULL	KKHVCNVL
+MSE4332	Cơ sở kỹ thuật đúc	3	4.5	0.5	NULL	KKHVCNVL
+MSE4342	Sự hình thành tổ chức hợp kim	2	5	0.7	NULL	KKHVCNVL
+MSE4346	Hiển vi điện tử và thuyết nhiễu xạ	3	5.5	0.6	NULL	KKHVCNVL
+MSE4362	Xử lý số liệu và quy hoạch thực nghiệm	2	5	0.7	NULL	KKHVCNVL
+MSE4372	Kỹ thuật mô phỏng số đúc	2	4	0.5	MSE3101	KKHVCNVL
+MSE4401	Cơ sở lý thuyết luyện kim màu	3	5.5	0.5	NULL	KKHVCNVL
+MSE4405	Thiết kế vật liệu	2	4.5	0.5	NULL	KKHVCNVL
+MSE4406	Thiết kế vật liệu	1	2.5	0.5	NULL	KKHVCNVL
+MSE4407	Vật liệu thông minh	2	3.5	0.6	NULL	KKHVCNVL
+MSE4408	Vật liệu cấu trúc nano	2	4	0.6	NULL	KKHVCNVL
+MSE4412	Luyện kim loại màu nặng	2	3	0.6	NULL	KKHVCNVL
+MSE4416	Thiết kế quá trình công nghệ	3	5	0.7	NULL	KKHVCNVL
+MSE4423	Luyện kim loại màu nhẹ	2	5	0.5	NULL	KKHVCNVL
+MSE4426	Vật liệu composite	3	5	0.7	NULL	KKHVCNVL
+MSE4431	Luyện kim bột	3	6	0.5	MSE4332	KKHVCNVL
+MSE4442	Đồ án môn học	2	5	0.5	NULL	KKHVCNVL
+MSE4446	Nghiên cứu khoa học	3	6	0.6	NULL	KKHVCNVL
+MSE4452	Chuẩn bị liệu cho luyện kim	2	5	0.7	NULL	KKHVCNVL
+MSE4453	Vật liệu composite	2	3	0.7	NULL	KKHVCNVL
+MSE4502	Công nghệ và thiết bị nhiệt luyện	3	5.5	0.7	NULL	KKHVCNVL
+MSE4507	Mô phỏng mức nguyên tử	3	4	0.5	NULL	KKHVCNVL
+MSE4512	Công nghệ xử lý bề mặt	3	6	0.6	NULL	KKHVCNVL
+MSE4522	Ăn mòn và bảo vệ kim loại	3	4.5	0.5	NULL	KKHVCNVL
+MSE4532	Hợp kim hệ sắt	3	5	0.5	NULL	KKHVCNVL
+MSE4542	Hợp kim phi sắt	2	5	0.6	NULL	KKHVCNVL
+MSE4552	Đồ án thiết kế xưởng nhiệt luyện	2	4	0.7	MSE4522	KKHVCNVL
+MSE4601	KH & KT vật liệu y sinh	3	4	0.6	NULL	KKHVCNVL
+MSE4611	Vật liệu năng lượng sạch	2	4.5	0.7	NULL	KKHVCNVL
+MSE4621	Vật liệu compozit	3	4.5	0.5	MSE4452	KKHVCNVL
+MSE4631	Vật liệu nano trong hàng không và vận tải	3	4	0.7	NULL	KKHVCNVL
+MSE4641	Công nghệ bề mặt và màng mỏng	3	5	0.5	NULL	KKHVCNVL
+MSE4651	Vật liệu vô định hình	2	3.5	0.7	NULL	KKHVCNVL
+MSE4990	Thực tập kỹ thuật	2	5	0.5	NULL	KKHVCNVL
+MSE4999	Đồ án tốt nghiệp	6	7.5	0.7	NULL	KKHVCNVL
+MSE5010	Thực tập tốt nghiệp	4	6.5	0.6	NULL	KKHVCNVL
+MSE5098	Thực tập tốt nghiệp	3	4.5	0.5	NULL	KKHVCNVL
+MSE5099	Đồ án tốt nghiệp	9	10.5	0.6	NULL	KKHVCNVL
+MSE5100	Hỏa luyện	2	4	0.6	NULL	KKHVCNVL
+MSE5101	Cơ sở thiết kế nhà máy gang thép	2	4	0.5	MSE3417	KKHVCNVL
+MSE5110	Đồ án tốt nghiệp	10	11	0.7	NULL	KKHVCNVL
+MSE5113	Công nghệ luyện fero	2	4.5	0.7	NULL	KKHVCNVL
+MSE5117	Thiêu kết và vê viên quặng	3	5	0.5	NULL	KKHVCNVL
+MSE5118	Luyện thép lò điện	3	6	0.6	NULL	KKHVCNVL
+MSE5119	Luyện thép lò thổi	2	3.5	0.5	NULL	KKHVCNVL
+MSE5123	Vật liệu chịu lửa	3	4.5	0.5	NULL	KKHVCNVL
+MSE5131	Đồ án thiết kế công nghệ sản xuất gang và thép	3	4	0.5	NULL	KKHVCNVL
+MSE5160	Công nghệ tiên tiến sản xuất thép và hợp kim	2	4.5	0.5	MSE3447	KKHVCNVL
+MSE5161	Ứng dụng gang, thép và hợp kim	2	3.5	0.6	NULL	KKHVCNVL
+MSE5231	ĐATK khuôn tạo hình	3	4	0.6	NULL	KKHVCNVL
+MSE5311	Hợp kim hóa và biến tính 	2	3	0.7	NULL	KKHVCNVL
+MSE5312	Vật liệu và hỗn hợp làm khuôn	2	3	0.5	NULL	KKHVCNVL
+MSE5313	Thiết bị đúc	3	5.5	0.7	NULL	KKHVCNVL
+MSE5314	Vật liệu tổ hợp	3	6	0.6	NULL	KKHVCNVL
+MSE5315	Đúc đặc biệt	2	4	0.7	NULL	KKHVCNVL
+MSE5316	Lập dự án thiết kế xưởng đúc	2	4	0.7	NULL	KKHVCNVL
+MSE5321	Vật liệu cấu trúc nano	3	5.5	0.5	NULL	KKHVCNVL
+MSE5323	Hiển vi điện tử	2	4	0.5	NULL	KKHVCNVL
+MSE5331	Đồ án thiết kế công nghệ đúc	3	5.5	0.7	NULL	KKHVCNVL
+MSE5402	Tái sinh vật liệu kim loại màu	2	4	0.7	NULL	KKHVCNVL
+MSE5413	Vật liệu Ceramic 	2	4	0.5	NULL	KKHVCNVL
+MSE5414	Luyện kim loại quý, hiếm 	2	4.5	0.7	NULL	KKHVCNVL
+MSE5415	Luyện kim loại đất hiếm	2	4	0.7	NULL	KKHVCNVL
+MSE5416	KT Điện hóa trong VL 	2	4	0.6	NULL	KKHVCNVL
+MSE5417	Công nghệ chế tạo hợp kim màu	2	3.5	0.6	NULL	KKHVCNVL
+MSE5418	Động học các phản ứng luyện kim	2	5	0.5	MSE4229	KKHVCNVL
+MSE5423	Chuyên đề về Vật liệu KLM & Compozit	2	3	0.6	NULL	KKHVCNVL
+MSE5425	Vật liệu năng lượng	2	4	0.7	NULL	KKHVCNVL
+MSE5432	Đồ án thiết kế công nghệ luyện kim màu và luyện kim bột	3	5.5	0.6	NULL	KKHVCNVL
+MSE5434	Thiết bị luyện kim màu và luyện kim bột	3	5	0.7	NULL	KKHVCNVL
+MSE5512	Thiết kế lựa chọn vật liệu	3	6	0.6	NULL	KKHVCNVL
+MSE5513	Vật liệu chức năng	2	4	0.7	NULL	KKHVCNVL
+MSE5514	Các phương pháp phân tích tổ chức và cấu trúc	3	4	0.6	NULL	KKHVCNVL
+MSE5515	Kỹ thuật màng mỏng	3	5	0.6	NULL	KKHVCNVL
+MSE5516	Thiết kế công nghệ nhiệt luyện 	3	5.5	0.5	NULL	KKHVCNVL
+MSE5521	Công nghệ vật liệu bột và compozit	3	4.5	0.6	NULL	KKHVCNVL
+MSE5522	Lý thuyết độ bền	2	4	0.7	NULL	KKHVCNVL
+MSE5532	ĐATK Công nghệ nhiệt luyện và xử lý bề mặt	3	6	0.7	MSE4239	KKHVCNVL
+MSE5632	ĐATK Công nghệ	3	5	0.5	NULL	KKHVCNVL
+MSE5663	Ứng dụng hệ keo và sol-gel trong CNVL	2	3.5	0.7	NULL	KKHVCNVL
+NE3015	Vật lý hạt nhân	3	4.5	0.7	NULL	VVLKT
+NE3016	Tương tác bức xạ với vật chất	2	4	0.6	NULL	VVLKT
+NE3017	Phương pháp Monte Carlo trong kỹ thuật hạt nhân	2	5	0.5	NULL	VVLKT
+NE3025	Đầu dò bức xạ	3	5	0.7	NULL	VVLKT
+NE3026	Đo đạc thực nghiệm hạt nhân	3	4	0.7	NULL	VVLKT
+NE3027	PP tính toán số và lập trình ứng dụng	3	4	0.7	NULL	VVLKT
+NE3035	Liều lượng học và an toàn bức xạ	2	3	0.5	NULL	VVLKT
+NE3036	Che chắn bức xạ	3	6	0.7	NULL	VVLKT
+NE3037	Cơ sở máy gia tốc	2	5	0.6	NULL	VVLKT
+NE3038	Kỹ thuật phân tích hạt nhân	3	4.5	0.7	NULL	VVLKT
+NE3041	Kỹ thuật điện tử	3	5	0.5	NULL	VVLKT
+NE3042	Điện tử số hạt nhân	3	6	0.5	NULL	VVLKT
+NE3051	Thực tập cơ sở	2	3.5	0.5	NULL	VVLKT
+NE3052	Thực tập kỹ thuật hạt nhân	4	5.5	0.5	NULL	VVLKT
+NE3053	Thực tập kỹ thuật	2	3.5	0.5	NE3037	VVLKT
+NE4307	Kỹ thuật xử lý hình ảnh trong chụp ảnh phóng xạ công nghiệp	2	3	0.5	NULL	VVLKT
+NE4308	Xử lý dữ liệu thực nghiệm hạt nhân	2	4	0.7	NULL	VVLKT
+NE4401	Giải phẫu học sinh lý đại cương	3	4	0.5	NULL	VVLKT
+NE4402	Sinh học bức xạ	2	5	0.5	NULL	VVLKT
+NE4403	Vật lý hình ảnh y học	2	3.5	0.6	NULL	VVLKT
+NE4404	Điện quang y tế đại cương	3	4.5	0.5	NULL	VVLKT
+NE4405	Xạ trị ung thư đại cương	3	5	0.7	NULL	VVLKT
+NE4406	Y học hạt nhân đại cương	3	6	0.5	NULL	VVLKT
+NE4407	Thiết bị trong xạ trị	2	3.5	0.5	NE3026	VVLKT
+NE4903	Đồ án tốt nghiệp cử nhân	6	8.5	0.6	NULL	VVLKT
+NE5406	Dược chất phóng xạ và liều chiếu trong	2	4	0.5	NULL	VVLKT
+NE5500	Đồ án thiết kế	3	4	0.7	NE5406	VVLKT
+NE5510	Thực tập tốt nghiệp	3	5.5	0.7	NULL	VVLKT
+NE5550	Đồ án tốt nghiệp kỹ sư	9	10	0.5	NULL	VVLKT
+NE5921	Thực tập tốt nghiệp kỹ sư (KTHNƯD&VLMT)	4	5.5	0.6	NULL	VVLKT
+NE5922	Đồ án tốt nghiệp kỹ sư (KTHNƯD&VLMT)	8	10	0.6	NULL	VVLKT
+PE1014	Lý luận TDTT	0	2	0.5	NULL	BGDTC
+PE1015	Thể dục tay không	0	2.5	0.5	PE1014	BGDTC
+PE1024	Bơi lội	0	1	0.5	NULL	BGDTC
+PE2101	Bóng chuyền 1	0	2	0.6	NULL	BGDTC
+PE2102	Bóng chuyền 2	0	2	0.5	PE1015	BGDTC
+PE2151	Erobic	0	2	0.7	NULL	BGDTC
+PE2201	Bóng đá 1	0	1.5	0.5	NULL	BGDTC
+PE2202	Bóng đá 2	0	1.5	0.5	NULL	BGDTC
+PE2251	Taekwondo 1	0	2.5	0.5	NULL	BGDTC
+PE2261	Karatedo	0	2.5	0.6	NULL	BGDTC
+PE2301	Bóng rổ 1	0	1.5	0.6	NULL	BGDTC
+PE2302	Bóng rổ 2	0	1	0.6	NULL	BGDTC
+PE2401	Bóng bàn 1	0	1	0.5	NULL	BGDTC
+PE2402	Bóng bàn 2	0	2	0.6	NULL	BGDTC
+PE2501	Cầu lông 1	0	1	0.7	NULL	BGDTC
+PE2502	Cầu lông 2	0	2	0.7	NULL	BGDTC
+PE2601	Chạy	0	2	0.6	NULL	BGDTC
+PE2701	Nhảy cao	0	2.5	0.6	NULL	BGDTC
+PE2801	Nhảy xa	0	3	0.7	PE2601	BGDTC
+PE3103	Chuyên sâu Bóng chuyền 3	0	1	0.5	NULL	BGDTC
+PE3104	Chuyên sâu Bóng chuyền 4	0	2.5	0.6	NULL	BGDTC
+PE3105	Chuyên sâu Bóng chuyền 5	0	2.5	0.5	NULL	BGDTC
+PE3203	Chuyên sâu Bóng đá 3	0	2.5	0.5	NULL	BGDTC
+PE3204	Chuyên sâu Bóng đá 4	0	2.5	0.6	NULL	BGDTC
+PE3205	Chuyên sâu Bóng đá 5	0	2.5	0.6	NULL	BGDTC
+PE3303	Chuyên sâu Bóng rổ 3	0	2.5	0.6	NULL	BGDTC
+PE3304	Chuyên sâu Bóng rổ 4	0	2	0.7	NULL	BGDTC
+PE3305	Chuyên sâu Bóng rổ 5	0	1.5	0.5	NULL	BGDTC
+PH1014	Vật lý I	4	5	0.6	NULL	VVLKT
+PH1016	Vật lý đại cương I	4	7	0.7	NULL	VVLKT
+PH1024	Vật lý II	4	6	0.5	NULL	VVLKT
+PH1026	Vật lý đại cương II	4	7	0.5	NULL	VVLKT
+PH1036	Vật lý đại cương III	4	5.5	0.5	NULL	VVLKT
+PH1110	Vật lý đại cương I	3	4.5	0.5	NULL	VVLKT
+PH1110E	Vật lý đại cương	3	4	0.6	NULL	VVLKT
+PH1111	Vật lý đại cương I	2	5	0.6	NULL	VVLKT
+PH1114	Vật lý I	3	4	0.7	NULL	VVLKT
+PH1120	Vật lý đại cương II	3	4.5	0.7	NULL	VVLKT
+PH1121	Vật lý đại cương II	2	4	0.6	NULL	VVLKT
+PH1122	Vật lý đại cương II	4	5	0.5	NULL	VVLKT
+PH1130	Vật lý đại cương III	3	5	0.5	NULL	VVLKT
+PH1131	Vật lý đại cương III	2	3	0.7	NULL	VVLKT
+PH2014	Vật lý sóng	3	5.5	0.7	NULL	VVLKT
+PH2020	Technical Writing and Presentation	3	5	0.5	NULL	VVLKT
+PH2021	Đồ án môn học I	3	5	0.5	NULL	VVLKT
+PH2022	Đồ án môn học II	3	4	0.5	NULL	VVLKT
+PH2024	Lý thuyết điện	3	4	0.6	NULL	VVLKT
+PH2034	Cơ học vật rắn và sóng cơ	3	4.5	0.5	PH2022	VVLKT
+PH2044	Nhiệt học và cơ học chất lưu	2	4	0.5	NULL	VVLKT
+PH3010	Phương pháp toán cho vật lý	3	5	0.5	NULL	VVLKT
+PH3015	Phương pháp toán cho KT hạt nhân	2	4	0.6	NULL	VVLKT
+PH3020	Cơ giải tích	2	5	0.6	NULL	VVLKT
+PH3030	Trường điện từ	3	4	0.7	NULL	VVLKT
+PH3060	Cơ học lượng tử	3	5.5	0.6	NULL	VVLKT
+PH3071	Kỹ thuật chân không	2	4.5	0.7	NULL	VVLKT
+PH3081	Cảm biến đo lường và điều khiển	3	4.5	0.6	PH3030	VVLKT
+PH3090	Quang học kỹ thuật	3	6	0.7	NULL	VVLKT
+PH3110	Vật lý chất rắn	3	5.5	0.5	NULL	VVLKT
+PH3120	Vật lý thống kê	3	5	0.6	NULL	VVLKT
+PH3190	Vật lý và linh kiện bán dẫn	3	4.5	0.7	NULL	VVLKT
+PH3201	Quang điện tử và thông tin quang sợi	3	5	0.6	NULL	VVLKT
+PH3281	Kiểm tra không phá hủy vật liệu	2	3.5	0.7	PH3081	VVLKT
+PH3330	Vật lý điện tử	3	5.5	0.7	NULL	VVLKT
+PH3350	Căn bản khoa học máy tính cho kỹ sư vật lý	3	4.5	0.6	NULL	VVLKT
+PH3360	Tính toán trong vật lý và khoa học vật liệu	3	4	0.6	NULL	VVLKT
+PH3371	Pin mặt trời	3	6	0.6	PH3201	VVLKT
+PH3400	Cơ sở quang học, quang ĐT	3	5	0.5	NULL	VVLKT
+PH3410	Hệ thống nhúng và ứng dụng	3	6	0.7	NULL	VVLKT
+PH3430	Cơ sở năng lượng tái tạo	3	4.5	0.5	NULL	VVLKT
+PH3440	Vật liệu tích trữ và biến đổi năng lượng	2	4.5	0.5	NULL	VVLKT
+PH3450	Công nghệ chiếu sáng rắn	2	4.5	0.7	NULL	VVLKT
+PH3470	Cơ sở vật lý và công nghệ nano	3	5.5	0.7	NULL	VVLKT
+PH3480	Vật liệu điện tử	2	3	0.7	PH3430	VVLKT
+PH3490	Kỹ thuật phân tích vật lý	3	6	0.5	NULL	VVLKT
+PH3500	Thực tập kỹ thuật	2	4.5	0.5	NULL	VVLKT
+PH3510	Đồ án tốt nghiệp cử nhân	6	8.5	0.7	NULL	VVLKT
+PH4000	Thực tập kỹ thuật	2	4.5	0.5	NULL	VVLKT
+PH4041	Vật lý và kỹ thuật màng mỏng	3	5	0.6	PH1026	VVLKT
+PH4071	Công nghệ vi điện tử	3	5	0.5	NULL	VVLKT
+PH4080	Từ học và vật liệu từ	3	6	0.5	NULL	VVLKT
+PH4091	Chế tạo và xử lý các cấu trúc nano	2	5	0.5	NULL	VVLKT
+PH4101	Công nghệ và linh kiện MEMS/NEMS	3	5	0.6	NULL	VVLKT
+PH4130	Vật liệu polyme	2	5	0.7	NULL	VVLKT
+PH4330	Hệ quang học và thiết kế hệ quang	3	4.5	0.7	NULL	VVLKT
+PH4340	Linh kiện quang điện tử và ứng dụng	2	5	0.7	NULL	VVLKT
+PH4370	Vật lý nano y sinh	2	4	0.6	NULL	VVLKT
+PH4640	Vật liệu quang điện tiên tiến	2	3.5	0.6	NULL	VVLKT
+PH4661	Vật lý laser	3	5.5	0.5	NULL	VVLKT
+PH4670	Thiết kế hệ thống chiếu sáng	3	5.5	0.5	NULL	VVLKT
+PH4691	Hiển thị màn hình phẳng	2	3	0.5	NULL	VVLKT
+PH4721	Qui hoạch thực nghiệm vật lý	3	4	0.6	NULL	VVLKT
+PH4731	Quang tử	3	4	0.7	NULL	VVLKT
+PH4900	Đồ án tốt nghiệp cử nhân	6	9	0.7	NULL	VVLKT
+PH4990	Đồ án thiết kế	3	5	0.6	PH4101	VVLKT
+PH5000	Thực tập tốt nghiệp Kỹ sư	3	5	0.6	NULL	VVLKT
+PH5100	Đồ án tốt nghiệp kỹ sư	9	11	0.6	NULL	VVLKT
+SSH1050	Tư tưởng HCM	2	4.5	0.6	NULL	KML
+SSH1111	Triết học Mác - Lênin	3	5.5	0.7	NULL	KML
+SSH1121	Kinh tế chính trị Mác - Lênin	2	5	0.6	NULL	KML
+SSH1130	Đường lối CM của ĐCSVN	3	4.5	0.7	NULL	KML
+SSH1131	Chủ nghĩa xã hội khoa học	2	4.5	0.7	NULL	KML
+SSH1141	Lịch sử Đảng cộng sản Việt Nam	2	3.5	0.7	NULL	KML
+SSH1151	Tư tưởng Hồ Chí Minh	2	5	0.7	NULL	KML
+TE2001E	Nhập môn kỹ thuật ô tô	2	3.5	0.5	NULL	TCK
+TE2010E	Động lực học phân tích	2	3.5	0.7	TE2001E	TCK
+TE2020	Technical Writing and Presentation	3	5	0.7	NULL	TCK
+TE2020E	Technical Writing and Presentation	3	5.5	0.6	NULL	TCK
+TE2030E	Động học máy 	3	4	0.7	NULL	TCK
+TE2040E	Thực hành thiết kế I	3	5	0.6	NULL	TCK
+TE2050E	Cơ học vật liệu	2	3.5	0.7	NULL	TCK
+TE2601	Kỹ thuật thủy khí	3	5	0.7	NULL	TCK
+TE2601E	Kỹ thuật thủy khí	2	4.5	0.6	NULL	TCK
+TE2652	Kỹ thuật lập trình trong thủy khí ứng dụng	2	5	0.6	NULL	TCK
+TE2821	Vật liệu hàng không	2	3	0.7	NULL	TCK
+TE3010	Động cơ đốt trong	3	5	0.6	NULL	TCK
+TE3021	Lý thuyết động cơ ô tô	3	4.5	0.5	NULL	TCK
+TE3031E	Các nguồn năng lượng tái tạo và quản lý	3	6	0.6	NULL	TCK
+TE3050	Nhiệt động học	2	4	0.7	NULL	TCK
+TE3050E	Nhiệt động học	2	4	0.6	NULL	TCK
+TE3090	Đồ án thiết kế máy	3	6	0.6	NULL	TCK
+TE3090E	Đồ án kỹ thuật ô tô	2	3	0.6	NULL	TCK
+TE3200	Kết cấu ô tô	3	4	0.7	NULL	TCK
+TE3200E	Kết cấu ô tô hiện đại	3	5.5	0.5	NULL	TCK
+TE3210	Lý thuyết ô tô	3	4	0.5	NULL	TCK
+TE3210E	Lý thuyết ô tô	3	6	0.7	NULL	TCK
+TE3220	Kỹ thuật bảo dưỡng, sửa chữa ô tô	4	6	0.6	NULL	TCK
+TE3361E	Cảm biến trên ô tô hiện đại	2	4.5	0.7	NULL	TCK
+TE3378E	Cảm biến và xử lý tín hiệu	2	3.5	0.7	NULL	TCK
+TE3400	Máy thủy khí	3	4.5	0.7	NULL	TCK
+TE3411	Lý thuyết cánh	2	3	0.5	NULL	TCK
+TE3420	Bơm quạt cánh dẫn I	2	5	0.5	NULL	TCK
+TE3430	Tua bin nước I	2	4	0.7	NULL	TCK
+TE3460	Máy thủy lực thể tích	2	3.5	0.7	NULL	TCK
+TE3461	Truyền động thủy khí công nghiệp	2	4.5	0.5	NULL	TCK
+TE3480	Cảm biến và đo lường	2	3	0.6	NULL	TCK
+TE3579	Cơ sở lý thuyết điều khiển tự động trong thủy khí ứng dụng	2	4	0.7	NULL	TCK
+TE3600	Kỹ thuật thủy khí	2	4	0.7	TE3420	TCK
+TE3602	Kỹ thuật thủy khí	2	4.5	0.5	NULL	TCK
+TE3612	Lý thuyết phương tiện thủy	3	5.5	0.6	NULL	TCK
+TE3640	Vẽ kỹ thuật tàu thủy	2	4	0.5	NULL	TCK
+TE3652	Kết cấu phương tiện thủy	3	4.5	0.5	NULL	TCK
+TE3654	Thiết kế phương tiện thủy	3	6	0.6	NULL	TCK
+TE3801	Kết cấu máy bay	2	3.5	0.7	NULL	TCK
+TE3811	Khí động lực học I	3	5	0.5	NULL	TCK
+TE3831	Kỹ thuật điện-điện tử trên máy bay	3	4.5	0.5	NULL	TCK
+TE3841	Luật hàng không	2	3	0.7	NULL	TCK
+TE3861	Các hệ thống trên máy bay I	2	4	0.5	NULL	TCK
+TE3871	Các hệ thống trên máy bay II	3	5.5	0.7	NULL	TCK
+TE3881	Yếu tố con người	2	5	0.7	NULL	TCK
+TE3891	Cánh quạt máy bay	2	4.5	0.7	NULL	TCK
+TE4000	Thực tập kỹ thuật	2	3.5	0.6	NULL	TCK
+TE4010E	Công nghệ lưu trữ năng lượng	2	3.5	0.5	NULL	TCK
+TE4031	Thiết kế động cơ ô tô	3	4	0.6	NULL	TCK
+TE4060	Các nguồn động lực trên ô tô	2	3.5	0.5	NULL	TCK
+TE4060E	Các nguồn động lực trên ô tô hiện đại	3	5	0.7	NULL	TCK
+TE4200	Hệ thống điện và điện tử ô tô	3	4.5	0.7	NULL	TCK
+TE4200E	Hệ thống điện và điện tử ô tô	3	4.5	0.5	NULL	TCK
+TE4210	Thiết kế tính toán ô tô	3	4.5	0.5	NULL	TCK
+TE4210E	Thiết kế ô tô hiện đại	3	5	0.5	NULL	TCK
+TE4220	Công nghệ khung vỏ ô tô	2	5	0.7	NULL	TCK
+TE4222	Quản lý sản xuất ô tô	3	6	0.6	NULL	TCK
+TE4241	Động lực học ô tô cơ bản	2	4.5	0.7	NULL	TCK
+TE4250	Cơ sở thiết kế ô tô	2	4	0.7	NULL	TCK
+TE4440	Truyền động thủy động	3	5	0.6	NULL	TCK
+TE4450	Lý thuyết điều chỉnh tự động bằng các CCTK	3	5	0.6	TE3841	TCK
+TE4471	Truyền động và tự động khí nén	2	3	0.6	NULL	TCK
+TE4490	Bơm quạt cánh dẫn II	2	3	0.6	NULL	TCK
+TE4500	Tua bin nước II	2	3	0.6	NULL	TCK
+TE4541	Đồ án chuyên ngành I	2	4	0.5	NULL	TCK
+TE4542	Đồ án thiết kế Máy thể tích	3	4.5	0.6	NULL	TCK
+TE4550	Đồ án máy thủy lực cánh dẫn	2	4.5	0.5	TE2030E	TCK
+TE4551	Đồ án chuyên ngành II	2	4.5	0.5	NULL	TCK
+TE4571	Hệ thống trạm bơm và trạm thủy điện	2	4	0.5	NULL	TCK
+TE4575	CN chế tạo máy thuỷ khí	2	5	0.6	NULL	TCK
+TE4576	Robot công nghiệp 	2	4	0.6	NULL	TCK
+TE4578	Cơ sở kỹ thuật năng lượng gió và đại dương	2	3.5	0.7	NULL	TCK
+TE4579	Điều khiển hệ thống thủy lực và khí nén	2	4	0.5	NULL	TCK
+TE4580	Ứng dụng PLC điều khiển các hệ truyền động thể tích công nghiệp	2	4	0.5	TE4541	TCK
+TE4581	Mạch thủy lực ứng dụng	2	4	0.6	NULL	TCK
+TE4582	Thiết kế và mô phỏng máy thủy khí trên máy tính 	2	3	0.6	NULL	TCK
+TE4612	Sức bền tàu thủy	2	5	0.5	TE2020	TCK
+TE4614	Hệ thống điều khiển chuyển động tàu thủy và phương tiện nổi	2	5	0.5	NULL	TCK
+TE4616	Thiết bị đẩy tàu thủy	2	4.5	0.6	NULL	TCK
+TE4634	Công nghệ chế tạo phương tiện thủy	3	4.5	0.5	NULL	TCK
+TE4652	ứng dụng tin học trong kỹ thuật phương tiện thủy	2	4	0.6	NULL	TCK
+TE4654	ổn định và điều khiển phương tiện thủy	2	3	0.6	NULL	TCK
+TE4656	Hệ thống, trang thiết bị phương tiện thủy	2	3	0.6	NULL	TCK
+TE4728	Chuyên đề nghiên cứu tàu thủy	2	4.5	0.7	NULL	TCK
+TE4740	Đồ án thiết kế	3	4.5	0.5	NULL	TCK
+TE4801	Động cơ hàng không I	3	5	0.5	NULL	TCK
+TE4812	Phương pháp số trong kỹ thuật hàng không	2	4	0.6	NULL	TCK
+TE4820	Kết cấu hàng không	2	3	0.5	NULL	TCK
+TE4821	Kiểm tra và bảo dưỡng máy bay	3	5	0.7	NULL	TCK
+TE4830	Đàn hồi khí động học	2	3.5	0.6	NULL	TCK
+TE4840	Kỹ thuật điện-điện tử trên máy bay	2	5	0.6	NULL	TCK
+TE4850	Hệ thống thời gian thực	2	3.5	0.7	TE4740	TCK
+TE4861	Tiếng Anh chuyên ngành	2	4.5	0.7	NULL	TCK
+TE4870	Khí động lực học cơ bản	3	4	0.7	TE4582	TCK
+TE4872	Thiết kế máy bay	3	5	0.7	TE3200E	TCK
+TE4880	Động cơ và thiết bị đẩy I	3	4	0.6	NULL	TCK
+TE4881	Khí động lực học II	3	6	0.7	NULL	TCK
+TE4890	Cơ học vật bay I	2	3.5	0.6	NULL	TCK
+TE4891	Khí động đàn hồi	2	3.5	0.7	TE4812	TCK
+TE4900	Máy thủy lực I	2	4.5	0.5	TE3430	TCK
+TE4921	Cơ học phá huỷ	2	5	0.7	NULL	TCK
+TE4931	Cơ học vật bay	3	5	0.7	NULL	TCK
+TE4990	Đồ án tốt nghiệp cử nhân	6	8	0.6	NULL	TCK
+TE4990E	Đồ án tốt nghiệp cử nhân	6	7.5	0.7	NULL	TCK
+TE4991	Đồ án tốt nghiệp cử nhân	6	8	0.7	NULL	TCK
+TE4992	Đồ án nghiên cứu Cử nhân (Kỹ thuật Ô tô)	8	11	0.7	NULL	TCK
+TE4992E	Đồ án nghiên cứu Cử nhân (CTTT Kỹ thuật Ô tô)	8	10	0.7	NULL	TCK
+TE4994	Đồ án tốt nghiệp cử nhân	6	8	0.7	NULL	TCK
+TE4995	Đồ án tốt nghiệp cử nhân	6	8.5	0.6	NULL	TCK
+TE4996	Đồ án nghiên cứu Cử nhân (Kỹ thuật Hàng không)	8	11	0.5	NULL	TCK
+TE5001	Thực tập tốt nghiệp (ĐCĐT)	3	5	0.7	NULL	TCK
+TE5002	Thực tập tốt nghiệp (Ô tô)	3	5.5	0.6	NULL	TCK
+TE5003	Thực tập tốt nghiệp (MTK)	3	5.5	0.7	TE4060	TCK
+TE5004	Thực tập tốt nghiệp (KTTT)	3	4	0.6	NULL	TCK
+TE5005	Thực tập tốt nghiệp	3	5	0.7	NULL	TCK
+TE5006	Thực tập kỹ sư	3	4	0.5	TE3801	TCK
+TE5011	Thực tập kỹ sư (Ô tô 1)	3	4.5	0.5	NULL	TCK
+TE5012	Thực tập kỹ sư (Ô tô 2)	3	5	0.6	NULL	TCK
+TE5013	Thực tập kỹ sư (MTK)	3	4	0.5	NULL	TCK
+TE5020	ĐLH và dao động ĐCĐT	3	5	0.5	TE4200	TCK
+TE5032	Ô tô và ô nhiễm môi trường	2	3.5	0.5	NULL	TCK
+TE5060	Đồ án chuyên ngành ĐCĐT	2	4	0.5	NULL	TCK
+TE5061	Đồ án chuyên ngành ô tô 2	2	4	0.7	NULL	TCK
+TE5110	Hệ thống điều khiển động cơ ô tô	3	4.5	0.7	NULL	TCK
+TE5120	Thiết kế và mô phỏng các nguồn động lực trên ô tô	3	5	0.5	NULL	TCK
+TE5130	Năng lượng tái tạo và quản lý	2	4.5	0.6	NULL	TCK
+TE5140	Công nghệ sản xuất và lắp ráp ô tô	2	4	0.7	NULL	TCK
+TE5201	Ứng dụng máy tính trong kỹ thuật ô tô	3	5.5	0.7	NULL	TCK
+TE5211	Cơ điện tử ô tô cơ bản	2	5	0.6	NULL	TCK
+TE5221	Thí nghiệm ô tô	3	4.5	0.5	NULL	TCK
+TE5222	Truyền lực ô tô	2	3.5	0.5	NULL	TCK
+TE5230	Xe chuyên dụng	3	5	0.6	NULL	TCK
+TE5240	Đồ án chuyên ngành ô tô	2	4.5	0.6	NULL	TCK
+TE5241	Đồ án chuyên ngành ô tô 1	2	4	0.5	NULL	TCK
+TE5242	Chuyên đề ô tô 1	2	3.5	0.6	NULL	TCK
+TE5618	Thiết kế tàu thông dụng	2	3	0.5	NULL	TCK
+TE5701	Đồ án kỹ sư (TT)	9	11	0.7	NULL	TCK
+TE5705	Thực tập kỹ sư (TT)	3	6	0.5	NULL	TCK
+TE5720	Động lực học tàu thủy	2	5	0.6	NULL	TCK
+TE5740	Thiết kế tàu cao tốc	2	5	0.7	NULL	TCK
+TE5750	Mô hình hóa và mô phỏng các hệ thống động lực	2	4	0.7	NULL	TCK
+TE5753	Kỹ thuật mô phỏng số trong Kỹ thuật tàu thủy	3	4	0.7	NULL	TCK
+TE5801	Động cơ Hàng không II	2	4	0.6	NULL	TCK
+TE5802	Độ tin cậy trong kỹ thuật hàng không	2	4	0.7	NULL	TCK
+TE5810	Khí động lực học chuyên sâu	2	4	0.7	NULL	TCK
+TE5811	Máy bay trực thăng	3	5	0.5	NULL	TCK
+TE5812	Máy bay không người lái	3	4.5	0.6	TE4992	TCK
+TE5820	Động cơ và thiết bị đẩy II	3	5	0.6	NULL	TCK
+TE5821	Đồ án tính toán thiết kế máy bay	2	4	0.7	TE4581	TCK
+TE5822	Đồ án chuyên ngành	2	3	0.5	NULL	TCK
+TE5830	Vật liệu hàng không	2	3	0.5	TE4921	TCK
+TE5840	Truyền động tự động thủy khí	2	4.5	0.5	NULL	TCK
+TE5842	An toàn bay	2	4	0.7	NULL	TCK
+TE5850	Phương pháp số trong cơ học chất lỏng	3	4	0.5	NULL	TCK
+TE5860	Cơ học vật bay II	2	4	0.7	TE4490	TCK
+TE5870	Cơ sở thiết kế máy bay	3	4.5	0.6	NULL	TCK
+TE5880	Các hệ thống trên máy bay	3	6	0.7	NULL	TCK
+TE5900	Kiểm tra và bảo dưỡng máy bay	3	4	0.5	NULL	TCK
+TE5910	Khai thác và quản lý máy bay	2	4	0.6	NULL	TCK
+TE5920	Luật hàng không	2	3.5	0.7	NULL	TCK
+TE5930	Đồ án môn học	3	5	0.5	TE4991	TCK
+TE5940	Thực tập tốt nghiệp	4	6	0.7	NULL	TCK
+TE5950	Đồ án tốt nghiệp	10	11	0.5	NULL	TCK
+TE5981	Đồ án kỹ sư (Ô tô 1)	9	10.5	0.6	NULL	TCK
+TE5982	Đồ án kỹ sư (Ô tô 2)	9	11	0.5	TE4994	TCK
+TE5983	Đồ án kỹ sư (MTK)	9	11	0.5	NULL	TCK
+TE5991	Đồ án tốt nghiệp kỹ sư (ĐCĐT)	9	11	0.5	NULL	TCK
+TE5992	Đồ án tốt nghiệp kỹ sư (Ô tô)	9	11	0.7	NULL	TCK
+TE5993	Đồ án tốt nghiệp kỹ sư (MTK)	9	11	0.5	NULL	TCK
+TE5994	Đồ án tốt nghiệp kỹ sư (KTTT)	9	10.5	0.6	NULL	TCK
+TE5995	Đồ án tốt nghiệp kỹ sư	9	11	0.5	NULL	TCK
+TE5996	Đồ án kỹ sư (KTHK)	9	11	0.6	TE2020E	TCK
+TEX2000	Nhập môn KT Dệt may	3	5	0.6	NULL	KCNDMVTT
+TEX2020	Technical Writing and Presentation	3	5	0.6	NULL	KCNDMVTT
+TEX3011	Đại cương công nghệ sợi dệt	2	4	0.5	NULL	KCNDMVTT
+TEX3012	Quản lý sản xuất ngành may	2	3	0.7	NULL	KCNDMVTT
+TEX3013	Quản lý sản xuất ngành dệt	2	3.5	0.6	NULL	KCNDMVTT
+TEX3022	Quản lý chất lượng ngành may	2	4	0.6	NULL	KCNDMVTT
+TEX3030	Marketing dệt may	2	3.5	0.7	NULL	KCNDMVTT
+TEX3031	Quản lý chất lượng ngành dệt	2	5	0.6	NULL	KCNDMVTT
+TEX3041	Tiếng Anh chuyên ngành dệt	3	5	0.6	NULL	KCNDMVTT
+TEX3042	Tiếng Anh chuyên ngành may	3	4.5	0.6	NULL	KCNDMVTT
+TEX3051	Vật liệu dệt	4	6	0.5	TE2001E	KCNDMVTT
+TEX3052	Vật liệu May	3	4	0.5	NULL	KCNDMVTT
+TEX3060	Thực hành kiểm tra và phân tích vật liệu dệt may	2	4	0.6	NULL	KCNDMVTT
+TEX3061	Thực hành sợi, vải	2	5	0.5	NULL	KCNDMVTT
+TEX3070	An toàn lao động và môi trường dệt may	2	4.5	0.6	NULL	KCNDMVTT
+TEX3080	Cấu trúc vải	2	4	0.5	NULL	KCNDMVTT
+TEX3081	Cấu trúc vải dệt thoi	2	5	0.6	NULL	KCNDMVTT
+TEX3090	Cơ sở mỹ thuật sản phẩm dệt may	2	5	0.7	NULL	KCNDMVTT
+TEX3091	Cấu trúc vải dệt kim	2	3.5	0.7	NULL	KCNDMVTT
+TEX3101	Đồ án thiết kế	3	4.5	0.7	NULL	KCNDMVTT
+TEX3102	Đồ án thiết kế	3	6	0.5	NULL	KCNDMVTT
+TEX4002	Thiết kế công nghệ quá trình sản xuất may	2	3	0.5	NULL	KCNDMVTT
+TEX4016	Thiết kế sản phẩm sợi	2	4	0.6	NULL	KCNDMVTT
+TEX4023	Hóa học thuốc nhuộm	3	6	0.5	NULL	KCNDMVTT
+TEX4026	Thiết kế vải dệt thoi đơn giản	2	4.5	0.6	NULL	KCNDMVTT
+TEX4035	Lịch sử trang phục	2	4.5	0.7	TE5140	KCNDMVTT
+TEX4036	Thiết kế sản phẩm vải dệt	2	4	0.6	TE4991	KCNDMVTT
+TEX4055	Thiết kế thời trang theo chuyên đề	2	5	0.5	NULL	KCNDMVTT
+TEX4065	Tin học ứng dụng trong thiết kế thời trang	2	4	0.6	TE5020	KCNDMVTT
+TEX4094	Vật liệu da giầy	2	4	0.7	NULL	KCNDMVTT
+TEX4115	Kỹ thuật trang trí sản phẩm thời trang	2	4	0.6	NULL	KCNDMVTT
+TEX4125	Tạo mẫu thời trang trên ma-nơ-canh	2	4.5	0.6	NULL	KCNDMVTT
+TEX4134	Thiết kế dây chuyền sản xuất giầy	2	3	0.7	NULL	KCNDMVTT
+TEX4252	Tin học ứng dụng trong thiết kế sản phẩm may	3	5.5	0.5	NULL	KCNDMVTT
+TEX4272	Thiết kế sản phẩm may theo đơn hàng	2	3.5	0.6	TE3090	KCNDMVTT
+TEX4282	Thiết kế mẫu sản xuất	2	4	0.5	NULL	KCNDMVTT
+TEX4332	Thiết bị may công nghiệp	3	4.5	0.6	TE5005	KCNDMVTT
+TEX4342	Công nghệ gia công sản phẩm may	2	4	0.7	TEX3031	KCNDMVTT
+TEX4352	Thực hành may cơ bản	3	6	0.5	NULL	KCNDMVTT
+TEX4372	Thực hành may nâng cao	2	5	0.6	NULL	KCNDMVTT
+TEX4382	Thiết kế trang phục 	2	5	0.5	NULL	KCNDMVTT
+TEX4402	Tin học ứng dụng trong sản xuất công nghiệp may	3	5	0.6	NULL	KCNDMVTT
+TEX4404	Thiết kế giầy cơ bản	3	4.5	0.6	NULL	KCNDMVTT
+TEX4405	Hình họa thời trang cơ bản	2	4.5	0.5	NULL	KCNDMVTT
+TEX4411	Chuẩn bị dệt	2	3.5	0.7	NULL	KCNDMVTT
+TEX4414	Thiết kế sản phẩm da	2	4	0.5	NULL	KCNDMVTT
+TEX4415	Mỹ thuật trang phục	2	3.5	0.7	TEX4342	KCNDMVTT
+TEX4422	Thiết kế dây chuyền may	3	5	0.7	NULL	KCNDMVTT
+TEX4424	Thiết kế giầy nâng cao 	2	3.5	0.6	NULL	KCNDMVTT
+TEX4425	Hình họa thời trang nâng cao	2	4	0.5	NULL	KCNDMVTT
+TEX4431	Kỹ thuật dệt kim cơ bản	2	3.5	0.7	NULL	KCNDMVTT
+TEX4432	Hệ thống công nghệ quá trình may	2	4	0.6	NULL	KCNDMVTT
+TEX4441	Kỹ thuật dệt thoi	4	6	0.5	NULL	KCNDMVTT
+TEX4442	Công nghệ sản xuất sản phẩm may	3	4	0.7	NULL	KCNDMVTT
+TEX4444	Thực hành công nghệ sản xuất giầy	3	4.5	0.6	NULL	KCNDMVTT
+TEX4451	Kỹ thuật dệt kim hoa	2	4	0.7	TE5002	KCNDMVTT
+TEX4453	Thực hành công nghệ nhuộm – in hoa  - hoàn tất sản phẩm dệt may	2	4	0.6	NULL	KCNDMVTT
+TEX4462	Thực hành thiết kế trang phục	2	3	0.7	NULL	KCNDMVTT
+TEX4463	Công nghệ và thiết bị tiền xử lý sản phẩm dệt	2	4.5	0.6	NULL	KCNDMVTT
+TEX4464	Công nghệ cắt may sản phẩm da giầy	2	4.5	0.6	NULL	KCNDMVTT
+TEX4471	Công nghệ không dệt	2	4.5	0.6	NULL	KCNDMVTT
+TEX4472	Thiết kế trang phục đặc biệt	2	3.5	0.7	NULL	KCNDMVTT
+TEX4473	Công nghệ và thiết bị nhuộm – in hoa sản phẩm dệt	3	4.5	0.5	TE3378E	KCNDMVTT
+TEX4482	Thiết kế và gia công trang phục dệt kim	2	3.5	0.6	NULL	KCNDMVTT
+TEX4483	Phân tích sinh thái vật liệu dệt may	2	3	0.6	NULL	KCNDMVTT
+TEX4484	Công nghệ gò ráp đế và hoàn tất giầy	2	3	0.7	NULL	KCNDMVTT
+TEX4493	Công nghệ-thiết bị hoàn tất và kỹ thuật đo màu	3	4.5	0.5	NULL	KCNDMVTT
+TEX4501	Kỹ thuật kéo sợi không cọc	2	3	0.5	NULL	KCNDMVTT
+TEX4511	Thiết kế dây chuyền kéo sợi	2	4	0.7	TE4652	KCNDMVTT
+TEX4521	Thực hành sợi 1	2	5	0.5	NULL	KCNDMVTT
+TEX4551	Thực hành dệt 1	2	4	0.7	NULL	KCNDMVTT
+TEX4561	Thiết kế dây chuyền dệt	2	4	0.7	NULL	KCNDMVTT
+TEX4571	Công nghệ sản xuất sợi	2	4.5	0.6	NULL	KCNDMVTT
+TEX4901	Thực tập kỹ thuật	2	3.5	0.5	NULL	KCNDMVTT
+TEX4912	Thực tập kỹ thuật	2	3.5	0.5	NULL	KCNDMVTT
+TEX4921	Đồ án tốt nghiệp cử nhân	6	7.5	0.5	NULL	KCNDMVTT
+TEX4922	Đồ án tốt nghiệp cử nhân	6	8	0.7	NULL	KCNDMVTT
+TEX5005	Đồ họa quảng cáo thời trang	2	4.5	0.5	TE5060	KCNDMVTT
+TEX5015	Dự báo xu hướng thời trang	2	3	0.7	NULL	KCNDMVTT
+TEX5021	Cấu trúc sợi  	2	4.5	0.6	NULL	KCNDMVTT
+TEX5022	Tổ chức lao động trong công nghiệp may	2	3.5	0.6	NULL	KCNDMVTT
+TEX5023	Động học nhuộm	2	3	0.5	TE3652	KCNDMVTT
+TEX5032	Đo lường may	2	3.5	0.5	NULL	KCNDMVTT
+TEX5033	Ứng dụng tin học và tự động hoá trong in nhuộm	2	4	0.7	NULL	KCNDMVTT
+TEX5042	Thiết kế nhà máy may	3	5	0.5	NULL	KCNDMVTT
+TEX5043	Kiểm tra chất lượng sản phẩm nhuộm-hoàn tất	2	5	0.6	NULL	KCNDMVTT
+TEX5045	Thiết kế bộ sưu tập thời trang công nghiệp	2	3.5	0.6	NULL	KCNDMVTT
+TEX5052	Đồ án thiết kế nhà máy may	3	5	0.7	NULL	KCNDMVTT
+TEX5062	Nhân trắc học may mặc	2	4	0.6	NULL	KCNDMVTT
+TEX5065	Tạo mẫu phụ trang	2	4.5	0.5	NULL	KCNDMVTT
+TEX5072	Thiết kế trang phục chuyên dụng	2	5	0.5	NULL	KCNDMVTT
+TEX5091	Công nghệ sản xuât vải kỹ thuật	2	4.5	0.6	NULL	KCNDMVTT
+TEX5101	Công nghệ sản xuất chỉ may	2	4	0.7	NULL	KCNDMVTT
+TEX5102	Thiết kế phát triển sản phẩm may	2	3.5	0.6	NULL	KCNDMVTT
+TEX5121	Máy dệt chuyên dùng	2	3	0.7	TE5810	KCNDMVTT
+TEX5122	Tâm lý và hành vi khách hàng thời trang	2	4	0.6	NULL	KCNDMVTT
+TEX5133	Xử lý hoàn tất sản phẩm may	2	4	0.6	NULL	KCNDMVTT
+TEX5134	Tin học ứng dụng trong thiết kế giầy	3	4.5	0.6	NULL	KCNDMVTT
+TEX5144	Đồ án phát triển sản phẩm da giầy	3	5	0.7	NULL	KCNDMVTT
+TEX5153	Quá trình và thiết bị công nghệ hóa dệt	2	4.5	0.6	NULL	KCNDMVTT
+TEX5162	Thiết kế mỹ thuật sản phẩm may 	3	4.5	0.5	NULL	KCNDMVTT
+TEX5163	Quá trình sản xuất xơ sợi nhân tạo	2	4.5	0.6	NULL	KCNDMVTT
+TEX5171	Sợi kiểu và ứng dụng	2	5	0.5	NULL	KCNDMVTT
+TEX5172	Merchandise trong sản xuất công nghiệp may	2	4	0.5	NULL	KCNDMVTT
+TEX5173	Thiết kế nhà máy nhuộm – In hoa – Hoàn tất sản phẩm dệt	3	4.5	0.6	NULL	KCNDMVTT
+TEX5183	Đồ án Vật liệu và công nghệ Hóa dệt	3	5	0.7	NULL	KCNDMVTT
+TEX5191	Kiểm soát chất lượng trong nhà máy sợi	2	4	0.7	NULL	KCNDMVTT
+TEX5192	Tạo mẫu thời trang 3D	3	5	0.6	NULL	KCNDMVTT
+TEX5193	Phân tích thành phần hoá học vật liệu dệt may	3	4.5	0.7	NULL	KCNDMVTT
+TEX5195	Đồ án thiết kế bộ sưu tập thời trang công nghiệp	3	4.5	0.6	NULL	KCNDMVTT
+TEX5202	Đồ án thiết kế và phát triển sản phẩm may	3	5	0.5	NULL	KCNDMVTT
+TEX5211	Đồ án công nghệ sợi	3	5	0.5	NULL	KCNDMVTT
+TEX5221	Tin học ứng dụng trong công nghệ dệt	2	4	0.5	NULL	KCNDMVTT
+TEX5222	Công nghệ sản phẩm may từ vật liệu đặc biệt	3	4	0.5	NULL	KCNDMVTT
+TEX5241	Thiết kế vải dệt thoi	2	4.5	0.5	NULL	KCNDMVTT
+TEX5243	Đại cương xử lý hóa học sản phẩm dệt	2	4	0.7	NULL	KCNDMVTT
+TEX5261	Thực hành dệt 2	2	4.5	0.5	NULL	KCNDMVTT
+TEX5271	Đồ án công nghệ dệt thoi	3	6	0.5	NULL	KCNDMVTT
+TEX5281	Đồ án công nghệ dệt kim	3	4.5	0.5	NULL	KCNDMVTT
+TEX5321	Cấu trúc vải dệt kim phức tạp	2	3.5	0.6	NULL	KCNDMVTT
+TEX5331	Bông phế và ứng dụng	2	5	0.6	NULL	KCNDMVTT
+TEX5902	Đồ án kỹ sư	9	10.5	0.7	TEX4422	KCNDMVTT
+TEX5911	Đồ án tốt nghiệp kỹ sư	9	10.5	0.7	NULL	KCNDMVTT
+TEX5931	Thực tập kỹ sư	3	6	0.7	NULL	KCNDMVTT
+TEX5933	Thực tập kỹ sư	3	4	0.6	NULL	KCNDMVTT
+TEX5934	Thực tập kỹ sư	3	4.5	0.6	TE5032	KCNDMVTT
+TEX5941	Đồ án kỹ sư	9	12	0.5	NULL	KCNDMVTT
+TEX5943	Đồ án kỹ sư	9	10	0.7	TE4931	KCNDMVTT
+TEX5944	Đồ án kỹ sư	9	11.5	0.7	NULL	KCNDMVTT
+TEX5951	Thực tập kỹ sư	3	5.5	0.7	NULL	KCNDMVTT
+TEX5952	Thực tập kỹ sư	3	4.5	0.7	NULL	KCNDMVTT
+TEX5961	Đồ án kỹ sư	9	10	0.7	NULL	KCNDMVTT
+TEX5962	Đồ án kỹ sư	9	11.5	0.7	NULL	KCNDMVTT
+TEX5972	Thực tập kỹ sư	3	5	0.6	NULL	KCNDMVTT
+TEX5982	Đồ án kỹ sư	9	10	0.7	NULL	KCNDMVTT
+TEX5992	Thực tập kỹ sư	3	5.5	0.5	NULL	KCNDMVTT
