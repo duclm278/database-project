@@ -1,13 +1,4 @@
 -- 2.1. Staff (Admin)
-DROP SCHEMA IF EXISTS search CASCADE;
-CREATE SCHEMA search;
-
-DROP SCHEMA IF EXISTS student CASCADE;
-CREATE SCHEMA student;
-
-DROP SCHEMA IF EXISTS lecturer CASCADE;
-CREATE SCHEMA lecturer;
-
 DROP VIEW IF EXISTS full_timetable;
 CREATE VIEW full_timetable AS
     SELECT c.semester, t.* FROM timetable t

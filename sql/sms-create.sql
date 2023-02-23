@@ -1,5 +1,14 @@
-DROP SCHEMA public CASCADE;
-CREATE SCHEMA public;
+drop schema if exits public cascade;
+create schema public;
+
+drop schema if exists search cascade;
+create schema search;
+
+drop schema if exists student cascade;
+create schema student;
+
+drop schema if exists lecturer cascade;
+create schema lecturer;
 
 create table faculty (
 	id varchar(8) not null,
