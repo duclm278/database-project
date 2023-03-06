@@ -84,8 +84,8 @@ CALL assign_lecturer('aaaaaaaaaaaa', '555555');
 SELECT * FROM class WHERE lecturer_id LIKE 'aaaaaaaaaaaa';
 -- Test teaching conflict TRIGGER
 CALL add_class('666666', 'LT', '20201', 'N', 0, 80, NULL, NULL, 'IT3333');
-CALL add_timetable('666666', '3', '1800', '1900', 'D9-500');
--- CALL assign_lecturer('aaaaaaaaaaaa', '666666');
+CALL add_timetable('666666', '3', '1830', '1930', 'D9-505');
+CALL assign_lecturer('aaaaaaaaaaaa', '666666');
 
 -- 2.1.6. Assigning students to classes.
 -- Reset GPA of all active students. Run at beginning of each semester.
