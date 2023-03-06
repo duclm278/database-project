@@ -232,6 +232,7 @@ BEGIN
         RETURN NEW;
     END IF;
 
+    -- If timetable info changed, check for conflict
     IF EXISTS(
         SELECT a.*
         FROM (
