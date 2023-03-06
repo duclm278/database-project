@@ -127,8 +127,8 @@ SELECT * FROM report_scholarship();
 -- Demo student 20200164
 -- 2.2.1 Viewing data of subjects, classes, and results of themselves.
 -- View all subjects of their curriculum
--- Use FUNCTION self_view_curriculum() to return subjects of student
-SELECT * FROM student.self_view_curriculum();
+-- Use VIEW self_view_curriculum to return subjects of student
+SELECT * FROM student.self_view_curriculum;
 
 -- View their classes in of any semesters
 -- Use FUNCTION self_view_class_enrolled() to return enrolled of any semesters
@@ -219,8 +219,8 @@ SELECT * FROM student.report_student('20200164'); -- As admin
 -- Demo lecturer aaaaaaaaaaaa
 -- 2.3.1. Viewing data of all teaching subjects, classes, and results of themselves.
 -- View all subjects of their specializations
--- Use FUNCTION self_view_specializations() to return specializations of lecturer
-SELECT * FROM lecturer.self_view_specializations();
+-- Use VIEW self_view_specializations to return specializations of lecturer
+SELECT * FROM lecturer.self_view_specializations;
 -- View all classes of their teachings of any semesters
 -- Use FUNCTION self_view_class_assigned() to return assigned of lecturer
 SELECT * FROM lecturer.self_view_class_assigned();

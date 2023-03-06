@@ -9,11 +9,6 @@ DROP schema IF EXISTS lecturer CASCADE;
 CREATE schema lecturer;
 
 -- 2.1. Staff (Admin)
-DROP VIEW IF EXISTS full_timetable;
-CREATE VIEW full_timetable AS
-    SELECT c.semester, t.* FROM timetable t
-    JOIN class c ON c.id = t.class_id;
-
 -- 2.1.1. Adding students, lecturers, subjects, and classes with the following data.
 -- 2.1.1a. Students: Name, ID, School/Faculty, Program, Date of Birth, Address, Contact, etc.
 -- Use PROCEDURE add_student() to add student
@@ -116,7 +111,10 @@ BEGIN
     IF (TG_OP = 'INSERT') THEN
         IF EXISTS(
             SELECT *
-            FROM full_timetable t
+            FROM (
+                SELECT c.semester, t.* FROM timetable t
+                JOIN class c ON c.id = t.class_id
+            ) t
             WHERE t.semester = (
                 SELECT semester
                 FROM class
@@ -142,7 +140,10 @@ BEGIN
     ELSIF (TG_OP = 'UPDATE') THEN
         IF EXISTS(
             SELECT *
-            FROM full_timetable t
+            FROM (
+                SELECT c.semester, t.* FROM timetable t
+                JOIN class c ON c.id = t.class_id
+            ) t
             WHERE t.semester = (
                 SELECT semester
                 FROM class

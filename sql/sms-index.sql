@@ -60,7 +60,6 @@ CREATE INDEX class_lecturer_id ON class (lecturer_id);
 
 -- Not used. But might be useful after adding more semesters!
 -- A lot of other queries involves semesters.
--- Considering moving semester from class to timetable for convenience.
 DROP INDEX IF EXISTS class_semester;
 CREATE INDEX class_semester ON class (semester);
 
@@ -111,7 +110,7 @@ CREATE VIEW search.view_search_lecturer_specialization AS
 -- Searching and joining are quite efficient as system works mainly with primary keys.
 -- Triggers and custom views are very powerful as system needs complex checking and restrictions.
 -- Future range searching might needs more indexes.
--- Eg: Report on absent_count > [X], not all data.
+-- Eg: Report on absent_count > [X] only, not on all data.
 
 -- Insights gained from this project
 -- See how triggers and custom views are applied.

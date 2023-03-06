@@ -1,53 +1,7 @@
--- 2.2. Students
-DROP VIEW IF EXISTS student.self_view_info;
-CREATE VIEW student.self_view_info AS
-    SELECT * FROM student WHERE id = CURRENT_USER;
-
-DROP VIEW IF EXISTS search.view_search_student;
-CREATE VIEW search.view_search_student AS
-    SELECT s.id, first_name, last_name, gender, status, email, p.code program_code, p.name program_name, f.name faculty_name
-    FROM student s
-    JOIN program p ON p.id = s.program_id
-    JOIN faculty f ON f.id = p.faculty_id;
-
-DROP VIEW IF EXISTS search.view_search_lecturer;
-CREATE VIEW search.view_search_lecturer AS
-    SELECT l.id, l.first_name, l.last_name, l.gender, l.status, l.email, f.name faculty_name
-    FROM lecturer l
-    JOIN faculty f ON f.id = l.faculty_id;
-
-DROP VIEW IF EXISTS search.view_search_lecturer_specialization;
-CREATE VIEW search.view_search_lecturer_specialization AS
-    SELECT l.id, l.first_name, l.last_name, s.id subject_id, s.name subject_name
-    FROM lecturer l
-    JOIN specialization sp ON sp.lecturer_id = l.id
-    JOIN subject s ON s.id = sp.subject_id;
-
+-- 2.2. Student
 -- 2.2.1 Viewing data of subjects, classes, and results of themselves.
 -- View all subjects of their curriculum
-DROP FUNCTION IF EXISTS student.self_view_curriculum;
-CREATE OR REPLACE FUNCTION student.self_view_curriculum()
-    RETURNS TABLE(
-        id VARCHAR(7),
-        name VARCHAR(100),
-        study_credits NUMERIC,
-        tuition_credits NUMERIC,
-        final_weight NUMERIC(3, 2),
-        prerequisite_id VARCHAR(7),
-        faculty_id VARCHAR(8)
-    )
-    LANGUAGE plpgsql
-AS $$
-BEGIN
-    RETURN QUERY (
-        SELECT * FROM subject WHERE subject.id IN (
-            SELECT c.subject_id FROM curriculum c
-            WHERE c.program_id = (
-                SELECT s.program_id FROM student.self_view_info s WHERE s.id = CURRENT_USER
-            )
-        )
-    );
-END $$;
+-- Done as a view: student.self_view_curriculum
 
 -- View their classes in of any semesters
 DROP FUNCTION IF EXISTS student.self_view_class_enrolled;
@@ -311,7 +265,10 @@ BEGIN
     IF EXISTS(
         SELECT *
         -- All enrolled classes
-        FROM full_timetable
+        FROM (
+            SELECT c.semester, t.* FROM timetable t
+            JOIN class c ON c.id = t.class_id
+        ) full_timetable
         -- In same semester
         WHERE semester = (
             SELECT semester

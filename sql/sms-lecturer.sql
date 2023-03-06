@@ -1,24 +1,6 @@
 -- 2.3.1. Viewing data of all teaching subjects, classes, and results of themselves.
 -- View all subjects of their specializations
-DROP VIEW IF EXISTS lecturer.self_view_info;
-CREATE VIEW lecturer.self_view_info AS
-    SELECT * FROM lecturer WHERE id = CURRENT_USER;
-
-DROP FUNCTION IF EXISTS lecturer.self_view_specializations;
-CREATE OR REPLACE FUNCTION lecturer.self_view_specializations()
-    RETURNS TABLE(
-        subject_id VARCHAR(7),
-        subject_name VARCHAR(50)
-    )
-    LANGUAGE plpgsql
-AS $$
-BEGIN
-    RETURN QUERY
-        SELECT su.id, su.name
-        FROM lecturer.self_view_info l
-        LEFT JOIN specialization sp ON l.id = sp.lecturer_id
-        LEFT JOIN subject su ON sp.subject_id = su.id;
-END $$;
+-- Done as a view: lecturer.self_view_specializations
 
 -- View all classes of their teachings of any semesters
 DROP FUNCTION IF EXISTS lecturer.self_view_class_assigned;
