@@ -146,18 +146,20 @@ DROP FUNCTION IF EXISTS check_slot_availability CASCADE;
 CREATE OR REPLACE FUNCTION check_cap()
     RETURNS TRIGGER
     LANGUAGE plpgsql
+    SECURITY DEFINER
+    SET search_path = admin, pg_temp
 AS $$
 BEGIN
     IF EXISTS(
         SELECT *
-        FROM class
+        FROM public.class
         WHERE max_cap = current_cap
             AND id = NEW.class_id
     ) THEN
         RAISE EXCEPTION 'Cannot enroll in class % because it is full', NEW.class_id;
     END IF;
 
-    UPDATE class
+    UPDATE public.class
     SET current_cap = current_cap + 1
     WHERE id = NEW.class_id;
     RETURN NEW;
@@ -251,6 +253,8 @@ DROP FUNCTION IF EXISTS check_time_enrolled CASCADE;
 CREATE OR REPLACE FUNCTION check_time_enrolled()
     RETURNS TRIGGER
     LANGUAGE plpgsql
+    SECURITY DEFINER
+    SET search_path = admin, pg_temp
 AS $$
 DECLARE
     new_weekday char(1);
@@ -259,26 +263,26 @@ DECLARE
 BEGIN
     SELECT weekday, start_time, end_time
         INTO new_weekday, new_start_time, new_end_time
-    FROM timetable
+    FROM public.timetable
     WHERE class_id = NEW.class_id;
 
     IF EXISTS(
         SELECT *
         -- All enrolled classes
         FROM (
-            SELECT c.semester, t.* FROM timetable t
-            JOIN class c ON c.id = t.class_id
+            SELECT c.semester, t.* FROM public.timetable t
+            JOIN public.class c ON c.id = t.class_id
         ) full_timetable
         -- In same semester
         WHERE semester = (
             SELECT semester
-            FROM class
+            FROM public.class
             WHERE id = NEW.class_id
         )
         -- In class_ids of that student
         AND class_id IN (
             SELECT class_id
-            FROM enrollment
+            FROM public.enrollment
             WHERE student_id = NEW.student_id
         )
         -- Check if there is time conflict
@@ -304,56 +308,58 @@ DROP FUNCTION IF EXISTS credits_trigger_function CASCADE;
 CREATE OR REPLACE FUNCTION credits_trigger_function()
     RETURNS TRIGGER
     LANGUAGE plpgsql
+    SECURITY DEFINER
+    SET search_path = admin, pg_temp
 AS $$
 DECLARE updating_credits NUMERIC;
 BEGIN
     SELECT study_credits INTO updating_credits
-    FROM subject s
-        JOIN class c ON s.id = c.subject_id
+    FROM public.subject s
+        JOIN public.class c ON s.id = c.subject_id
     WHERE c.id = NEW.class_id;
 
     IF (TG_OP = 'INSERT') THEN
         IF NOT EXISTS (
             SELECT A.*
-            FROM enrollment A
-                JOIN class B ON A.class_id = B.id
+            FROM public.enrollment A
+                JOIN public.class B ON A.class_id = B.id
                 JOIN (
                     SELECT *
-                    FROM enrollment A
-                        JOIN class B ON A.class_id = B.id
+                    FROM public.enrollment A
+                        JOIN public.class B ON A.class_id = B.id
                     WHERE student_id = NEW.student_id
                         AND A.class_id != NEW.class_id
                 ) C ON C.subject_id = B.subject_id
             WHERE A.student_id = NEW.student_id
         ) THEN
-            UPDATE student
+            UPDATE public.student
             SET cpa_total_study_credits = cpa_total_study_credits + updating_credits
             WHERE id = NEW.student_id;
         END IF;
 
-        UPDATE student
+        UPDATE public.student
         SET gpa_total_study_credits = gpa_total_study_credits + updating_credits
         WHERE id = NEW.student_id;
     ELSEIF (TG_OP = 'DELETE') THEN
         IF NOT EXISTS (
             SELECT A.*
-            FROM enrollment A
-                JOIN class B ON A.class_id = B.id
+            FROM public.enrollment A
+                JOIN public.class B ON A.class_id = B.id
                 JOIN (
                     SELECT *
-                    FROM enrollment A
-                        JOIN class B ON A.class_id = B.id
+                    FROM public.enrollment A
+                        JOIN public.class B ON A.class_id = B.id
                     WHERE student_id = OLD.student_id
                         AND A.class_id != OLD.class_id
                 ) C ON C.subject_id = B.subject_id
             WHERE A.student_id = OLD.student_id
         ) THEN
-            UPDATE student
+            UPDATE public.student
             SET cpa_total_study_credits = cpa_total_study_credits - updating_credits
             WHERE id = OLD.student_id;
         END IF;
 
-        UPDATE student
+        UPDATE public.student
         SET gpa_total_study_credits = gpa_total_study_credits - updating_credits
         WHERE id = OLD.student_id;
     END IF;

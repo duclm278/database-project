@@ -1,3 +1,13 @@
+-- Setup
+DROP schema IF EXISTS search CASCADE;
+CREATE schema search;
+
+DROP schema IF EXISTS student CASCADE;
+CREATE schema student;
+
+DROP schema IF EXISTS lecturer CASCADE;
+CREATE schema lecturer;
+
 DROP VIEW IF EXISTS student.self_view_info;
 CREATE VIEW student.self_view_info AS
     SELECT * FROM student WHERE id = CURRENT_USER;
@@ -20,7 +30,7 @@ CREATE VIEW lecturer.self_view_specializations AS
     SELECT su.id, su.name
     FROM lecturer l
     JOIN specialization sp ON l.id = sp.lecturer_id
-    JOIN subject su ON sp.subject_id = su.id;
+    JOIN subject su ON sp.subject_id = su.id
     WHERE l.id = CURRENT_USER;
 
 DROP VIEW IF EXISTS search.view_search_student;

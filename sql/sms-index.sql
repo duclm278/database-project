@@ -42,7 +42,7 @@ JOIN (
     AND a.start_time = b.start_time
     AND a.end_time = b.end_time
     AND a.location = b.location
-)
+);
 
 -- Another sub query
 -- Before indexes: Seq scan on class
@@ -50,16 +50,19 @@ EXPLAIN
 SELECT t.*
 FROM timetable t
 JOIN class c ON t.class_id = c.id
-WHERE c.lecturer_id = 'aaaaaaaaaaaa'
-AND c.semester = '20212'
+WHERE c.semester = '20212'
+AND c.lecturer_id = 'aaaaaaaaaaaa';
 
 -- Faster as class_lecturer_id is used: Bitmap index scan
 -- Then filter by semester
 DROP INDEX IF EXISTS class_lecturer_id;
 CREATE INDEX class_lecturer_id ON class (lecturer_id);
 
--- Not used. But might be useful after adding more semesters!
--- A lot of other queries involves semesters.
+-- A lot of other queries involve semesters.
+EXPLAIN
+SELECT c.* FROM class c
+WHERE c.semester = '20212';
+
 DROP INDEX IF EXISTS class_semester;
 CREATE INDEX class_semester ON class (semester);
 
@@ -78,10 +81,13 @@ DROP INDEX IF EXISTS class_type;
 CREATE INDEX class_type ON class (type);
 
 -- self_view_info doesn't need indexes!
--- Store one record per user!
+-- Only store one record per user!
 
 -- Create indexes for id of searching views.
--- Name is large varchar so skip!
+-- Name is large varchar and searching with '%' so skip!
+SELECT * FROM search.view_search_student v
+WHERE v.first_name || ' ' || v.last_name LIKE '%' || i_student_name || '%';
+
 DROP VIEW IF EXISTS search.view_search_student;
 CREATE VIEW search.view_search_student AS
     SELECT s.id, first_name, last_name, gender, status, email, p.code program_code, p.name program_name, f.name faculty_name
@@ -104,12 +110,12 @@ CREATE VIEW search.view_search_lecturer_specialization AS
 
 -- 2.3. Lecturers
 -- self_view_info doesn't need indexes!
--- Store one record per user!
+-- Only store one record per user!
 
 -- Conclusions
--- Searching and joining are quite efficient as system works mainly with primary keys.
--- Triggers and custom views are very powerful as system needs complex checking and restrictions.
--- Future range searching might needs more indexes.
+-- Searching and joining are quite efficient as the system works mainly with primary keys.
+-- Triggers and custom views are very powerful as the system needs complex checking and restrictions.
+-- Future range searching might need more indexes.
 -- Eg: Report on absent_count > [X] only, not on all data.
 
 -- Insights gained from this project

@@ -1,13 +1,3 @@
--- Setup
-DROP schema IF EXISTS search CASCADE;
-CREATE schema search;
-
-DROP schema IF EXISTS student CASCADE;
-CREATE schema student;
-
-DROP schema IF EXISTS lecturer CASCADE;
-CREATE schema lecturer;
-
 -- 2.1. Staff (Admin)
 -- 2.1.1. Adding students, lecturers, subjects, and classes with the following data.
 -- 2.1.1a. Students: Name, ID, School/Faculty, Program, Date of Birth, Address, Contact, etc.
@@ -101,6 +91,7 @@ END $$;
 
 -- 2.1.3. Creating a tentative timetable for the upcoming semester, i.e creating classes for each subject. A subject can have 0, 1, or many classes open in a semester.
 -- Use TRIGGER check timetable conflict BEFORE INSERT
+-- Use TRIGGER update_score_trigger to update score when enrollment is updated
 -- Use PROCEDURE add_timetable() to add timetable
 DROP FUNCTION IF EXISTS check_timetable_conflict CASCADE;
 CREATE OR REPLACE FUNCTION check_timetable_conflict()
@@ -200,37 +191,27 @@ DROP FUNCTION IF EXISTS check_teaching_conflict CASCADE;
 CREATE OR REPLACE FUNCTION check_teaching_conflict()
     RETURNS TRIGGER
     LANGUAGE plpgsql
+    SECURITY DEFINER
+    SET search_path = admin, pg_temp
 AS $$
 DECLARE
     assigned_semester CHAR(5);
 BEGIN
     SELECT semester INTO assigned_semester
-    FROM class
+    FROM public.class
     WHERE id = NEW.id;
 
     -- Join to get timetable of OLD and NEW class
     -- If timetable info unchanged, return normally
-    IF EXISTS(
-        SELECT a.weekday, a.start_time, a.end_time, a.location
-        FROM (
-            -- Timetable of NEW class
-            SELECT t.*
-            FROM timetable t
-            WHERE t.class_id = NEW.id
-        ) a
-        JOIN (
-            -- Timetable of OLD class
-            SELECT t.*
-            FROM timetable t
-            WHERE t.class_id = OLD.id
-        ) b ON (
-            a.weekday = b.weekday
-            AND a.start_time = b.start_time
-            AND a.end_time = b.end_time
-            AND a.location = b.location
-        )
-    ) THEN
-        RETURN NEW;
+    IF (TG_OP = 'UPDATE') THEN
+        IF EXISTS(
+            SELECT id, lecturer_id
+            FROM public.class
+            WHERE id = NEW.id AND id = OLD.id
+            AND lecturer_id = NEW.lecturer_id AND lecturer_id = OLD.lecturer_id
+        ) THEN
+            RETURN NEW;
+        END IF;
     END IF;
 
     -- If timetable info changed, check for conflict
@@ -239,14 +220,14 @@ BEGIN
         FROM (
             -- Timetable of class being assigned
             SELECT t.*
-            FROM timetable t
+            FROM public.timetable t
             WHERE t.class_id = OLD.id
         ) a
         JOIN (
             -- Schedule of lecturer being assigned
             SELECT t.*
-            FROM timetable t
-            JOIN class c ON t.class_id = c.id
+            FROM public.timetable t
+            JOIN public.class c ON t.class_id = c.id
             WHERE c.lecturer_id = NEW.lecturer_id
             AND c.semester = assigned_semester
         ) b ON (
@@ -435,23 +416,25 @@ DROP FUNCTION IF EXISTS update_score_trigger_function CASCADE;
 CREATE OR REPLACE FUNCTION update_score_trigger_function()
     RETURNS TRIGGER
     LANGUAGE plpgsql
+    SECURITY DEFINER
+    SET search_path = admin, pg_temp
 AS $$
 DECLARE
     num_credits NUMERIC;
     old_score NUMERIC;
 BEGIN
     SELECT study_credits INTO num_credits
-    FROM subject s
-        JOIN class c ON s.id = c.subject_id
+    FROM public.subject s
+        JOIN public.class c ON s.id = c.subject_id
     WHERE c.id = NEW.class_id;
 
     IF EXISTS(
         SELECT *
-        FROM class A
+        FROM public.class A
         JOIN (
             SELECT *
-            FROM enrollment A
-                JOIN class B ON A.class_id = B.id
+            FROM public.enrollment A
+                JOIN public.class B ON A.class_id = B.id
             WHERE A.student_id = OLD.student_id
                 AND A.class_id != OLD.class_id
         ) B ON A.subject_id = B.subject_id
@@ -460,26 +443,26 @@ BEGIN
         SELECT B.mapping_score INTO old_score
         FROM (
             SELECT *
-            FROM enrollment A
-                JOIN class B ON A.class_id = B.id
+            FROM public.enrollment A
+                JOIN public.class B ON A.class_id = B.id
             WHERE A.student_id = OLD.student_id
                 AND A.class_id != OLD.class_id
         ) B
-        JOIN class A ON A.subject_id = B.subject_id
+        JOIN public.class A ON A.subject_id = B.subject_id
         WHERE A.id = OLD.class_id;
 
         IF NEW.mapping_score > old_score THEN
-            UPDATE student
+            UPDATE public.student
             SET cpa_total_score_product = cpa_total_score_product + (NEW.mapping_score - old_score) * num_credits
             WHERE id = OLD.student_id;
         END IF;
     ELSE
-        UPDATE student
+        UPDATE public.student
         SET cpa_total_score_product = cpa_total_score_product + NEW.mapping_score * num_credits
         WHERE id = OLD.student_id;
     END IF;
 
-    UPDATE student
+    UPDATE public.student
     SET gpa_total_score_product = gpa_total_score_product + NEW.mapping_score * num_credits
     WHERE id = OLD.student_id;
 

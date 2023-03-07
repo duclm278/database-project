@@ -84,7 +84,7 @@ CALL assign_lecturer('aaaaaaaaaaaa', '555555');
 SELECT * FROM class WHERE lecturer_id LIKE 'aaaaaaaaaaaa';
 -- Test teaching conflict TRIGGER
 CALL add_class('666666', 'LT', '20201', 'N', 0, 80, NULL, NULL, 'IT3333');
-CALL add_timetable('666666', '3', '1830', '1930', 'D9-505');
+CALL add_timetable('666666', '3', '1830', '1930', 'D9-500');
 CALL assign_lecturer('aaaaaaaaaaaa', '666666');
 
 -- 2.1.6. Assigning students to classes.
@@ -94,10 +94,10 @@ CALL reset_gpa();
 
 -- 2.1.6a. Classes having a number of enrolled students fewer than [X], used for canceling classes with low enrollment.
 -- Use FUNCTION report_enrolled() to return report of all classes
-SELECT * FROM report_enrolled();
-SELECT * FROM report_enrolled('20212');
+SELECT * FROM report_enrolled() WHERE id = '134090';
+SELECT * FROM report_enrolled('20212') WHERE id = '134090';
 UPDATE class SET current_cap = max_cap / 2 WHERE id = '134090';
-SELECT * FROM report_enrolled('20212');
+SELECT * FROM report_enrolled('20212') WHERE id = '134090';
 
 -- 2.1.6b. Students with credit debt from unfinished (failed) subjects in the range [A, B], used for sending warnings.
 -- Use FUNCTION report_credit_debt() to return report of all students
@@ -115,14 +115,8 @@ CALL student.enroll_class('20200164', '135469');
 CALL student.enroll_class('20200164', '722873');
 UPDATE enrollment SET midterm_score = 10, final_score = 10 WHERE student_id = '20200164'
     AND class_id IN ('135387', '135404', '135406', '135409', '135410', '135411', '135469', '722873');
-SELECT e.*, t.*, c.semester, s.study_credits
-    FROM enrollment e
-    LEFT JOIN timetable t ON e.class_id = t.class_id
-    LEFT JOIN class c ON e.class_id = c.id
-    LEFT JOIN subject s ON c.subject_id = s.id
-    WHERE student_id = '20200164';
 SELECT * FROM student WHERE id = '20200164';
-SELECT * FROM report_scholarship();
+SELECT * FROM report_scholarship() WHERE o_id = '20200164';
 
 -- Demo student 20200164
 -- 2.2.1 Viewing data of subjects, classes, and results of themselves.
@@ -174,11 +168,6 @@ SELECT * FROM student.show_credits_enrolled('20200164'); -- As admin
 -- Use PROCEDURE enroll_class() to enroll in classes
 -- CALL enroll_class(CURRENT_USER, '...');
 
--- 2.2.3g. Enroll class having company_id will automatically enroll in the company class.
--- TODO: Integrate to enroll_class() procedure
--- USE PROCEDURE enroll_both() to enroll in both classes
--- CALL enroll_both(CURRENT_USER, '...');
-
 -- 2.2.4. Looking up data related to lecturers, subjects, classes, and other students. Retrieve only essential information, excluding personal ones like address, scores, and student timetable.
 -- 2.2.4a. Students: Name, ID, School/Faculty, Program, Contact, etc.
 -- Use FUNCTION search_student_by_id() to return student by id
@@ -196,7 +185,7 @@ SELECT * FROM search.search_lecturer_by_name('Robinson');
 -- Search lecturer's teaching subjects.
 -- Use FUNCTION search_lecturer_specialization_by_id() to return lecturer's teaching subjects by id
 -- Use FUNCTION search_lecturer_specialization_by_name() to return lecturer's teaching subjects by name
-SELECT * FROM search.search_lecturer_specialization_by_id('aaaaaaaaaaaa');
+SELECT * FROM search.search_lecturer_specialization_by_id('ljIABLFFxXPO');
 SELECT * FROM search.search_lecturer_specialization_by_name('Robinson');
 
 -- 2.2.4c. Subjects, Classes:  Number of credits, Schedule of classes, etc.
@@ -238,6 +227,7 @@ SELECT * FROM lecturer.self_view_class_assigned('20201');
 
 -- 2.3.3. Recording student academic performance.
 -- Use PROCEDURE update_grade() to update grade of student
+CALL student.enroll_class('20205147', '133729'); -- enroll_class() in 2.2.3f.
 CALL lecturer.update_grade('20205147', '133729', 7, 8);
 SELECT * FROM enrollment WHERE student_id = '20205147' AND class_id = '133729';
 
